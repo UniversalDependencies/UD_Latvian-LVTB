@@ -1,8 +1,9 @@
 
 === Machine-readable metadata =================================================
 Documentation status: stub
-Data source:
+Data source: semi-automatic
 Data available since: UD v1.3
-License:
-Contributors: Grūzītis, Normunds; Pretkalniņa, Lauma
+License: CC BY-NC-SA 4.0
+Genre: news
+Contributors: Pretkalniņa, Lauma; Saulīte, Baiba; Rituma, Laura; Grūzītis, Normunds
 ===============================================================================

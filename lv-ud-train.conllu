@@ -2865,9 +2865,12 @@
 10	panāca	panākt	VERB	vmnist130an	VerbForm=Fin|Mood=Ind|Tense=Past|Voice=Act|Person=3|Negative=Neg	5	acl	_	_
 11	to	tas	PRON	pd0msan	Gender=Masc|Number=Sing|Case=Acc|PronType=Dem	10	dobj	_	_
 12	,	,	PUNCT	zc	_	19	punct	_	_
-13	ka	ka	SCONJ	css	_	19	mark	_	_|Mood=Ind|Tense=Past|Voice=Act|Person=3|Negative=Neg	18	aux	_	_
-18	sagatavots	sagatavot	VERB	vmnpdmsnpsn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind|Degree=Pos|VerbForm=Part|Tense=Past|Aspect=Perf	0	root	_	_
-19	liels	liels	ADJ	afmsnnp	Gender=Masc|Number=Sing|Case=Nom|Degree=Pos	20	amod	_	_ERB	vcnipii30an	VerbForm=Fin|Mood=Ind|Tense=Pres|Voice=Act|Person=3|Negative=Ne	19	aux	_	_
+13	ka	ka	SCONJ	css	_	19	mark	_	_
+14	sakarā	sakars	NOUN	ncmsl1	Gender=Masc|Number=Sing|Case=Loc	19	nmod	_	_
+15	ar	ar	ADP	spsan	_	17	case	_	_
+16	jauno	jauna	ADJ	affsayp	Gender=Fem|Number=Sing|Case=Acc|Degree=Pos	17	amod	_	_
+17	bibliotēku	bibliotēka	NOUN	ncfsa4	Gender=Fem|Number=Sing|Case=Acc	14	dobj	_	_
+18	ir	būt	VERB	vcnipii30an	VerbForm=Fin|Mood=Ind|Tense=Pres|Voice=Act|Person=3|Negative=Neg	19	aux	_	_
 19	palielināts	palielināt	VERB	vmnpdmsnpsn	Gender=Masc|Number=Sing|Case=Nom|Definite=Ind|Degree=Pos|VerbForm=Part|Tense=Past|Aspect=Perf	11	ccomp	_	_
 20	finansējums	finansējums	NOUN	ncmsn1	Gender=Masc|Number=Sing|Case=Nom	19	nsubjpass	_	_
 21	arī	arī	PART	qs	_	22	discourse	_	_
@@ -13967,4 +13970,5 @@
 21	kādu	kāda	DET	pi0fsan	Gender=Fem|Number=Sing|Case=Acc|PronType=Ind	23	det	_	_
 22	citu	cita	DET	pi0fsan	Gender=Fem|Number=Sing|Case=Acc|PronType=Ind	23	det	_	_
 23	realitāti	realitāte	NOUN	ncfsa5	Gender=Fem|Number=Sing|Case=Acc	19	conj	_	_
-24	.	.	PUNCT	zs	_	12	punct	_	
+24	.	.	PUNCT	zs	_	12	punct	_	_
+

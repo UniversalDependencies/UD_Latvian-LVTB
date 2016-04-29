@@ -1,6 +1,6 @@
 # Treebank
 
-Latvian UD Treebank is based on the newswire part of Latvian Treebank (http://sintakse.korpuss.lv). The UD treebank consists of 1,082 sentences (20,105 tokens), and it has been obtained via automatic transformations of both the morphological and the syntax annotations. The original data contains manually annotated syntax and semi-automatically annotated morphological tags and lemmas.
+Latvian UD Treebank is based on the newswire part of Latvian Treebank (http://sintakse.korpuss.lv). The UD treebank consists of 1,082 sentences (20,105 tokens), and it has been obtained via automatic transformations of both the morphological and the syntactic annotations. The original data contains manually annotated syntax and semi-automatically annotated morphological tags and lemmas.
 
 # Data sets
 
@@ -15,12 +15,13 @@ Test: 219 sentences
 Tree count:  1082
 Word count:  20105
 Token count: 20105
+Dep. relations: 29 of which 0 language specific
 POS tags: 16
-Dependency relations: 29 of which 0 language-specific
+Category=value feature pairs: 50
 
 # References
 
-Pretkalniņa L., Rituma L. Syntactic Issues Identified Developing the Latvian Treebank. Proceedings of the 5th International Conference on Human Language Technologies — the Baltic Perspective. Frontiers in Artificial Intelligence and Applications, Vol. 247, IOS Press, 2012, pp. 185–192
+Pretkalniņa L., Rituma L. Constructions in Latvian Treebank: the Impact of Annotation Decisions on the Dependency Parsing Performance Proceedings of the 6th International Conference on Human Language Technologies — the Baltic Perspective (HLT 2014), Frontiers in Artificial Intelligence and Applications, Vol. 268, IOS Press, 2014, pp. 219–226
 
 Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. Towards a Latvian Treebank. Actas del 3 Congreso Internacional de Lingüística de Corpus. Tecnologias de la Información y las Comunicaciones: Presente y Futuro en el Análisis de Corpus, eds. Candel Mora M.Á., Carrió Pastor M., 2011, pp. 119–127
 

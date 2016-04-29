@@ -142,7 +142,7 @@
 9	sadraudzības	sadraudzība	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
 10	svētki	svētki	NOUN	ncmdn1	Case=Nom|Gender=Masc|Number=Ptan	13	nmod	_	_
 11	„	„	PUNCT	zq	_	13	punct	_	SpaceAfter=No
-12	Mūzika	mūzika	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	13	dep	_	_
+12	Mūzika	mūzika	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
 13	veido	veidot	VERB	vmnipt22san	Mood=Ind|Negative=Neg|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	nsubj	_	_
 14	Eiropu	Eiropa	PROPN	npfsa4	Case=Acc|Gender=Fem|Number=Sing	13	dobj	_	SpaceAfter=No
 15	"	"	PUNCT	zq	_	13	punct	_	SpaceAfter=No
@@ -612,7 +612,7 @@
 3	tā	tā	PRON	pd0fsnn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
 4	bija	būt	VERB	vcnisii30an	Mood=Ind|Negative=Neg|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	Palle	Palle	PROPN	npmsn5	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-6	viens	viens	NUM	mcsmsnv	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	5	dep	_	_
+6	viens	viens	NUM	mcsmsnv	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	5	acl	_	_
 7	pats	pats	PRON	pg0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	6	compound	_	_
 8	pasaulē	pasaule	NOUN	ncfsl5	Case=Loc|Gender=Fem|Number=Sing	5	acl	_	SpaceAfter=No
 9	.	.	PUNCT	zs	_	5	punct	_	_
@@ -690,7 +690,7 @@
 2	klasē	klase	NOUN	ncfsl5	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
 3	es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	biju	būt	VERB	vmnisii1san	Mood=Ind|Negative=Neg|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-5	tādās	tāda	PRON	pd0fpln	Case=Loc|Gender=Fem|Number=Plur|PronType=Dem	4	dep	_	_
+5	tādās	tāda	PRON	pd0fpln	Case=Loc|Gender=Fem|Number=Plur|PronType=Dem	4	nmod	_	_
 6	kā	kā	SCONJ	css	_	7	dep	_	_
 7	krustcelēs	krustceles	NOUN	ncfdl5	Case=Loc|Gender=Fem|Number=Ptan	5	compound	_	SpaceAfter=No
 8	,	,	PUNCT	zc	_	11	punct	_	_
@@ -1306,7 +1306,7 @@
 3	ir	būt	VERB	vmnipii30an	Mood=Ind|Negative=Neg|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	vairāk	daudz	ADV	rcq	Degree=Cmp	6	advmod	_	_
 5	nekā	nekā	SCONJ	css	_	6	dep	_	_
-6	četri	četri	NUM	mcsmpnv	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	7	dep	_	_
+6	četri	četri	NUM	mcsmpnv	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	7	nummod	_	_
 7	miljoni	miljons	NUM	mcsmpnm	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	3	nsubj	_	_
 8	iespieddarbu	iespieddarbs	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	zc	_	3	punct	_	_
@@ -1906,7 +1906,7 @@
 10	problēmas	problēma	NOUN	ncfpn4	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
 11	,	,	PUNCT	zc	_	17	punct	_	_
 12	kuras	kura	SCONJ	pr0fpnn	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	17	iobj	_	_
-13	neviens	neviens	PRON	pi0msny	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind,Neg	17	dep	_	_
+13	neviens	neviens	PRON	pi0msny	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind,Neg	17	nsubj	_	_
 14	no	no	ADP	sppdy	_	15	case	_	_
 15	mums	mēs	PRON	pp10pdn	Case=Dat|Number=Plur|Person=1|PronType=Prs	13	compound	_	_
 16	nav	nebūt	VERB	vcnipii30ay	Mood=Ind|Negative=Pos|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
@@ -3737,11 +3737,11 @@
 
 # a-newswire_20050913-p2s1
 1	Rīga	Rīga	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	zc	_	1	punct	_	_
+2	,	,	PUNCT	zc	_	4	punct	_	_
 3	13.	13.	ADJ	xo	NumType=Ord	4	amod	_	SpaceAfter=No
-4	sept.	sept.	SYM	y	_	1	dep	_	SpaceAfter=No
-5	,	,	PUNCT	zc	_	1	punct	_	_
-6	LETA	LETA	PROPN	y	_	1	dep	_	SpaceAfter=No
+4	sept.	sept.	SYM	y	_	1	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	zc	_	6	punct	_	_
+6	LETA	LETA	PROPN	y	_	1	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	zs	_	1	punct	_	_
 
 # a-newswire_20050913-p2s2
@@ -4019,11 +4019,11 @@
 
 # a-newswire_20120604-p2s1
 1	Jelgava	Jelgava	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	zc	_	1	punct	_	_
+2	,	,	PUNCT	zc	_	4	punct	_	_
 3	4.	4.	ADJ	xo	NumType=Ord	4	amod	_	SpaceAfter=No
-4	jūn.	jūn.	SYM	y	_	1	dep	_	SpaceAfter=No
-5	,	,	PUNCT	zc	_	1	punct	_	_
-6	LETA	LETA	PROPN	y	_	1	dep	_	SpaceAfter=No
+4	jūn.	jūn.	SYM	y	_	1	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	zc	_	6	punct	_	_
+6	LETA	LETA	PROPN	y	_	1	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	zs	_	1	punct	_	_
 
 # a-newswire_20120604-p2s2
@@ -4154,7 +4154,7 @@
 17	vairāk	daudz	ADV	rcq	Degree=Cmp	20	advmod	_	_
 18	nekā	nekā	SCONJ	css	_	20	dep	_	_
 19	50	50	NUM	xn_SPLIT_FIRST	NumType=Card	20	compound	_	_
-20	000	000	NUM	xn_SPLIT_PART	NumType=Card	21	dep	_	_
+20	000	000	NUM	xn_SPLIT_PART	NumType=Card	21	nummod	_	_
 21	latu	lats	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
 22	apmērā	apmērs	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	16	acl	_	SpaceAfter=No
 23	,	,	PUNCT	zc	_	6	punct	_	_
@@ -4254,7 +4254,7 @@
 53	.	.	PUNCT	zs	_	11	punct	_	_
 
 # a-newswire_20120604-p7s2
-1	Vairāk	daudz	ADV	rcq	Degree=Cmp	3	dep	_	_
+1	Vairāk	daudz	ADV	rcq	Degree=Cmp	3	advmod	_	_
 2	nekā	nekā	SCONJ	css	_	1	compound	_	_
 3	3500	3500	NUM	xn	NumType=Card	4	nummod	_	_
 4	latu	lats	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	8	iobj	_	_
@@ -4361,7 +4361,7 @@
 34	.	.	PUNCT	zs	_	8	punct	_	_
 
 # a-newswire_20120604-p9s2
-1	Aģentūra	aģentūra	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	3	dep	_	_
+1	Aģentūra	aģentūra	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	ir	būt	VERB	vcnipii30an	Mood=Ind|Negative=Neg|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	veikusi	veikt	VERB	vmnpdfsnasn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	arī	arī	PART	qs	_	5	discourse	_	_
@@ -4500,11 +4500,11 @@
 
 # a-newswire_20120606-p2s1
 1	Rīga	Rīga	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	zc	_	1	punct	_	_
+2	,	,	PUNCT	zc	_	4	punct	_	_
 3	6.	6.	ADJ	xo	NumType=Ord	4	amod	_	SpaceAfter=No
-4	jūn.	jūn.	SYM	y	_	1	dep	_	SpaceAfter=No
-5	,	,	PUNCT	zc	_	1	punct	_	_
-6	LETA	LETA	PROPN	y	_	1	dep	_	SpaceAfter=No
+4	jūn.	jūn.	SYM	y	_	1	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	zc	_	6	punct	_	_
+6	LETA	LETA	PROPN	y	_	1	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	zs	_	1	punct	_	_
 
 # a-newswire_20120606-p2s2
@@ -4695,7 +4695,7 @@
 14	vairāk	daudz	ADV	rcq	Degree=Cmp	17	advmod	_	_
 15	nekā	nekā	SCONJ	css	_	17	dep	_	_
 16	50	50	NUM	xn_SPLIT_FIRST	NumType=Card	17	compound	_	_
-17	000	000	NUM	xn_SPLIT_PART	NumType=Card	18	dep	_	_
+17	000	000	NUM	xn_SPLIT_PART	NumType=Card	18	nmod	_	_
 18	latu	lats	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
 19	apmērā	apmērs	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	13	acl	_	SpaceAfter=No
 20	.	.	PUNCT	zs	_	11	punct	_	_
@@ -4940,7 +4940,7 @@
 2	laikā	laiks	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
 3	vairāk	daudz	ADV	rcq	Degree=Cmp	5	advmod	_	_
 4	nekā	nekā	SCONJ	css	_	5	dep	_	_
-5	miljons	miljons	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	7	dep	_	_
+5	miljons	miljons	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 6	cilvēku	cilvēks	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
 7	sadevās	sadoties	VERB	vmyisti30an	Mood=Ind|Negative=Neg|Person=3|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	rokās	roka	NOUN	ncfpl4	Case=Loc|Gender=Fem|Number=Plur	7	nmod	_	_
@@ -5122,11 +5122,11 @@
 
 # a-newswire_20121219-p2s1
 1	Rīga	Rīga	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	zc	_	1	punct	_	_
+2	,	,	PUNCT	zc	_	4	punct	_	_
 3	19.	19.	ADJ	xo	NumType=Ord	4	amod	_	SpaceAfter=No
-4	dec.	dec.	SYM	y	_	1	dep	_	SpaceAfter=No
-5	,	,	PUNCT	zc	_	1	punct	_	_
-6	LETA	LETA	PROPN	y	_	1	dep	_	SpaceAfter=No
+4	dec.	dec.	SYM	y	_	1	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	zc	_	6	punct	_	_
+6	LETA	LETA	PROPN	y	_	1	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	zs	_	1	punct	_	_
 
 # a-newswire_20121219-p2s2
@@ -5138,7 +5138,7 @@
 6	)	)	PUNCT	zb	_	5	punct	_	_
 7	šodien	šodien	ADV	r0t	_	10	advmod	_	_
 8	plkst.	plkst.	SYM	y	_	9	nmod	_	SpaceAfter=No
-9	16	16	NUM	xn	NumType=Card	10	dep	_	_
+9	16	16	NUM	xn	NumType=Card	10	nmod	_	_
 10	notiks	notikt	VERB	vmnifi130an	Mood=Ind|Negative=Neg|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 11	Latvijas	Latvija	PROPN	npfsg4	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
 12	Universitātes	universitāte	NOUN	ncfsg5	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
@@ -5372,11 +5372,11 @@
 
 # a-newswire_20130121-p2s1
 1	Rīga	rīga	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	zc	_	1	punct	_	_
+2	,	,	PUNCT	zc	_	4	punct	_	_
 3	23.	23.	ADJ	xo	NumType=Ord	4	amod	_	SpaceAfter=No
-4	janv.	janv.	SYM	y	_	1	dep	_	SpaceAfter=No
-5	,	,	PUNCT	zc	_	1	punct	_	_
-6	LETA	LETA	PROPN	y	_	1	dep	_	SpaceAfter=No
+4	janv.	janv.	SYM	y	_	1	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	zc	_	6	punct	_	_
+6	LETA	LETA	PROPN	y	_	1	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	zs	_	1	punct	_	_
 
 # a-newswire_20130121-p2s2
@@ -5645,11 +5645,11 @@
 
 # a-newswire_20130128-p2s1
 1	Rīga	Rīga	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	zc	_	1	punct	_	_
+2	,	,	PUNCT	zc	_	4	punct	_	_
 3	28.	28.	ADJ	xo	NumType=Ord	4	amod	_	SpaceAfter=No
-4	janv.	janv.	SYM	y	_	1	dep	_	SpaceAfter=No
-5	,	,	PUNCT	zc	_	1	punct	_	_
-6	LETA	LETA	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	1	dep	_	SpaceAfter=No
+4	janv.	janv.	SYM	y	_	1	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	zc	_	6	punct	_	_
+6	LETA	LETA	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	zs	_	1	punct	_	_
 
 # a-newswire_20130128-p2s2
@@ -6591,7 +6591,7 @@
 41	.	.	PUNCT	zs	_	6	punct	_	_
 
 # a-newswire_20130215-p5s2
-1	Viena	viena	NUM	mcsfsnv	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	19	dep	_	_
+1	Viena	viena	NUM	mcsfsnv	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	19	nsubj	_	_
 2	no	no	ADP	sppdy	_	12	case	_	_
 3	būtiskām	būtiska	ADJ	affpdnp	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_
 4	Eiropas	Eiropa	PROPN	npfsg4	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
@@ -6610,7 +6610,7 @@
 17	izstāde	izstāde	NOUN	ncfsn5	Case=Nom|Gender=Fem|Number=Sing	19	nmod	_	_
 18	"	"	PUNCT	zq	_	19	punct	_	SpaceAfter=No
 19	Grāmata	grāmata	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-20	1514	1514	NUM	xn	NumType=Card	19	dep	_	SpaceAfter=No
+20	1514	1514	NUM	xn	NumType=Card	19	acl	_	SpaceAfter=No
 21	-	-	PUNCT	zd	_	20	mwe	_	SpaceAfter=No
 22	2014	2014	NUM	xn	NumType=Card	20	mwe	_	SpaceAfter=No
 23	"	"	PUNCT	zq	_	19	punct	_	_
@@ -6904,8 +6904,8 @@
 
 # a-newswire_20130215-p12s1
 1	Mob.	Mob.	SYM	y	_	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	zo	_	1	punct	_	_
-3	+	+	SYM	xx	_	1	dep	_	SpaceAfter=No
+2	:	:	PUNCT	zo	_	3	punct	_	_
+3	+	+	SYM	xx	_	1	parataxis	_	SpaceAfter=No
 4	371	371	NUM	xn_SPLIT_FIRST	NumType=Card	5	compound	_	_
 5	29735732	29735732	NUM	xn_SPLIT_PART	NumType=Card	3	mwe	_	_
 
@@ -6921,11 +6921,11 @@
 
 # a-newswire_20130228_Ziedonis-p2s1
 1	Rīga	Rīga	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	zc	_	1	punct	_	_
+2	,	,	PUNCT	zc	_	4	punct	_	_
 3	27.	27.	ADJ	xo	NumType=Ord	4	amod	_	SpaceAfter=No
-4	febr.	febr.	SYM	y	_	1	dep	_	SpaceAfter=No
-5	,	,	PUNCT	zc	_	1	punct	_	_
-6	LETA	Leta	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	1	dep	_	SpaceAfter=No
+4	febr.	febr.	SYM	y	_	1	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	zc	_	6	punct	_	_
+6	LETA	Leta	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	zs	_	1	punct	_	_
 
 # a-newswire_20130228_Ziedonis-p2s2
@@ -7344,11 +7344,11 @@
 
 # a-newswire_20130305-p2s1
 1	Rīga	Rīga	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	zc	_	1	punct	_	_
+2	,	,	PUNCT	zc	_	4	punct	_	_
 3	5.	5.	ADJ	xo	NumType=Ord	4	amod	_	SpaceAfter=No
-4	marts	Marts	PROPN	npmsn1	Case=Nom|Gender=Masc|Number=Sing	1	dep	_	SpaceAfter=No
-5	,	,	PUNCT	zc	_	1	punct	_	_
-6	LETA	leta	SYM	y	_	1	dep	_	SpaceAfter=No
+4	marts	Marts	PROPN	npmsn1	Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	zc	_	6	punct	_	_
+6	LETA	leta	SYM	y	_	1	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	zs	_	1	punct	_	_
 
 # a-newswire_20130305-p2s2
@@ -7380,7 +7380,7 @@
 26	.	.	PUNCT	zs	_	13	punct	_	_
 
 # a-newswire_20130305-p3s1
-1	Viens	viens	NUM	mcsmsnv	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	10	dep	_	_
+1	Viens	viens	NUM	mcsmsnv	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	10	nsubj	_	_
 2	no	no	ADP	sppdy	_	5	case	_	_
 3	sanāksmē	sanāksme	NOUN	ncfsl5	Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
 4	izskatāmajiem	izskatīt	VERB	vmnpdmpdppy	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	5	amod	_	_
@@ -7757,11 +7757,11 @@
 
 # a-newswire_20130311-p2s1
 1	Rīga	Rīga	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	zc	_	1	punct	_	_
+2	,	,	PUNCT	zc	_	4	punct	_	_
 3	11.	11.	ADJ	xo	NumType=Ord	4	amod	_	SpaceAfter=No
-4	marts	marts	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	1	dep	_	SpaceAfter=No
-5	,	,	PUNCT	zc	_	1	punct	_	_
-6	LETA	LETA	PROPN	y	_	1	dep	_	SpaceAfter=No
+4	marts	marts	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	zc	_	6	punct	_	_
+6	LETA	LETA	PROPN	y	_	1	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	zs	_	1	punct	_	_
 
 # a-newswire_20130311-p2s2
@@ -8580,8 +8580,8 @@
 
 # a-newswire_20130321-p12s1
 1	Tālr.	tālr.	SYM	y	_	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	zo	_	1	punct	_	_
-3	67083850	67083850	NUM	xn	NumType=Card	1	dep	_	SpaceAfter=No
+2	:	:	PUNCT	zo	_	3	punct	_	_
+3	67083850	67083850	NUM	xn	NumType=Card	1	parataxis	_	SpaceAfter=No
 4	,	,	PUNCT	zc	_	1	punct	_	_
 
 # a-newswire_20130321-p13s1
@@ -8604,7 +8604,7 @@
 3	LTV1	LTV1	SYM	y	_	4	dep	_	_
 4	raidījumā	raidījums	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
 5	"	"	PUNCT	zq	_	7	punct	_	SpaceAfter=No
-6	Viss	viss	PRON	pg0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	7	dep	_	_
+6	Viss	viss	PRON	pg0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	7	nsubj	_	_
 7	notiek	notikt	VERB	vmnipi130an	Mood=Ind|Negative=Neg|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	nmod	_	SpaceAfter=No
 8	"	"	PUNCT	zq	_	7	punct	_	_
 9	rubrikā	rubrika	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
@@ -8951,7 +8951,7 @@
 2	pa	pa	ADP	spsay	_	4	case	_	_
 3	šo	šis	DET	pd0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	laiku	laiks	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
-5	viņš	viņš	PRON	pp3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	dep	_	_
+5	viņš	viņš	PRON	pp3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 6	ir	būt	VERB	vcnipii30an	Mood=Ind|Negative=Neg|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	uzlabojis	uzlabot	VERB	vmnpdmsnasn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	zināšanas	zināšana	NOUN	ncfpa4	Case=Acc|Gender=Fem|Number=Plur	7	dobj	_	_
@@ -8996,7 +8996,7 @@
 1	Taču	taču	CONJ	ccs	_	3	discourse	_	_
 2	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
 3	būs	būt	VERB	vmnifii30an	Mood=Ind|Negative=Neg|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
-4	tikšanās	tikšanās	NOUN	ncfsnr	Case=Nom|Gender=Fem|Number=Sing	3	dep	_	_
+4	tikšanās	tikšanās	NOUN	ncfsnr	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 5	arī	arī	PART	qs	_	7	discourse	_	_
 6	ar	ar	ADP	spsan	_	7	case	_	_
 7	Mārtiņu	Mārtiņš	PROPN	npmsa1	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
@@ -10523,7 +10523,7 @@
 5	viņam	viņš	PRON	pp3msdn	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
 6	pielipināt	pielipināt	VERB	vmnn0t3000n	Negative=Neg|VerbForm=Inf	2	xcomp	_	_
 7	kaut	kaut	PART	qs	_	8	discourse	_	_
-8	kādas	kāda	PRON	pi0fpan	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	9	dep	_	_
+8	kādas	kāda	PRON	pi0fpan	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
 9	birkas	birka	NOUN	ncfpa4	Case=Acc|Gender=Fem|Number=Plur	6	dobj	_	_
 10	–	–	PUNCT	zd	_	11	punct	_	_
 11	labs	labs	ADJ	afmsnnp	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	acl	_	_
@@ -10678,7 +10678,7 @@
 
 # a-newswire_Latvijas_Aviize_20121122-p6s7
 1	Lai	lai	SCONJ	css	_	4	discourse	_	_
-2	Andris	Andris	PROPN	npmsn2	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	_
+2	Andris	Andris	PROPN	npmsn2	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
 4	piedod	piedot	VERB	vmnipti30an	Mood=Ind|Negative=Neg|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	zc	_	4	punct	_	_
@@ -10760,7 +10760,7 @@
 4	Andrim	Andris	PROPN	npmsd2	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	_
 5	Grūtupam	Grūtups	PROPN	npmsd1	Case=Dat|Gender=Masc|Number=Sing	4	name	_	_
 6	ne	ne	PART	qs	_	7	neg	_	_
-7	visai	visai	ADV	r0q	_	8	dep	_	_
+7	visai	visai	ADV	r0q	_	8	advmod	_	_
 8	patīk	patikt	VERB	vmnipi130an	Mood=Ind|Negative=Neg|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
 9	filozofisks	filozofisks	ADJ	armsnnp	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	piegājiens	piegājiens	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -10832,11 +10832,11 @@
 
 # a-newswire_NozareLv_20121206-p2s1
 1	Rīga	Rīga	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	zc	_	1	punct	_	_
+2	,	,	PUNCT	zc	_	4	punct	_	_
 3	6.	6.	ADJ	xo	NumType=Ord	4	amod	_	SpaceAfter=No
-4	dec.	dec.	SYM	y	_	1	dep	_	SpaceAfter=No
-5	,	,	PUNCT	zc	_	1	punct	_	_
-6	NOZARE.LV	Nozare.lv	PROPN	np0sn0	Case=Nom|Number=Sing	1	dep	_	SpaceAfter=No
+4	dec.	dec.	SYM	y	_	1	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	zc	_	6	punct	_	_
+6	NOZARE.LV	Nozare.lv	PROPN	np0sn0	Case=Nom|Number=Sing	1	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	zs	_	1	punct	_	_
 
 # a-newswire_NozareLv_20121206-p2s2
@@ -10932,7 +10932,7 @@
 8	strādāt	strādāt	VERB	vmnn0t2000n	Negative=Neg|VerbForm=Inf	7	xcomp	_	_
 9	valdes	valde	NOUN	ncfsg5	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
 10	priekšsēdētājs	priekšsēdētājs	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
-11	Ainārs	Ainārs	PROPN	npmsn1	Case=Nom|Gender=Masc|Number=Sing	7	dep	_	_
+11	Ainārs	Ainārs	PROPN	npmsn1	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 12	Pauniņš	Pauniņš	PROPN	npmsn1	Case=Nom|Gender=Masc|Number=Sing	11	name	_	SpaceAfter=No
 13	,	,	PUNCT	zc	_	11	punct	_	_
 14	kā	kā	CONJ	ccc_SPLIT_FIRST	_	11	cc	_	_
@@ -11152,7 +11152,7 @@
 3	&	&	SYM	xx	_	2	name	_	SpaceAfter=No
 4	Re	Re	SYM	xx	_	2	name	_	SpaceAfter=No
 5	"	"	PUNCT	zq	_	2	punct	_	_
-6	īpašnieki	īpašnieks	NOUN	ncmpn1	Case=Nom|Gender=Masc|Number=Plur	8	dep	_	_
+6	īpašnieki	īpašnieks	NOUN	ncmpn1	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 7	ir	būt	VERB	vcnipii30an	Mood=Ind|Negative=Neg|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	Marģers	Marģers	PROPN	npmsn1	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 9	Bitmetis	Bitmetis	PROPN	npmsn2	Case=Nom|Gender=Masc|Number=Sing	8	name	_	_
@@ -11199,11 +11199,11 @@
 
 # a-newswire_NozareLv_20130125-p2s1
 1	Rīga	Rīga	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	zc	_	1	punct	_	_
+2	,	,	PUNCT	zc	_	4	punct	_	_
 3	25.	25.	ADJ	xo	NumType=Ord	4	amod	_	SpaceAfter=No
-4	janv.	janv.	SYM	y	_	1	dep	_	SpaceAfter=No
-5	,	,	PUNCT	zc	_	1	punct	_	_
-6	NOZARE.LV	nozare.lv	PROPN	np0sn0	Case=Nom|Number=Sing	1	dep	_	SpaceAfter=No
+4	janv.	janv.	SYM	y	_	1	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	zc	_	6	punct	_	_
+6	NOZARE.LV	nozare.lv	PROPN	np0sn0	Case=Nom|Number=Sing	1	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	zs	_	1	punct	_	_
 
 # a-newswire_NozareLv_20130125-p2s2
@@ -11639,11 +11639,11 @@
 
 # a-newswire_NozareLv_20130206-p2s1
 1	Rīga	Rīga	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	zc	_	1	punct	_	_
+2	,	,	PUNCT	zc	_	4	punct	_	_
 3	6.	6.	ADJ	xo	NumType=Ord	4	amod	_	SpaceAfter=No
-4	febr.	febr.	SYM	y	_	1	dep	_	SpaceAfter=No
-5	,	,	PUNCT	zc	_	1	punct	_	_
-6	NOZARE.LV	Nozare.lv	PROPN	np0sn0	Case=Nom|Number=Sing	1	dep	_	SpaceAfter=No
+4	febr.	febr.	SYM	y	_	1	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	zc	_	6	punct	_	_
+6	NOZARE.LV	Nozare.lv	PROPN	np0sn0	Case=Nom|Number=Sing	1	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	zs	_	1	punct	_	_
 
 # a-newswire_NozareLv_20130206-p2s2
@@ -11828,7 +11828,7 @@
 12	un	un	CONJ	ccs	_	11	cc	_	_
 13	ne	ne	PART	qs	_	15	neg	_	_
 14	ar	ar	ADP	spsan	_	15	case	_	_
-15	vienu	viens	NUM	mcsmsav	Case=Acc|Gender=Masc|Number=Sing|NumType=Card	16	iobj	_	_
+15	vienu	viens	NUM	mcsmsav	Case=Acc|Gender=Masc|Number=Sing|NumType=Card	16	dobj	_	_
 16	neapvienošos	neapvienoties	VERB	vmyifi21say	Mood=Ind|Negative=Pos|Number=Sing|Person=1|Reflex=Yes|Tense=Fut|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No
 17	,	,	PUNCT	zc	_	4	punct	_	_
 18	taču	taču	CONJ	ccs	_	4	cc	_	_
@@ -11839,7 +11839,7 @@
 23	ir	būt	VERB	vmnipii30an	Mood=Ind|Negative=Neg|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl	_	_
 24	vairāk	daudz	ADV	rcq	Degree=Cmp	26	advmod	_	_
 25	nekā	nekā	SCONJ	css	_	26	dep	_	_
-26	desmit	desmit	NUM	mcs0p0d	Number=Plur|NumType=Card	27	dep	_	_
+26	desmit	desmit	NUM	mcs0p0d	Number=Plur|NumType=Card	27	nummod	_	_
 27	stacijas	stacija	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
 28	,	,	PUNCT	zc	_	23	punct	_	_
 29	jau	jau	ADV	r0t	_	30	advmod	_	_
@@ -12051,7 +12051,7 @@
 28	piederējušas	piederēt	VERB	vmnpdfpnasn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	advcl	_	_
 29	vairāk	daudz	ADV	rcq	Degree=Cmp	31	advmod	_	_
 30	nekā	nekā	SCONJ	css	_	31	dep	_	_
-31	200	200	NUM	xn	NumType=Card	33	dep	_	_
+31	200	200	NUM	xn	NumType=Card	33	nummod	_	_
 32	juridisku	juridiska	ADJ	arfpgnp	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	_
 33	personu	persona	NOUN	ncfpg4	Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	zs	_	16	punct	_	_
@@ -12131,7 +12131,7 @@
 
 # a-newswire_NozareLv_20130206-p9s2
 1	"	"	PUNCT	zq	_	2	punct	_	SpaceAfter=No
-2	RusLatNafta	Ruslatnafta	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	6	dep	_	SpaceAfter=No
+2	RusLatNafta	Ruslatnafta	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
 3	"	"	PUNCT	zq	_	2	punct	_	_
 4	ir	būt	VERB	vcnipii30an	Mood=Ind|Negative=Neg|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
 5	degvielas	degviela	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
@@ -12713,7 +12713,7 @@
 1	Pillar	Pillar	PROPN	np0sg0	Case=Gen|Number=Sing	2	dep	_	_
 2	pārdoto	pārdot	VERB	vmnpdmpgpsy	Aspect=Perf|Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	amod	_	_
 3	objektu	objekts	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
-4	skaits	skaits	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	14	dep	_	_
+4	skaits	skaits	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 5	2012.	2012.	ADJ	xo	NumType=Ord	6	amod	_	SpaceAfter=No
 6	gadā	gads	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	zc	_	8	punct	_	_
@@ -12886,7 +12886,7 @@
 5	Pillar	Pillar	PROPN	np0sn0	Case=Nom|Number=Sing	7	nsubj	_	_
 6	pilnībā	pilnībā	ADV	r0m	_	7	advmod	_	_
 7	pabeigs	pabeigt	VERB	vmnift130an	Mood=Ind|Negative=Neg|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
-8	vienu	viens	NUM	mcsmsav	Case=Acc|Gender=Masc|Number=Sing|NumType=Card	7	iobj	_	_
+8	vienu	viens	NUM	mcsmsav	Case=Acc|Gender=Masc|Number=Sing|NumType=Card	7	dobj	_	_
 9	no	no	ADP	sppdy	_	13	case	_	_
 10	ekskluzīvākajiem	ekskluzīvs	ADJ	afmpdyc	Case=Dat|Degree=Cmp|Gender=Masc|Number=Plur	13	amod	_	_
 11	nekustamā	nekustams	ADJ	armsgyp	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
@@ -13053,7 +13053,7 @@
 5	atrodas	atrasties	VERB	vmyipi130an	Mood=Ind|Negative=Neg|Person=3|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	vairāk	daudz	ADV	rcq	Degree=Cmp	8	advmod	_	_
 7	nekā	nekā	SCONJ	css	_	8	dep	_	_
-8	1200	1200	NUM	xn	NumType=Card	10	dep	_	_
+8	1200	1200	NUM	xn	NumType=Card	10	nummod	_	_
 9	nekustamie	nekustams	ADJ	armpnyp	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
 10	īpašumi	īpašums	NOUN	ncmpn1	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 11	par	par	ADP	spsan	_	13	case	_	_
@@ -13193,7 +13193,7 @@
 # a-newswire_reliize_20130128-p13s2
 1	Pillar	Pillar	PROPN	np0sd0	Case=Dat|Number=Sing	2	iobj	_	_
 2	pieder	piederēt	VERB	vmnipi330an	Mood=Ind|Negative=Neg|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	viens	viens	NUM	mcsmsnv	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	2	dep	_	_
+3	viens	viens	NUM	mcsmsnv	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	2	nsubj	_	_
 4	no	no	ADP	sppdy	_	8	case	_	_
 5	lielākajiem	liels	ADJ	afmpdyc	Case=Dat|Degree=Cmp|Gender=Masc|Number=Plur	8	amod	_	_
 6	nekustamā	nekustams	ADJ	armsgyp	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
@@ -13236,8 +13236,8 @@
 
 # a-newswire_reliize_20130128-p18s1
 1	Tel.	Tel	SYM	y	_	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	zo	_	1	punct	_	_
-3	+371	+371	SYM	xx_SPLIT_FIRST	_	1	dep	_	_
+2	:	:	PUNCT	zo	_	3	punct	_	_
+3	+371	+371	SYM	xx_SPLIT_FIRST	_	1	parataxis	_	_
 4	6777	6777	SYM	xx_SPLIT_PART	_	3	mwe	_	_
 5	5432	5432	SYM	xx_SPLIT_PART	_	3	mwe	_	_
 
@@ -13345,7 +13345,7 @@
 17	noliktavām	noliktava	NOUN	ncfpd4	Case=Dat|Gender=Fem|Number=Plur	12	iobj	_	_
 18	vairāk	daudz	ADV	rcq	Degree=Cmp	20	advmod	_	_
 19	nekā	nekā	SCONJ	css	_	20	dep	_	_
-20	1000	1000	NUM	xn	NumType=Card	21	dep	_	_
+20	1000	1000	NUM	xn	NumType=Card	21	nummod	_	_
 21	m2	m2	SYM	y	_	22	dep	_	_
 22	platībā	platība	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	zc	_	17	punct	_	_
@@ -13683,8 +13683,8 @@
 # a-newswire_reliize_20130206-p11s2
 1	Vairāk	daudz	ADV	rcq	Degree=Cmp	2	advmod	_	_
 2	informācijas	informācija	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-3	:	:	PUNCT	zo	_	2	punct	_	_
-4	www.maiznieks.lv	www.maiznieks.lv	SYM	xx	_	2	dep	_	_
+3	:	:	PUNCT	zo	_	4	punct	_	_
+4	www.maiznieks.lv	www.maiznieks.lv	SYM	xx	_	2	parataxis	_	_
 
 # a-newswire_reliize_20130206-p12s1
 1	Papildu	papildu	ADJ	arfpgnp	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_

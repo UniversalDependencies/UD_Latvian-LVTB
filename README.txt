@@ -24,6 +24,11 @@ Category=value feature pairs: 50
 * Pretkalniņa L., Rituma L. Syntactic Issues Identified Developing the Latvian Treebank // Proceedings of the 5th International Conference on Human Language Technologies — the Baltic Perspective, Frontiers in Artificial Intelligence and Applications, Vol. 247, IOS Press, 2012, pp. 185–192
 * Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. Towards a Latvian Treebank. // Actas del 3 Congreso Internacional de Lingüística de Corpus. Tecnologias de la Información y las Comunicaciones: Presente y Futuro en el Análisis de Corpus, eds. Candel Mora M.Á., Carrió Pastor M., ISBN 9788469462256, 2011, pp. 119–127
 
+# Changelog
+
+2016-05-15 v1.3
+* Initial version.
+
 === Machine-readable metadata =================================================
 Documentation status: stub
 Data source: automatic

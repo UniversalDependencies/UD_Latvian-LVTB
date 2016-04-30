@@ -13,8 +13,8 @@ Test: 219 sentences
 # Statictics
 
 Tree count:  1082
-Word count:  20105
-Token count: 20105
+Word count:  20106
+Token count: 20106
 Dep. relations: 29 of which 0 language specific
 POS tags: 16
 Category=value feature pairs: 50

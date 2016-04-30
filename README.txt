@@ -1,6 +1,8 @@
 # Treebank
 
-Latvian UD Treebank is based on the newswire part of Latvian Treebank (http://sintakse.korpuss.lv). The UD treebank consists of 1,082 sentences (20,105 tokens), and it has been obtained via automatic transformations of both the morphological and the syntactic annotations. The original data contains manually annotated syntax and semi-automatically annotated morphological tags and lemmas.
+Latvian UD Treebank is based on the newswire part of Latvian Treebank created at University of Latvia, Institute of Mathematics and Computer Science (http://sintakse.korpuss.lv).
+
+The UD treebank consists of 1,082 sentences (20,105 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original treebank. The original data contains manually annotated syntax and semi-automatically annotated morphological tags and lemmas.
 
 # Data sets
 

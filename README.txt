@@ -14,9 +14,9 @@ Test: 219 sentences
 
 # Statictics
 
-Tree count:  1111
-Word count:  20678
-Token count: 20678
+Tree count:  1116
+Word count:  20798
+Token count: 20798
 Dep. relations: 29 of which 0 language specific
 POS tags: 16
 Category=value feature pairs: 50

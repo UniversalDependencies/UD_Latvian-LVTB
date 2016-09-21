@@ -1279,7 +1279,7 @@
 2	gadījumā	gadījums	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
 3	projektu	projekts	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	5	dobj	_	_
 4	paredzēts	paredzēt	VERB	vmnpdmsnpsn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	īstenot	īstenot	VERB	vmnn0t2000n	Negative=Neg|VerbForm=Inf	4	acl	_	_
+5	īstenot	īstenot	VERB	vmnn0t2000n	Negative=Neg|VerbForm=Inf	4	xcomp	_	_
 6	līdz	līdz	ADP	spsdy	_	9	case	_	_
 7	2014.	2014.	ADJ	xo	NumType=Ord	8	amod	_	SpaceAfter=No
 8	gada	gads	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
@@ -2753,7 +2753,7 @@
 10	ļaut	ļaut	VERB	vmnn0t1000n	Negative=Neg|VerbForm=Inf	9	acl	_	_
 11	komersantiem	komersants	NOUN	ncmpd1	Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	_
 12	pašiem	pats	PRON	pg0mpdn	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	13	acl	_	_
-13	izvēlēties	izvēlēties	VERB	vmyn0i3000n	Negative=Neg|Reflex=Yes|VerbForm=Inf	10	dep	_	_
+13	izvēlēties	izvēlēties	VERB	vmyn0i3000n	Negative=Neg|Reflex=Yes|VerbForm=Inf	10	ccomp	_	_
 14	atkritumu	atkritumi	NOUN	ncmdg1	Case=Gen|Gender=Masc|Number=Ptan	15	nmod	_	_
 15	apsaimniekotāju	apsaimniekotājs	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	13	dobj	_	SpaceAfter=No
 16	,	,	PUNCT	zc	_	22	punct	_	_
@@ -2794,7 +2794,7 @@
 26	gadā	gads	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	zc	_	23	punct	_	_
 28	pašiem	pats	PRON	pg0mpdn	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	29	nmod	_	_
-29	izvēlēties	izvēlēties	VERB	vmyn0i3000n	Negative=Neg|Reflex=Yes|VerbForm=Inf	6	dep	_	_
+29	izvēlēties	izvēlēties	VERB	vmyn0i3000n	Negative=Neg|Reflex=Yes|VerbForm=Inf	6	ccomp	_	_
 30	atkritumu	atkritumi	NOUN	ncmdg1	Case=Gen|Gender=Masc|Number=Ptan	31	nmod	_	_
 31	apsaimniekotāju	apsaimniekotājs	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	29	dobj	_	SpaceAfter=No
 32	.	.	PUNCT	zs	_	5	punct	_	_
@@ -3573,7 +3573,7 @@
 18	augustā	augusts	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	_
 19	bija	būt	VERB	vcnisii30an	Mood=Ind|Negative=Neg|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	aux	_	_
 20	spiesta	spiest	VERB	vmnpdfsnpsn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
-21	sākt	sākt	VERB	vmnn0t1000n	Negative=Neg|VerbForm=Inf	20	acl	_	_
+21	sākt	sākt	VERB	vmnn0t1000n	Negative=Neg|VerbForm=Inf	20	xcomp	_	_
 22	kriminālprocesu	kriminālprocess	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	21	dobj	_	SpaceAfter=No
 23	,	,	PUNCT	zc	_	4	punct	_	_
 24	bet	bet	CONJ	ccs	_	4	cc	_	_

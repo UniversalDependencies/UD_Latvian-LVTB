@@ -15,17 +15,17 @@
     <tag name="ADJ">1184</tag><!-- jauna, jauns, liels, nacionāla, liela, 2012., 2011., galvens, 2013., labs -->
     <tag name="ADP">810</tag><!-- par, ar, no, uz, pēc, pie, līdz, bez, kopš, pa -->
     <tag name="ADV">874</tag><!-- kā, jau, daudz, vēl, kur, kad, savukārt, ļoti, tā, tad -->
-    <tag name="CONJ">746</tag><!-- un, bet, gan, arī, kā, vai, taču, jeb, tomēr, ne -->
+    <tag name="CONJ">708</tag><!-- un, bet, gan, arī, taču, vai, jeb, tomēr, nevis, tikai -->
     <tag name="DET">392</tag><!-- šis, šī, tas, visa, šāda, viss, cits, savs, sava, šāds -->
     <tag name="INTJ">4</tag><!-- ak, lūk, nu, paldies -->
     <tag name="NOUN">6239</tag><!-- gads, uzņēmums, valsts, projekts, atkritumi, lats, grāmata, bibliotēka, pašvaldība, laiks -->
     <tag name="NUM">424</tag><!-- viens, viena, trīs, 000, 25, divi, divas, 1, 3, 50 -->
-    <tag name="PART">272</tag><!-- arī, vai, tikai, kaut, pat, jau, gan, tieši, ne, tad -->
+    <tag name="PART">323</tag><!-- arī, vai, kā, tikai, kaut, ne, pat, gan, jau, tieši -->
     <tag name="PRON">565</tag><!-- tas, viņš, es, kas, tā, mēs, viss, jūs, kāda, šis -->
     <tag name="PROPN">1576</tag><!-- latvija, rīga, Eiropa, Andris, lattelecom, SIA, Jelgava, ZAAO, LETA, vilks -->
     <tag name="PUNCT">3759</tag><!-- ,, ., ", -, (, ), ?, :, „, – -->
-    <tag name="SCONJ">599</tag><!-- ka, kas, lai, kā, kurš, jo, ja, kura, nekā, vai -->
-    <tag name="SYM">250</tag><!-- %, Re, &, •, LDz, a., a/s, Gbps, a, nozare.lv -->
+    <tag name="SCONJ">588</tag><!-- ka, kas, kā, kurš, lai, jo, ja, kura, nekā, vai -->
+    <tag name="SYM">248</tag><!-- %, Re, &, •, LDz, a., a/s, Gbps, a, nozare.lv -->
     <tag name="VERB">2939</tag><!-- būt, tikt, varēt, nebūt, notikt, izmantot, darboties, saņemt, sākt, strādāt -->
     <tag name="X">165</tag><!-- Imprimatur, fund, Capital, Initiatives, Spatial, Management, Seed, Citrus, Colenco, Music -->
   </tags>

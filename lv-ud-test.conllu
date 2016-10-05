@@ -1484,7 +1484,7 @@
 
 # a-newswire_intervija_02_20130211-p22s3
 1	Bet	bet	CONJ	ccs	_	10	cc	_	_
-2	tāpat	tāpat	SCONJ	csc_SPLIT_FIRST	_	4	mark	_	_
+2	tāpat	tāpat	PART	csc_SPLIT_FIRST	_	4	mark	_	_
 3	kā	kā	SCONJ	csc_SPLIT_PART	_	2	mwe	_	_
 4	Rīga	Rīga	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	10	acl	_	SpaceAfter=No
 5	,	,	PUNCT	zc	_	4	punct	_	_
@@ -1502,7 +1502,7 @@
 4	risinājumus	risinājums	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	2	dobj	_	SpaceAfter=No
 5	,	,	PUNCT	zc	_	2	punct	_	_
 6	un	un	CONJ	ccs	_	2	cc	_	_
-7	tāpat	tāpat	SCONJ	csc_SPLIT_FIRST	_	10	mark	_	_
+7	tāpat	tāpat	PART	csc_SPLIT_FIRST	_	10	mark	_	_
 8	kā	kā	SCONJ	csc_SPLIT_PART	_	7	mwe	_	_
 9	esam	būt	VERB	vcnipii1pan	Mood=Ind|Negative=Neg|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
 10	pieraduši	pierast	VERB	vmnpdmpnasn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	advcl	_	_
@@ -1768,7 +1768,7 @@
 15	virtuālais	virtuāls	ADJ	armsnyp	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
 16	telefons	telefons	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 17	,	,	PUNCT	zc	_	20	punct	_	_
-18	līdz	līdz	SCONJ	csc_SPLIT_FIRST	_	20	mark	_	_
+18	līdz	līdz	PART	csc_SPLIT_FIRST	_	20	mark	_	_
 19	ko	ko	SCONJ	csc_SPLIT_PART	_	18	mwe	_	_
 20	parādīsies	parādīties	VERB	vmyift330an	Mood=Ind|Negative=Neg|Person=3|Reflex=Yes|Tense=Fut|VerbForm=Fin|Voice=Act	16	advcl	_	_
 21	gala	gals	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
@@ -2623,7 +2623,7 @@
 13	caur	caur	ADP	spsay	_	14	case	_	_
 14	Rīgu	Rīga	PROPN	npfsa4	Case=Acc|Gender=Fem|Number=Sing	4	acl	_	SpaceAfter=No
 15	,	,	PUNCT	zc	_	2	punct	_	_
-16	kā	kā	CONJ	ccd_SPLIT_FIRST	_	2	cc	_	_
+16	kā	kā	PART	ccd_SPLIT_FIRST	_	2	cc	_	_
 17	arī	arī	CONJ	ccd_SPLIT_PART	_	16	mwe	_	_
 18	uzcēluši	uzcelt	VERB	vmnpdmpnasn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	_
 19	trešās	trešā	ADJ	mosfsgv	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
@@ -3128,7 +3128,7 @@
 19	valdes	valde	NOUN	ncfsg5	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
 20	priekšsēdētājs	priekšsēdētājs	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
 21	,	,	PUNCT	zc	_	3	punct	_	_
-22	kā	kā	CONJ	ccd_SPLIT_FIRST	_	3	cc	_	_
+22	kā	kā	PART	ccd_SPLIT_FIRST	_	3	cc	_	_
 23	arī	arī	CONJ	ccd_SPLIT_PART	_	22	mwe	_	_
 24	citos	cits	PRON	pi0mpln	Case=Loc|Gender=Masc|Number=Plur|PronType=Ind	26	nmod	_	_
 25	vadošos	vadīt	VERB	vmnpdmplapn	Aspect=Imp|Case=Loc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	26	amod	_	_

@@ -27,6 +27,12 @@ Pretkalniņa L., Rituma L. Constructions in Latvian Treebank: the Impact of Anno
 
 Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. Towards a Latvian Treebank. Actas del 3 Congreso Internacional de Lingüística de Corpus. Tecnologias de la Información y las Comunicaciones: Presente y Futuro en el Análisis de Corpus, eds. Candel Mora M.Á., Carrió Pastor M., 2011, pp. 119–127
 
+
+Changelog
+
+  * No changes since UD release 1.3.
+
+
 === Machine-readable metadata =================================================
 Documentation status: stub
 Data source: automatic

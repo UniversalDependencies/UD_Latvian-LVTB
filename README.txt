@@ -30,7 +30,10 @@ Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. Towards a Latv
 
 Changelog
 
-  * No changes since UD release 1.3.
+2016-11-15 v1.4
+  * Corrected a number of syntactic annotation mistakes.
+  * Multi-word conjunctions: first part is now tagged PART.
+  * Added new sentences.
 
 
 === Machine-readable metadata =================================================

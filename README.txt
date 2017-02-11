@@ -1,25 +1,25 @@
 # Treebank
 
-Latvian UD Treebank is based on the newswire part of Latvian Treebank created at University of Latvia, Institute of Mathematics and Computer Science (http://sintakse.korpuss.lv).
+Latvian UD Treebank is based on Latvian Treebank created at University of Latvia, Institute of Mathematics and Computer Science (http://sintakse.korpuss.lv).
 
-The UD treebank consists of 1,111 sentences (20,678 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original treebank. The original data contains manually annotated syntax and semi-automatically annotated morphological tags and lemmas.
+The UD treebank consists of 3,970 sentences (55,264 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original treebank. The original data contains manually annotated syntax and semi-automatically annotated morphological tags and lemmas.
 
 # Data sets
 
 The training data contains news articles, interviews, annotations, media clippings and press releases. The development and test sets are split out to contain an interview, a news article, a press release, a clipping and few annotations.
 
-Train: 673 sentences
-Dev: 190 sentences
-Test: 219 sentences
+Train: 2311 sentences
+Dev: 714 sentences
+Test: 918 sentences
 
 # Statictics
 
-Tree count:  1116
-Word count:  20798
-Token count: 20798
-Dep. relations: 29 of which 0 language specific
+Tree count:  3970
+Word count:  55264
+Token count: 55264
+Dep. relations: 35 of which 4 language specific
 POS tags: 16
-Category=value feature pairs: 50
+Category=value feature pairs: 56
 
 # References
 
@@ -30,6 +30,11 @@ Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. Towards a Latv
 
 Changelog
 
+2017-02-15 v2.0
+  * Annotation changed according to UDv2 guidelines.
+  * Lots of new data.
+  * Some annotation errors corrected.
+
 2016-11-15 v1.4
   * Corrected a number of syntactic annotation mistakes.
   * Multi-word conjunctions: first part is now tagged PART.
@@ -39,9 +44,9 @@ Changelog
 === Machine-readable metadata =================================================
 Documentation status: stub
 Data source: automatic
-Data available since: UD v1.3
+Data available since: UD v2.0
 License: CC BY-NC-SA 4.0
-Genre: news
+Genre: news fiction other
 Contributors: Pretkalniņa, Lauma; Saulīte, Baiba; Rituma, Laura; Grūzītis, Normunds
 Contact: lauma@ailab.lv
 ===============================================================================

@@ -2,7 +2,7 @@
 
 Latvian UD Treebank is based on Latvian Treebank created at University of Latvia, Institute of Mathematics and Computer Science (http://sintakse.korpuss.lv).
 
-The UD treebank consists of 3,970 sentences (55,264 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original treebank. The original data contains manually annotated syntax and semi-automatically annotated morphological tags and lemmas.
+The UD treebank consists of 3,972 sentences (55,323 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original treebank. The original data contains manually annotated syntax and semi-automatically annotated morphological tags and lemmas.
 
 # Data sets
 
@@ -14,9 +14,9 @@ Test: 918 sentences
 
 # Statictics
 
-Tree count:  3970
-Word count:  55264
-Token count: 55264
+Tree count:  3972
+Word count:  55323
+Token count: 55323
 Dep. relations: 35 of which 4 language specific
 POS tags: 16
 Category=value feature pairs: 56

@@ -17,7 +17,7 @@ Test: 918 sentences
 Tree count:  3972
 Word count:  55323
 Token count: 55323
-Dep. relations: 35 of which 4 language specific
+Dep. relations: 36 of which 4 language specific
 POS tags: 16
 Category=value feature pairs: 56
 

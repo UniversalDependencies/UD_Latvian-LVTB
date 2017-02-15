@@ -8,8 +8,8 @@ The UD treebank consists of 3,972 sentences (55,323 tokens), and it has been obt
 
 The training data contains news articles, interviews, annotations, media clippings and press releases. The development and test sets are split out to contain an interview, a news article, a press release, a clipping and few annotations.
 
-Train: 2311 sentences
-Dev: 714 sentences
+Train: 2313 sentences
+Dev: 741 sentences
 Test: 918 sentences
 
 # Statictics

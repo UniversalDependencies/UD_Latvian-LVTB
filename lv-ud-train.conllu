@@ -778,8 +778,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p17s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p18s1
@@ -1223,8 +1223,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p41s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p42s1
@@ -1262,8 +1262,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p45s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p46s1
@@ -1273,7 +1273,7 @@
 3	dzīves	dzīve	NOUN	ncfsg5	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 4	redzamajai	redzēt	VERB	vmnpdfsdppy	Case=Dat|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	5	amod	_	_
 5	daļai	daļa	NOUN	ncfsd4	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
-6	ar	ar	ADP	spsan	_	10	case	_	_
+6	ar	ar	ADP	spsa	_	10	case	_	_
 7	manu	mana	DET	ps0fsan	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
 8	patieso	patiesa	ADJ	affsayp	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
 9	iekšējo	iekšēja	ADJ	arfsayp	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
@@ -1346,8 +1346,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p47s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p48s1
@@ -1826,7 +1826,7 @@
 35	baidīties	baidīties	VERB	vmyn0i3000n	Polarity=Pos|Reflex=Yes|VerbForm=Inf	33	conj	_	SpaceAfter=No
 36	,	,	PUNCT	zc	_	39	punct	_	_
 37	bet	bet	CCONJ	ccs	_	39	cc	_	_
-38	ne	ne	PART	qs	_	39	discourse	_	_
+38	ne	ne	PART	qs	Polarity=Neg	39	discourse	_	_
 39	spēju	spēt	VERB	vonist11san	Evident=Fh,Nfh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	32	conj	_	_
 40	gribēt	gribēt	VERB	vonn0t3000n	Polarity=Pos|VerbForm=Inf	39	ccomp	_	_
 41	palikt	palikt	VERB	vtnn0i1000n	Polarity=Pos|VerbForm=Inf	40	xcomp	_	_
@@ -2211,8 +2211,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p61s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p62s1
@@ -2848,7 +2848,7 @@
 8	,	,	PUNCT	zc	_	9	punct	_	_
 9	lūdzu	lūgt	VERB	vmnipt11san	Evident=Fh,Nfh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	zc	_	13	punct	_	_
-11	nē	nē	PART	qs	_	13	discourse	_	SpaceAfter=No
+11	nē	nē	PART	qs	Polarity=Neg	13	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	zc	_	11	punct	_	_
 13	mēs	mēs	PRON	pp10pnn	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	conj	_	_
 14	uz	uz	ADP	sppdy	_	16	case	_	_
@@ -3007,8 +3007,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p83s1
 # text = ***
 1	*	*	SYM	xx	_	0	root	_	SpaceAfter=No
-2	*	*	SYM	xx	_	1	dep	_	SpaceAfter=No
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	SpaceAfter=No
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p84s1
@@ -3048,8 +3048,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p85s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p86s1
@@ -3241,8 +3241,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p88s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p89s1
@@ -3337,10 +3337,10 @@
 25	-	-	PUNCT	zd	_	32	punct	_	_
 26	lūdzu	lūdzu	INTJ	is	_	32	discourse	_	_
 27	-	-	PUNCT	zd	_	26	punct	_	_
-28	ne	ne	PART	qs	_	29	discourse	_	_
-29	vairāk	daudz	ADV	rcq	Degree=Cmp	32	advmod	_	_
-30	kā	kā	SCONJ	css	_	31	dep	_	_
-31	viens	viens	NUM	mcsmsn	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	29	compound	_	_
+28	ne	ne	PART	qs	Polarity=Neg	29	discourse	_	_
+29	vairāk	daudz	ADV	rcq	Degree=Cmp	31	advmod	_	_
+30	kā	kā	SCONJ	css	_	29	fixed	_	_
+31	viens	viens	NUM	mcsmsn	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	32	nummod	_	_
 32	ciemiņš	ciemiņš	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
 33	vienā	viena	NUM	mcsfsl	Case=Loc|Gender=Fem|Number=Sing|NumType=Card	34	nummod	_	_
 34	reizē	reize	NOUN	ncfsl5	Case=Loc|Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
@@ -3593,8 +3593,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p93s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p94s1
@@ -3841,8 +3841,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p98s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p99s1
@@ -3898,8 +3898,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p100s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p101s1
@@ -3918,7 +3918,7 @@
 3	pārskaitusies	pārskaisties	VERB	vmypdfsnasn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Reflex=Yes|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	zc	_	9	punct	_	_
 5	es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-6	ne	ne	PART	qs	_	8	discourse	_	_
+6	ne	ne	PART	qs	Polarity=Neg	8	discourse	_	_
 7	ar	ar	ADP	spsan	_	8	case	_	_
 8	vienu	viens	NUM	mcsmsav	Case=Acc|Gender=Masc|Number=Sing|NumType=Card	10	obj	_	_
 9	nevēlos	nevēlēties	VERB	voyipt31say	Evident=Fh,Nfh|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
@@ -3964,7 +3964,7 @@
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p105s1
 # text = Nē.
-1	Nē	nē	PART	qs	_	0	root	_	SpaceAfter=No
+1	Nē	nē	PART	qs	Polarity=Neg	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	zs	_	1	punct	_	_
 
 # newpar
@@ -4103,8 +4103,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p109s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p110s1
@@ -4121,8 +4121,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p111s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p112s1
@@ -4364,8 +4364,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p124s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p125s1
@@ -4509,8 +4509,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p132s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p133s1
@@ -4528,7 +4528,7 @@
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p134s1
 # text = Nē, protams, es jau arī neesmu mirusi.
-1	Nē	nē	PART	qs	_	9	discourse	_	SpaceAfter=No
+1	Nē	nē	PART	qs	Polarity=Neg	9	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	zc	_	1	punct	_	_
 3	protams	protams	PART	qs	_	9	parataxis	_	SpaceAfter=No
 4	,	,	PUNCT	zc	_	3	punct	_	_
@@ -4617,8 +4617,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p139s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p140s1
@@ -4942,8 +4942,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p143s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p144s1
@@ -4979,8 +4979,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p145s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p146s1
@@ -5171,8 +5171,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p150s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p151s1
@@ -5377,7 +5377,7 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p154s1
 # text = - Nē, īstenībā.
 1	-	-	PUNCT	zd	_	4	punct	_	_
-2	Nē	nē	PART	qs	_	4	discourse	_	SpaceAfter=No
+2	Nē	nē	PART	qs	Polarity=Neg	4	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	zc	_	2	punct	_	_
 4	īstenībā	īstenība	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	zs	_	4	punct	_	_
@@ -5397,8 +5397,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p156s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p157s1
@@ -5580,8 +5580,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p162s1
 # text = ***
 1	*	*	SYM	xx	_	0	root	_	SpaceAfter=No
-2	*	*	SYM	xx	_	1	dep	_	SpaceAfter=No
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	SpaceAfter=No
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p163s1
@@ -5753,8 +5753,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p167s1
 # text = ***
 1	*	*	SYM	xx	_	0	root	_	SpaceAfter=No
-2	*	*	SYM	xx	_	1	dep	_	SpaceAfter=No
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	SpaceAfter=No
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p168s1
@@ -6163,8 +6163,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p179s1
 # text = ***
 1	*	*	SYM	xx	_	0	root	_	SpaceAfter=No
-2	*	*	SYM	xx	_	1	dep	_	SpaceAfter=No
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	SpaceAfter=No
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p180s1
@@ -6295,8 +6295,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p182s1
 # text = * * *
 1	*	*	SYM	xx	_	0	root	_	_
-2	*	*	SYM	xx	_	1	dep	_	_
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	_
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p183s1
@@ -6391,8 +6391,8 @@
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p189s1
 # text = ***
 1	*	*	SYM	xx	_	0	root	_	SpaceAfter=No
-2	*	*	SYM	xx	_	1	dep	_	SpaceAfter=No
-3	*	*	SYM	xx	_	1	dep	_	_
+2	*	*	SYM	xx	_	1	flat	_	SpaceAfter=No
+3	*	*	SYM	xx	_	1	flat	_	_
 
 # newpar
 # sent_id = a-AndraNeiburga-StumStum2004_2460-2724_TaadiVakari-p190s1
@@ -6703,7 +6703,7 @@
 4	ceļa	ceļš	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 5	biedri	biedrs	NOUN	ncmpn1	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
 6	sastopas	sastapties	VERB	vmyipi130an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-7	ne	ne	PART	ccd_SPLIT_FIRST	_	10	cc	_	_
+7	ne	ne	PART	ccd_SPLIT_FIRST	Polarity=Neg	10	cc	_	_
 8	tikai	tikai	CCONJ	ccd_SPLIT_PART	_	7	fixed	_	_
 9	ar	ar	ADP	sppdn	_	10	case	_	_
 10	raganām	ragana	NOUN	ncfpd4	Case=Dat|Gender=Fem|Number=Plur	6	iobj	_	SpaceAfter=No
@@ -7455,7 +7455,7 @@
 11	aizsākusies	aizsākties	VERB	vmypdfsnasn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Reflex=Yes|Tense=Past|VerbForm=Part	0	root	_	_
 12	ASV	ASV	PROPN	y	Abbr=Yes	11	obl	_	_
 13	vairāk	daudz	ADV	rcq	Degree=Cmp	15	advmod	_	_
-14	kā	kā	SCONJ	css	_	15	compound	_	_
+14	kā	kā	SCONJ	css	_	13	fixed	_	_
 15	50	50	NUM	xn	NumType=Card	16	nummod	_	_
 16	gadus	gads	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	17	obl	_	_
 17	atpakaļ	atpakaļ	ADV	r0t	_	11	advmod	_	SpaceAfter=No
@@ -7486,7 +7486,7 @@
 5	no	no	ADP	sppdy	_	6	case	_	_
 6	aktrisēm	aktrise	NOUN	ncfpd5	Case=Dat|Gender=Fem|Number=Plur	7	iobj	_	_
 7	prasīja	prasīt	VERB	vmnist330an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-8	ne	ne	PART	ccd_SPLIT_FIRST	_	11	cc	_	_
+8	ne	ne	PART	ccd_SPLIT_FIRST	Polarity=Neg	11	cc	_	_
 9	tikai	tikai	CCONJ	ccd_SPLIT_PART	_	8	fixed	_	_
 10	nevainojamu	nevainojama	ADJ	arfsanp	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	frizūru	frizūra	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
@@ -7502,7 +7502,7 @@
 # sent_id = a-c60-p5s4
 # text = Bet ne katrai tas ir dots no dabas!
 1	Bet	bet	CCONJ	ccs	_	6	cc	_	_
-2	ne	ne	PART	qs	_	3	discourse	_	_
+2	ne	ne	PART	qs	Polarity=Neg	3	discourse	_	_
 3	katrai	katra	PRON	pg0fsdn	Case=Dat|Gender=Fem|Number=Sing|PronType=Tot	6	iobj	_	_
 4	tas	tas	PRON	pd0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
 5	ir	būt	VERB	vcnipii30an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
@@ -7566,7 +7566,7 @@
 2	katra	katra	DET	pg0fsnn	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
 3	sieviete	sieviete	NOUN	ncfsn5	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 4	vēlētos	vēlēties	VERB	vmyc0t300an	Mood=Cnd|Polarity=Pos|Reflex=Yes|VerbForm=Fin|Voice=Act	0	root	_	_
-5	ne	ne	PART	ccd_SPLIT_FIRST	_	10	cc	_	_
+5	ne	ne	PART	ccd_SPLIT_FIRST	Polarity=Neg	10	cc	_	_
 6	tikai	tikai	CCONJ	ccd_SPLIT_PART	_	5	fixed	_	_
 7	sakoptus	sakopt	VERB	vmnpdmpapsn	Aspect=Perf|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	amod	_	SpaceAfter=No
 8	,	,	PUNCT	zc	_	9	punct	_	_
@@ -7640,15 +7640,15 @@
 21	tāda	tāds	DET	pd0msgn	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
 22	paraduma	paradums	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
 23	rezultātus	rezultāts	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
-24	kā	kā	SCONJ	css	_	26	dep	_	_
+24	kā	kā	SCONJ	css	_	26	mark	_	_
 25	nagu	nags	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
-26	graušana	graušana	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	22	compound	_	SpaceAfter=No
+26	graušana	graušana	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	22	acl	_	SpaceAfter=No
 27	.	.	PUNCT	zs	_	10	punct	_	_
 
 # sent_id = a-c60-p8s2
 # text = Var ne tikai palielināt nagu garumu, bet arī izmainīt to formu un veikt korekciju.
 1	Var	varēt	VERB	vonipt330an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	ne	ne	PART	ccd_SPLIT_FIRST	_	4	cc	_	_
+2	ne	ne	PART	ccd_SPLIT_FIRST	Polarity=Neg	4	cc	_	_
 3	tikai	tikai	CCONJ	ccd_SPLIT_PART	_	2	fixed	_	_
 4	palielināt	palielināt	VERB	vmnn0t3000n	Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
 5	nagu	nags	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
@@ -8201,7 +8201,7 @@
 11	sievietei	sieviete	NOUN	ncfsd5	Case=Dat|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	zc	_	16	punct	_	_
 13	un	un	CCONJ	ccs	_	16	cc	_	_
-14	ne	ne	PART	ccd_SPLIT_FIRST	_	16	cc	_	_
+14	ne	ne	PART	ccd_SPLIT_FIRST	Polarity=Neg	16	cc	_	_
 15	tikai	tikai	CCONJ	ccd_SPLIT_PART	_	14	fixed	_	_
 16	tādēļ	tādēļ	ADV	r0c	_	5	conj	_	SpaceAfter=No
 17	,	,	PUNCT	zc	_	21	punct	_	_
@@ -8547,7 +8547,7 @@
 13	nagam	nags	NOUN	ncmsd1	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 14	,	,	PUNCT	zc	_	18	punct	_	_
 15	tas	tas	PRON	pd0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	18	nsubj	_	_
-16	ne	ne	PART	ccd_SPLIT_FIRST	_	18	cc	_	_
+16	ne	ne	PART	ccd_SPLIT_FIRST	Polarity=Neg	18	cc	_	_
 17	tikai	tikai	CCONJ	ccd_SPLIT_PART	_	16	fixed	_	_
 18	izskatās	izskatīties	VERB	vmyipt330an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
 19	neglīti	neglīti	ADV	rpm	Degree=Pos	18	advmod	_	SpaceAfter=No
@@ -9444,7 +9444,7 @@
 10	,	,	PUNCT	zc	_	9	punct	_	_
 11	viņa	viņa	PRON	pp3fsnn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 12	vēl	vēl	ADV	r0t	_	16	advmod	_	_
-13	ne	ne	PART	qs	_	14	discourse	_	_
+13	ne	ne	PART	qs	Polarity=Neg	14	discourse	_	_
 14	tuvu	tuvu	ADV	r0p	_	16	advmod	_	_
 15	nav	nebūt	VERB	vcnipii30ay	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
 16	izaugusi	izaugt	VERB	vmnpdfsnasn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
@@ -9972,7 +9972,7 @@
 # sent_id = a-d27-p16s4
 # text = Pat ne no tā, ka operācijā kaut kas var noiet greizi (šādi gadījumi nav bieži, un tāpēc jau pastāv apdrošināšana un Otrā Elpa), ne arī no tā, ka es varētu zaudēt daļu no savām zināšanām...
 1	Pat	pat	PART	qs	_	4	discourse	_	_
-2	ne	ne	PART	qs	_	32	cc	_	_
+2	ne	ne	PART	qs	Polarity=Neg	32	cc	_	_
 3	no	no	ADP	sppd	_	4	case	_	_
 4	tā	tas	PRON	pd3msgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	zc	_	10	punct	_	_
@@ -9999,7 +9999,7 @@
 26	Elpa	elpa	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
 27	)	)	PUNCT	zb	_	17	punct	_	SpaceAfter=No
 28	,	,	PUNCT	zc	_	32	punct	_	_
-29	ne	ne	PART	qs	_	32	cc	_	_
+29	ne	ne	PART	qs	Polarity=Neg	32	cc	_	_
 30	arī	arī	PART	qs	_	32	discourse	_	_
 31	no	no	ADP	sppd	_	32	case	_	_
 32	tā	tas	PRON	pd3msgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	conj	_	SpaceAfter=No
@@ -10500,7 +10500,7 @@
 46	mūsdienās	mūsdienas	NOUN	ncfdl4	Case=Loc|Gender=Fem|Number=Ptan	50	obl	_	_
 47	ir	būt	VERB	vcnipii30an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	50	cop	_	_
 48	vairāk	daudz	ADV	rcq	Degree=Cmp	50	advmod	_	_
-49	kā	kā	SCONJ	css	_	50	compound	_	_
+49	kā	kā	SCONJ	css	_	48	fixed	_	_
 50	profesionāla	profesionāla	ADJ	affsnnp	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No
 51	,	,	PUNCT	zc	_	55	punct	_	_
 52	tā	tā	PRON	pd0fsnn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	55	nsubj	_	_
@@ -10576,7 +10576,7 @@
 35	izdarījuši	izdarīt	VERB	vmnpdmpnasn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	ccomp	_	_
 36	pašnāvību	pašnāvība	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	35	obj	_	SpaceAfter=No
 37	,	,	PUNCT	zc	_	45	punct	_	_
-38	nē	nē	PART	qs	_	45	discourse	_	SpaceAfter=No
+38	nē	nē	PART	qs	Polarity=Neg	45	discourse	_	SpaceAfter=No
 39	,	,	PUNCT	zc	_	38	punct	_	_
 40	kur	kur	ADV	r0p	PronType=Int	45	discourse	_	_
 41	nu	nu	PART	qs	_	40	discourse	_	SpaceAfter=No
@@ -11341,7 +11341,7 @@
 # text = Bibliotēka domāta ne tikai lasīšanai, bet arī sarunām
 1	Bibliotēka	bibliotēka	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
 2	domāta	domāt	VERB	vmnpdfsnpsn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-3	ne	ne	PART	ccd_SPLIT_FIRST	_	5	cc	_	_
+3	ne	ne	PART	ccd_SPLIT_FIRST	Polarity=Neg	5	cc	_	_
 4	tikai	tikai	CCONJ	ccd_SPLIT_PART	_	3	fixed	_	_
 5	lasīšanai	lasīšana	NOUN	ncfsd4	Case=Dat|Gender=Fem|Number=Sing	2	iobj	_	SpaceAfter=No
 6	,	,	PUNCT	zc	_	9	punct	_	_
@@ -11604,7 +11604,7 @@
 2	es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	domāju	domāt	VERB	vmnist21san	Evident=Fh,Nfh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	-	-	PUNCT	zd	_	14	punct	_	_
-5	nē	nē	PART	qs	_	14	discourse	_	SpaceAfter=No
+5	nē	nē	PART	qs	Polarity=Neg	14	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	zc	_	5	punct	_	_
 7	tur	tur	ADV	r0p	PronType=Dem	14	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	zc	_	10	punct	_	_
@@ -12223,7 +12223,7 @@
 2	bibliotēkā	bibliotēka	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
 3	ir	būt	VERB	vmnipii30an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	vairāk	daudz	ADV	rcq	Degree=Cmp	6	advmod	_	_
-5	nekā	nekā	SCONJ	css	_	6	compound	_	_
+5	nekā	nekā	SCONJ	css	_	4	fixed	_	_
 6	četri	četri	NUM	mcsmpn	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	7	nummod	_	_
 7	miljoni	miljons	NOUN	ncmpn1	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 8	iespieddarbu	iespieddarbs	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
@@ -12522,7 +12522,7 @@
 # newpar
 # sent_id = a-DIENA_intervija_20130128-p30s1
 # text = Nē, finansējums ir kārtībā.
-1	Nē	nē	PART	qs	_	4	discourse	_	SpaceAfter=No
+1	Nē	nē	PART	qs	Polarity=Neg	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	zc	_	1	punct	_	_
 3	finansējums	finansējums	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	ir	būt	VERB	vmnipii30an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13266,7 +13266,7 @@
 2	bibliotēka	bibliotēka	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	būs	būt	VERB	vcnifii30an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	paredzēta	paredzēt	VERB	vmnpdfsnpsn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	ne	ne	PART	ccd_SPLIT_FIRST	_	15	cc	_	_
+5	ne	ne	PART	ccd_SPLIT_FIRST	Polarity=Neg	15	cc	_	_
 6	vien	vien	CCONJ	ccd_SPLIT_PART	_	5	fixed	_	_
 7	klusai	klusa	ADJ	affsdnp	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
 8	lasīšanai	lasīšana	NOUN	ncfsd4	Case=Dat|Gender=Fem|Number=Sing	4	iobj	_	SpaceAfter=No
@@ -13704,7 +13704,7 @@
 8	daudz	daudz	ADV	rpq	Degree=Pos	9	advmod	_	_
 9	lasa	lasīt	VERB	vmnipt330an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
 10	,	,	PUNCT	zc	_	5	punct	_	_
-11	ne	ne	PART	qs	_	12	discourse	_	_
+11	ne	ne	PART	qs	Polarity=Neg	12	discourse	_	_
 12	vienmēr	vienmēr	ADV	r0t	PronType=Tot	14	advmod	_	_
 13	ir	būt	VERB	vcnipii30an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
 14	pielietojams	pielietot	VERB	vmnpdmsnppn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
@@ -15637,7 +15637,7 @@
 14	ieviešanu	ieviešana	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
 15	un	un	CCONJ	ccs	_	16	cc	_	_
 16	piemērošanu	piemērošana	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	_
-17	jo	jo	SCONJ	css	_	18	dep	_	_
+17	jo	jo	PART	qs	_	18	discourse	_	_
 18	īpaši	īpaši	ADV	r0m	_	19	advmod	_	_
 19	attiecībā	attiecība	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	16	acl	_	_
 20	uz	uz	ADP	sppd	_	23	case	_	_
@@ -18020,7 +18020,7 @@
 15	nepamatotus	nepamatot	VERB	vmnpdmpapsn	Aspect=Perf|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	amod	_	_
 16	tēriņus	tēriņš	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
 17	vairāk	daudz	ADV	rcq	Degree=Cmp	19	advmod	_	_
-18	nekā	nekā	SCONJ	css	_	19	compound	_	_
+18	nekā	nekā	SCONJ	css	_	17	fixed	_	_
 19	50 000	50 000	NUM	xn	NumType=Card	20	nummod	_	_
 20	latu	lats	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
 21	apmērā	apmērs	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	16	acl	_	SpaceAfter=No
@@ -18593,7 +18593,7 @@
 1	Tās	tā	DET	pd0fsgn	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	laikā	laiks	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
 3	vairāk	daudz	ADV	rcq	Degree=Cmp	5	advmod	_	_
-4	nekā	nekā	SCONJ	css	_	5	compound	_	_
+4	nekā	nekā	SCONJ	css	_	3	fixed	_	_
 5	miljons	miljons	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 6	cilvēku	cilvēks	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
 7	sadevās	sadoties	VERB	vmyisti30an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -24727,7 +24727,7 @@
 3	ka	ka	SCONJ	css	_	8	mark	_	_
 4	Andrim	Andris	PROPN	npmsd2	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
 5	Grūtupam	Grūtups	PROPN	npmsd1	Case=Dat|Gender=Masc|Number=Sing	4	flat:name	_	_
-6	ne	ne	PART	qs	_	7	discourse	_	_
+6	ne	ne	PART	qs	Polarity=Neg	7	discourse	_	_
 7	visai	visai	ADV	r0q	_	8	advmod	_	_
 8	patīk	patikt	VERB	vmnipi130an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
 9	filozofisks	filozofisks	ADJ	armsnnp	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
@@ -24782,7 +24782,7 @@
 8	labi	labi	ADV	rpm	Degree=Pos	9	advmod	_	_
 9	jāpazīst	pazīt	VERB	vmnd0t100an	Mood=Nec|Polarity=Pos|VerbForm=Fin|Voice=Act	0	root	_	_
 10	un	un	CCONJ	ccs	_	15	cc	_	_
-11	ne	ne	PART	qs	_	12	discourse	_	_
+11	ne	ne	PART	qs	Polarity=Neg	12	discourse	_	_
 12	katram	katrs	PRON	pg0msdn	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	15	obl	_	_
 13	tas	tas	PRON	pd0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	15	nsubj:pass	_	_
 14	ir	būt	VERB	vcnipii30an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
@@ -25929,7 +25929,7 @@
 4	šobrīd	šobrīd	ADV	r0t	_	5	advmod	_	_
 5	atrodas	atrasties	VERB	vmyipi130an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	vairāk	daudz	ADV	rcq	Degree=Cmp	8	advmod	_	_
-7	nekā	nekā	SCONJ	css	_	8	compound	_	_
+7	nekā	nekā	SCONJ	css	_	6	fixed	_	_
 8	1200	1200	NUM	xn	NumType=Card	10	nummod	_	_
 9	nekustamie	nekustams	ADJ	armpnyp	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
 10	īpašumi	īpašums	NOUN	ncmpn1	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -26251,7 +26251,7 @@
 16	mūsdienīgām	mūsdienīga	ADJ	affpdnp	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	14	conj	_	_
 17	noliktavām	noliktava	NOUN	ncfpd4	Case=Dat|Gender=Fem|Number=Plur	12	iobj	_	_
 18	vairāk	daudz	ADV	rcq	Degree=Cmp	20	advmod	_	_
-19	nekā	nekā	SCONJ	css	_	20	compound	_	_
+19	nekā	nekā	SCONJ	css	_	18	fixed	_	_
 20	1000	1000	NUM	xn	NumType=Card	21	nummod	_	_
 21	m2	m2	SYM	y	Abbr=Yes	22	nmod	_	_
 22	platībā	platība	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
@@ -27221,7 +27221,7 @@
 9	maza	maza	ADJ	affsnnp	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
 10	zīmīte	zīmīte	NOUN	ncfsn5	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	zc	_	13	punct	_	_
-12	ne	ne	PART	qs	_	13	discourse	_	_
+12	ne	ne	PART	qs	Polarity=Neg	13	discourse	_	_
 13	lielāka	liela	ADJ	affsnnc	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	10	acl	_	_
 14	par	par	ADP	spsan	_	15	case	_	_
 15	aploksni	aploksne	NOUN	ncfsa5	Case=Acc|Gender=Fem|Number=Sing	13	acl	_	SpaceAfter=No
@@ -27637,7 +27637,7 @@
 16	Amundsena	Amundsena	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	15	flat:name	_	SpaceAfter=No
 17	,	,	PUNCT	zc	_	23	punct	_	_
 18	bet	bet	CCONJ	ccs	_	23	cc	_	_
-19	nē	nē	PART	qs	_	23	discourse	_	SpaceAfter=No
+19	nē	nē	PART	qs	Polarity=Neg	23	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	zc	_	19	punct	_	_
 21	to	tas	PRON	pd0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	24	obj	_	_
 22	bija	būt	VERB	vcnisii30an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	23	aux	_	_
@@ -27714,7 +27714,7 @@
 4	neko	nekas	PRON	pi0msay	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind,Neg	3	obj	_	SpaceAfter=No
 5	,	,	PUNCT	zc	_	10	punct	_	_
 6	pat	pat	PART	qs	_	10	discourse	_	_
-7	ne	ne	PART	qs	_	10	discourse	_	_
+7	ne	ne	PART	qs	Polarity=Neg	10	discourse	_	_
 8	ar	ar	ADP	spsan	_	10	case	_	_
 9	mazāko	mazs	ADJ	afmsayc	Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	10	amod	_	_
 10	vaibstu	vaibsts	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	4	acl	_	SpaceAfter=No
@@ -28410,7 +28410,7 @@
 # newpar
 # sent_id = a-SofijasPasaule1996_11-18_EedenesDaarzs-p47s1
 # text = Ne tik sen Sofijai bija nomirusi vecmāmiņa.
-1	Ne	ne	PART	qs	_	3	discourse	_	_
+1	Ne	ne	PART	qs	Polarity=Neg	3	discourse	_	_
 2	tik	tik	ADV	r0q	PronType=Dem	3	advmod	_	_
 3	sen	sen	ADV	r0t	_	6	advmod	_	_
 4	Sofijai	Sofija	PROPN	npfsd4	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
@@ -28421,9 +28421,9 @@
 
 # sent_id = a-SofijasPasaule1996_11-18_EedenesDaarzs-p47s2
 # text = Vairāk nekā pusgadu Sofija vai ik dienu bija jutusi, cik ļoti viņai vecmāmiņas trūkst.
-1	Vairāk	daudz	ADV	rcq	Degree=Cmp	9	advmod	_	_
-2	nekā	nekā	SCONJ	css	_	3	dep	_	_
-3	pusgadu	pusgads	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	1	compound	_	_
+1	Vairāk	daudz	ADV	rcq	Degree=Cmp	3	advmod	_	_
+2	nekā	nekā	SCONJ	css	_	1	fixed	_	_
+3	pusgadu	pusgads	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
 4	Sofija	Sofija	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 5	vai	vai	PART	qs	_	7	discourse	_	_
 6	ik	ik	PART	qs	_	7	discourse	_	_
@@ -28862,7 +28862,7 @@
 1	„	„	PUNCT	zq	_	3	punct	_	SpaceAfter=No
 2	Man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
 3	nav	nebūt	VERB	vgnipii30ay	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
-4	ne	ne	PART	qs	_	5	discourse	_	_
+4	ne	ne	PART	qs	Polarity=Neg	5	discourse	_	_
 5	jausmas	jausma	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	zc	_	3	punct	_	SpaceAfter=No
 7	”	”	PUNCT	zq	_	3	punct	_	_
@@ -29721,7 +29721,7 @@
 4	radījis	radīt	VERB	vmnpdmsnasn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	pats	pats	PRON	pg0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	4	acl	_	_
 6	sevi	sevis	PRON	px000an	Case=Acc|PronType=Rcp|Reflex=Yes	4	obj	_	_
-7	ne	ne	PART	qs	_	9	discourse	_	_
+7	ne	ne	PART	qs	Polarity=Neg	9	discourse	_	_
 8	no	no	ADP	spsgy	_	9	case	_	_
 9	kā	kas	PRON	pi000gn	Case=Gen|PronType=Ind	4	obl	_	SpaceAfter=No
 10	?	?	PUNCT	zs	_	4	punct	_	_
@@ -30765,7 +30765,7 @@
 # sent_id = a-SofijasPasaule1996_19-29_Cilindrs-p10s1
 # text = „Ne-e?
 1	„	„	PUNCT	zq	_	2	punct	_	SpaceAfter=No
-2	Ne	ne	PART	qs	_	0	root	_	SpaceAfter=No
+2	Ne	ne	PART	qs	Polarity=Neg	0	root	_	SpaceAfter=No
 3	-	-	PUNCT	zd	_	4	punct	_	SpaceAfter=No
 4	e	e	SYM	xx	_	2	parataxis	_	SpaceAfter=No
 5	?	?	PUNCT	zs	_	2	punct	_	_
@@ -30895,7 +30895,7 @@
 5	labu	labs	ADJ	afmsanp	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	laiku	laiks	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
 7	nebilzdamas	nebilst	VERB	vmnppfpnap0	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Conv|Voice=Pass	2	acl	_	_
-8	ne	ne	PART	qs	_	9	discourse	_	_
+8	ne	ne	PART	qs	Polarity=Neg	9	discourse	_	_
 9	vārda	vārds	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	7	iobj	_	SpaceAfter=No
 10	.	.	PUNCT	zs	_	2	punct	_	_
 
@@ -32213,7 +32213,7 @@
 7	kas	kas	PRON	pr000nn	Case=Nom|PronType=Rel	8	nsubj	_	_
 8	dzīvoja	dzīvot	VERB	vmnist230an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	5	acl	_	_
 9	vairāk	daudz	ADV	rcq	Degree=Cmp	12	advmod	_	_
-10	nekā	nekā	SCONJ	css	_	12	compound	_	_
+10	nekā	nekā	SCONJ	css	_	9	fixed	_	_
 11	pirms	pirms	ADP	sppdy	_	13	case	_	_
 12	diviem	divi	NUM	mcsmpdv	Case=Dat|Gender=Masc|Number=Plur|NumType=Card	13	nummod	_	_
 13	tūkstošiem	tūkstoši	NUM	mcsmpdt	Case=Dat|Gender=Masc|Number=Plur|NumType=Card	8	obl	_	_
@@ -32780,7 +32780,7 @@
 5	visapkārt	visapkārt	ADV	r0p	_	3	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	zc	_	10	punct	_	_
 7	bet	bet	CCONJ	ccs	_	10	cc	_	_
-8	nē	nē	PART	qs	_	10	discourse	_	SpaceAfter=No
+8	nē	nē	PART	qs	Polarity=Neg	10	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	zc	_	8	punct	_	_
 10	nebija	nebūt	VERB	vgnisii30ay	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
 11	neviena	neviena	PRON	pi0msgy	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind,Neg	10	nsubj	_	SpaceAfter=No
@@ -33329,7 +33329,7 @@
 3	mēs	mēs	PRON	pp10pnn	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 4	esam	būt	VERB	vcnipii1pan	Evident=Fh,Nfh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	redzējuši	redzēt	VERB	vmnpdmpnasn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-6	ne	ne	PART	qs	_	7	discourse	_	_
+6	ne	ne	PART	qs	Polarity=Neg	7	discourse	_	_
 7	reizi	reize	NOUN	ncfsa5	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
 8	vien	vien	PART	qs	_	7	discourse	_	SpaceAfter=No
 9	.	.	PUNCT	zs	_	5	punct	_	_
@@ -33733,7 +33733,7 @@
 # text = Tu esi ne tikai redzējusi kādu radījumu no pasaules izplatījuma.
 1	Tu	tu	PRON	pp20snn	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 2	esi	būt	VERB	vcnipii2san	Evident=Fh,Nfh|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
-3	ne	ne	PART	qc_SPLIT_FIRST	_	5	discourse	_	_
+3	ne	ne	PART	qc_SPLIT_FIRST	Polarity=Neg	5	discourse	_	_
 4	tikai	tikai	PART	qc_SPLIT_PART	_	3	fixed	_	_
 5	redzējusi	redzēt	VERB	vmnpdfsnasn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	kādu	kāds	DET	pi0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
@@ -34160,7 +34160,7 @@
 6	mēs	mēs	PRON	pp10pnn	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 7	sevi	sevis	PRON	px000an	Case=Acc|PronType=Rcp|Reflex=Yes	8	obj	_	_
 8	pieradinām	pieradināt	VERB	vmnipt11pan	Evident=Fh,Nfh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_
-9	ne	ne	PART	qc_SPLIT_FIRST	_	14	discourse	_	_
+9	ne	ne	PART	qc_SPLIT_FIRST	Polarity=Neg	14	discourse	_	_
 10	tikai	tikai	PART	qc_SPLIT_PART	_	9	fixed	_	_
 11	pie	pie	ADP	spsgy	_	14	case	_	_
 12	Zemes	Zeme	PROPN	npfsg5	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
@@ -34263,7 +34263,7 @@
 9	visus	viss	DET	pg0mpan	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	10	det	_	_
 10	cilvēkus	cilvēks	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	zc	_	8	punct	_	_
-12	ne	ne	PART	qs	_	13	discourse	_	_
+12	ne	ne	PART	qs	Polarity=Neg	13	discourse	_	_
 13	visi	viss	PRON	pg0mpnn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	14	nsubj	_	_
 14	kļūst	kļūt	VERB	vcnipi130an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 15	par	par	ADP	sppd	_	16	case	_	_
@@ -35263,7 +35263,7 @@
 # text = „Kāpēc ne?
 1	„	„	PUNCT	zq	_	3	punct	_	SpaceAfter=No
 2	Kāpēc	kāpēc	ADV	r0c	PronType=Int	3	advmod	_	_
-3	ne	ne	PART	qs	_	0	root	_	SpaceAfter=No
+3	ne	ne	PART	qs	Polarity=Neg	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	zs	_	3	punct	_	_
 
 # sent_id = a-SofijasPasaule1996_19-29_Cilindrs-p114s2
@@ -37069,7 +37069,7 @@
 # text = Neko vairāk kā pārdesmit latu uz bērnu kāzām šiem iedot nevarēju.
 1	Neko	nekas	PRON	pi0msay	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind,Neg	2	obj	_	_
 2	vairāk	daudz	ADV	rcq	Degree=Cmp	4	advmod	_	_
-3	kā	kā	SCONJ	css	_	4	compound	_	_
+3	kā	kā	SCONJ	css	_	2	fixed	_	_
 4	pārdesmit	pārdesmit	NUM	mcc0p0d	Number=Plur|NumType=Card	5	nummod	_	_
 5	latu	lats	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	10	iobj	_	_
 6	uz	uz	ADP	sppdy	_	8	case	_	_
@@ -37657,7 +37657,7 @@
 2	marihuānas	marihuāna	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 3	dūmos	dūmi	NOUN	ncmpl1	Case=Loc|Gender=Masc|Number=Plur	8	obl	_	_
 4	viņa	viņa	PRON	pp3fsnn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-5	ne	ne	PART	qs	_	6	discourse	_	_
+5	ne	ne	PART	qs	Polarity=Neg	6	discourse	_	_
 6	reizi	reize	NOUN	ncfsa5	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 7	nebija	nebūt	VERB	vcnisii30ay	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	piedzīvojusi	piedzīvot	VERB	vmnpdfsnasn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -41004,7 +41004,7 @@
 3	,	,	PUNCT	zc	_	2	punct	_	_
 4	atšķirības	atšķirība	NOUN	ncfpn4	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
 5	pastāv	pastāvēt	VERB	vmnipt330an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-6	ne	ne	PART	qc_SPLIT_FIRST	_	9	discourse	_	_
+6	ne	ne	PART	qc_SPLIT_FIRST	Polarity=Neg	9	discourse	_	_
 7	tikai	tikai	PART	qc_SPLIT_PART	_	6	fixed	_	_
 8	starp	starp	ADP	sppd	_	9	case	_	_
 9	pilsētām	pilsēta	NOUN	ncfpd4	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	_
@@ -41915,7 +41915,7 @@
 7	darbinieku	darbinieks	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
 8	skaitu	skaits	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
 9	ietekmē	ietekmēt	VERB	vmnipt230an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-10	ne	ne	PART	ccd_SPLIT_FIRST	_	13	cc	_	_
+10	ne	ne	PART	ccd_SPLIT_FIRST	Polarity=Neg	13	cc	_	_
 11	tikai	tikai	CCONJ	ccd_SPLIT_PART	_	10	fixed	_	_
 12	skolēnu	skolēns	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
 13	skaits	skaits	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
@@ -42361,7 +42361,7 @@
 # sent_id = a-zeens-p13s2
 # text = "Nē, šonakt labāk paliksim tepat," viņš nepiekrita.
 1	"	"	PUNCT	zq	_	6	punct	_	SpaceAfter=No
-2	Nē	nē	PART	qs	_	6	discourse	_	SpaceAfter=No
+2	Nē	nē	PART	qs	Polarity=Neg	6	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	zc	_	2	punct	_	_
 4	šonakt	šonakt	ADV	r0t	_	6	advmod	_	_
 5	labāk	labi	ADV	rcq	Degree=Cmp	6	advmod	_	_
@@ -42491,7 +42491,7 @@
 8	turpmāk	turpmāk	ADV	r0t	_	10	advmod	_	_
 9	tekstā	teksts	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
 10	-	-	PUNCT	zd	_	5	parataxis	_	_
-11	ČCGK	ČCGK	PROPN	y	Abbr=Yes	10	dep	_	SpaceAfter=No
+11	ČCGK	ČCGK	PROPN	y	Abbr=Yes	10	nsubj:pass	_	SpaceAfter=No
 12	)	)	PUNCT	zb	_	10	punct	_	_
 13	pārtrauc	pārtraukt	VERB	vmnipt130an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 14	matraču	matracis	NOUN	ncmpg2	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
@@ -42573,10 +42573,10 @@
 1	Bērnam	bērns	NOUN	ncmsd1	Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	_
 2	var	varēt	VERB	vonipt330an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	dot	dot	VERB	vmnn0ti000n	Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
-4	ne	ne	PART	qs	_	5	discourse	_	_
-5	vairāk	daudz	ADV	rcq	Degree=Cmp	8	advmod	_	_
-6	kā	kā	SCONJ	css	_	7	dep	_	_
-7	divus	divi	NUM	mcsmpav	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	5	compound	_	_
+4	ne	ne	PART	qs	Polarity=Neg	5	discourse	_	_
+5	vairāk	daudz	ADV	rcq	Degree=Cmp	7	advmod	_	_
+6	kā	kā	SCONJ	css	_	5	fixed	_	_
+7	divus	divi	NUM	mcsmpav	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	8	advmod	_	_
 8	vārdus	vārds	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
 9	.	.	PUNCT	zs	_	2	punct	_	_
 
@@ -42587,7 +42587,7 @@
 2	noslēdzās	noslēgties	VERB	vmyisi230an	Evident=Fh,Nfh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ar	ar	ADP	spsa	_	7	case	_	_
 4	vairāk	daudz	ADV	rcq	Degree=Cmp	6	advmod	_	_
-5	nekā	nekā	SCONJ	css	_	6	compound	_	_
+5	nekā	nekā	SCONJ	css	_	4	fixed	_	_
 6	pārliecinošu	pārliecinoša	ADJ	affsanp	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	7	advmod	_	_
 7	uzvaru	uzvara	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 8	.	.	PUNCT	zs	_	2	punct	_	_

@@ -35,17 +35,17 @@
     <tag name="989">1</tag><!-- 432 -->
     <tag name="ADJ">3041</tag><!-- liels, liela, jauna, jauns, pedagoģisks, labs, nacionāla, nepieciešams, mazs, maza -->
     <tag name="ADP">2393</tag><!-- par, ar, no, uz, pie, pēc, pa, līdz, bez, starp -->
-    <tag name="ADV">3272</tag><!-- kā, jau, vēl, daudz, tad, tā, kad, tik, kur, tur -->
+    <tag name="ADV">3271</tag><!-- kā, jau, vēl, daudz, tad, tā, kad, tik, kur, tur -->
     <tag name="CCONJ">2068</tag><!-- un, bet, vai, gan, arī, taču, ne, tomēr, jeb, nevis -->
     <tag name="DET">1269</tag><!-- šī, tas, šis, sava, tā, savs, viss, kāds, visa, tāds -->
     <tag name="INTJ">118</tag><!-- re, ak, lūdzu, paldies, vau, vot, nu, klau, labrīt, lūk -->
     <tag name="NOUN">13900</tag><!-- gads, laiks, valsts, darbs, skaits, nags, cilvēks, uzņēmums, pasaule, darbinieks -->
     <tag name="NUM">726</tag><!-- viens, viena, trīs, divas, divi, desmit, otra, 25, pieci, 3 -->
-    <tag name="PART">1441</tag><!-- arī, vai, tikai, kaut, ne, kā, pat, nu, jau, varbūt -->
+    <tag name="PART">1443</tag><!-- arī, vai, tikai, kaut, ne, kā, pat, nu, jau, varbūt -->
     <tag name="PRON">3661</tag><!-- es, kas, tas, viņa, viņš, tu, mēs, tā, viss, kurš -->
     <tag name="PROPN">2167</tag><!-- latvija, Sofija, rīga, Eiropa, Andris, lattelecom, SIA, Jelgava, ZAAO, LETA -->
     <tag name="PUNCT">10659</tag><!-- ,, ., ", -, ?, ), (, :, !, „ -->
-    <tag name="SCONJ">1054</tag><!-- ka, kā, lai, ja, jo, vai, nekā, gan, arī, kamēr -->
+    <tag name="SCONJ">1053</tag><!-- ka, kā, lai, ja, jo, vai, nekā, gan, arī, kamēr -->
     <tag name="SYM">442</tag><!-- *, %, Re, &, a, •, ***, LDz, OV, a. -->
     <tag name="VERB">8842</tag><!-- būt, nebūt, varēt, tikt, teikt, zināt, sākt, domāt, sacīt, nevarēt -->
     <tag name="X">240</tag><!-- Imprimatur, fund, Capital, Initiatives, Spatial, education, Management, See, Seed, of -->
@@ -94,10 +94,10 @@
     <feat name="Person" value="1" upos="DET,PRON,VERB">1719</feat><!-- es, man, mēs, mani, esmu, mums, esam, biju, domāju, mūsu -->
     <feat name="Person" value="2" upos="PRON,VERB">549</feat><!-- tu, tev, esi, jūs, stum, tevi, jūsu, zini, jums, tevis -->
     <feat name="Person" value="3" upos="DET,PRON,VERB">4953</feat><!-- ir, bija, viņa, nav, viņš, būs, var, viņu, nebija, viņai -->
-    <feat name="Polarity" value="Neg" upos="VERB">736</feat><!-- nav, nebija, nebūs, neesmu, nevar, neesot, nevajag, nedrīkst, netiek, nebūtu -->
+    <feat name="Polarity" value="Neg" upos="PART,VERB">834</feat><!-- nav, ne, nebija, nē, nebūs, neesmu, nevar, neesot, nevajag, nedrīkst -->
     <feat name="Polarity" value="Pos" upos="VERB">6138</feat><!-- ir, bija, būs, var, varētu, būtu, esmu, tiek, būt, teica -->
     <feat name="Poss" value="Yes" upos="DET,PRON">243</feat><!-- savu, savā, mans, manu, savas, mana, sava, manas, manā, savus -->
-    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">1762</feat><!-- tā, to, tas, tad, tik, tur, tās, šo, tam, tagad -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">1761</feat><!-- tā, to, tas, tad, tik, tur, tās, šo, tam, tagad -->
     <feat name="PronType" value="Ind" upos="ADV,DET,NOUN,PRON">442</feat><!-- kas, ko, kādu, kāda, kāds, kādas, citu, cita, citi, kādā -->
     <feat name="PronType" value="Ind,Neg" upos="ADV,DET,PRON">117</feat><!-- neko, neviens, nekas, nekā, nekādas, nekāda, nekādu, neviena, nekāds, nevienas -->
     <feat name="PronType" value="Int" upos="ADV,DET,NOUN,PRON">484</feat><!-- kā, kad, kur, kas, cik, ko, kāpēc, kurienes, kurš, kuru -->
@@ -123,36 +123,36 @@
     <dep name="">5516</dep>
     <dep name="NUM">9</dep>
     <dep name="NumType=Card">21</dep>
-    <dep name="acl">1629</dep>
+    <dep name="acl">1630</dep>
     <dep name="advcl">718</dep>
-    <dep name="advmod">2871</dep>
+    <dep name="advmod">2872</dep>
     <dep name="amod">2737</dep>
     <dep name="appos">3</dep>
     <dep name="aux">826</dep>
     <dep name="case">2426</dep>
     <dep name="cc">2113</dep>
     <dep name="ccomp">679</dep>
-    <dep name="compound">223</dep>
+    <dep name="compound">200</dep>
     <dep name="conj">2940</dep>
     <dep name="cop">629</dep>
     <dep name="csubj">86</dep>
     <dep name="csubj:pass">10</dep>
-    <dep name="dep">107</dep>
+    <dep name="dep">41</dep>
     <dep name="det">1444</dep>
-    <dep name="discourse">1248</dep>
-    <dep name="fixed">202</dep>
-    <dep name="flat">36</dep>
+    <dep name="discourse">1259</dep>
+    <dep name="fixed">224</dep>
+    <dep name="flat">86</dep>
     <dep name="flat:foreign">38</dep>
     <dep name="flat:name">541</dep>
     <dep name="goeswith">2</dep>
     <dep name="iobj">1248</dep>
-    <dep name="mark">968</dep>
+    <dep name="mark">969</dep>
     <dep name="nmod">5125</dep>
     <dep name="nsubj">4149</dep>
-    <dep name="nsubj:pass">321</dep>
-    <dep name="nummod">487</dep>
+    <dep name="nsubj:pass">322</dep>
+    <dep name="nummod">488</dep>
     <dep name="obj">2111</dep>
-    <dep name="obl">3552</dep>
+    <dep name="obl">3553</dep>
     <dep name="orphan">12</dep>
     <dep name="parataxis">643</dep>
     <dep name="punct">10568</dep>

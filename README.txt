@@ -28,7 +28,7 @@ Pretkalniņa L., Rituma L. Constructions in Latvian Treebank: the Impact of Anno
 Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. Towards a Latvian Treebank. Actas del 3 Congreso Internacional de Lingüística de Corpus. Tecnologias de la Información y las Comunicaciones: Presente y Futuro en el Análisis de Corpus, eds. Candel Mora M.Á., Carrió Pastor M., 2011, pp. 119–127
 
 
-Changelog
+# Changelog
 
 2017-02-15 v2.0
   * Annotation changed according to UDv2 guidelines.
@@ -44,7 +44,7 @@ Changelog
 === Machine-readable metadata =================================================
 Documentation status: stub
 Data source: automatic
-Data available since: UD v2.0
+Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
 Genre: news fiction other
 Contributors: Pretkalniņa, Lauma; Saulīte, Baiba; Rituma, Laura; Grūzītis, Normunds

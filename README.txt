@@ -21,6 +21,10 @@ Dep. relations: 36 of which 4 language specific
 POS tags: 16
 Category=value feature pairs: 56
 
+# Acknowledgments
+
+This work was partially supported by European Regional Development Fund under grant agreement No. 1.1.1.1/16/A/219 (Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian).
+
 # References
 
 Pretkalniņa L., Rituma L. Constructions in Latvian Treebank: the Impact of Annotation Decisions on the Dependency Parsing Performance Proceedings of the 6th International Conference on Human Language Technologies — the Baltic Perspective (HLT 2014), Frontiers in Artificial Intelligence and Applications, Vol. 268, IOS Press, 2014, pp. 219–226

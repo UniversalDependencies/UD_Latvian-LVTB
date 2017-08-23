@@ -37,6 +37,7 @@ Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. Towards a Latv
 # Changelog
 To be published in v2.1
   * Duplicated and artificially constructed sentences removed.
+  * Fixed bug resulting Evident=Fh,Nfh where Evident=Fh should be.
 
 2017-02-15 v2.0
   * Annotation changed according to UDv2 guidelines.

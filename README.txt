@@ -1,8 +1,8 @@
 # Treebank
 
-Latvian UD Treebank is based on Latvian Treebank created at University of Latvia, Institute of Mathematics and Computer Science (http://sintakse.korpuss.lv).
+Latvian UD Treebank is based on Latvian Treebank being created at University of Latvia, Institute of Mathematics and Computer Science, Artificial Intelligence Laboratory.
 
-The UD treebank consists of 3,916 sentences (54,819 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original treebank. The original data contains manually annotated syntax and semi-automatically annotated morphological tags and lemmas.
+The UD Latvian treebank v2.1 consists of 3,916 sentences (54,819 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original treebank. The original data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas.
 
 # Data sets
 
@@ -23,21 +23,24 @@ Category=value feature pairs: 56
 
 # Acknowledgments
 
-This work was partially supported by European Regional Development Fund under grant agreement No. 1.1.1.1/16/A/219 (Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian).
+This work was partially supported by European Regional Development Fund under the grant agreement No. 1.1.1.1/16/A/219 (Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian).
 
 # References
 
-Pretkalniņa L., Rituma L., Saulīte B. Universal Dependency Treebank for Latvian: A Pilot. Proceedings of the 7th International Conference on Human Language Technologies — the Baltic Perspective (HLT 2016), Frontiers in Artificial Intelligence and Applications, Vol. 289, IOS Press, 2016, pp. 136–143
+Pretkalniņa L., Rituma L., Saulīte B. Universal Dependency Treebank for Latvian: A Pilot. Human Language Technologies - The Baltic Perspective, Frontiers in Artificial Intelligence and Applications, Vol. 289, IOS Press, 2016, pp. 136-143
 
-Pretkalniņa L., Rituma L. Constructions in Latvian Treebank: the Impact of Annotation Decisions on the Dependency Parsing Performance. Proceedings of the 6th International Conference on Human Language Technologies — the Baltic Perspective (HLT 2014), Frontiers in Artificial Intelligence and Applications, Vol. 268, IOS Press, 2014, pp. 219–226
+Pretkalniņa L., Rituma L. Constructions in Latvian Treebank: the Impact of Annotation Decisions on the Dependency Parsing Performance. Human Language Technologies - The Baltic Perspective, Frontiers in Artificial Intelligence and Applications, Vol. 268, IOS Press, 2014, pp. 219-226
 
-Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. Towards a Latvian Treebank. Actas del 3 Congreso Internacional de Lingüística de Corpus. Tecnologias de la Información y las Comunicaciones: Presente y Futuro en el Análisis de Corpus, eds. Candel Mora M.Á., Carrió Pastor M., 2011, pp. 119–127
+Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. Towards a Latvian Treebank. Actas del III Congreso Internacional de Lingüística de Corpus. Valencia, Spain, 2011, pp. 119-127
 
+Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. A Prague Markup Language profile for the SemTi-Kamols grammar model. Proceedings of the 18th Nordic Conference of Computational Linguistics. Riga, Latvia, 2011, pp. 303-306
 
 # Changelog
-To be published in v2.1
-  * Duplicated and artificially constructed sentences removed.
-  * Fixed bug resulting Evident=Fh,Nfh where Evident=Fh should be.
+
+2017-11-15 v2.1
+  * Removed duplicated and artificially constructed sentences.
+  * Fixed a bug producing Evident=Fh,Nfh where Evident=Fh should be.
+  * Added enhanced dependencies.
 
 2017-02-15 v2.0
   * Annotation changed according to UDv2 guidelines.
@@ -49,13 +52,12 @@ To be published in v2.1
   * Multi-word conjunctions: first part is now tagged PART.
   * Added new sentences.
 
-
 === Machine-readable metadata =================================================
 Documentation status: stub
 Data source: automatic
 Data available since: UD v1.3
-License: CC BY-NC-SA 4.0
+License: CC BY 4.0
 Genre: news fiction other
-Contributors: Pretkalniņa, Lauma; Saulīte, Baiba; Rituma, Laura; Grūzītis, Normunds
+Contributors: Pretkalniņa, Lauma; Saulīte, Baiba; Rituma, Laura; Nešpore, Gunta; Grūzītis, Normunds
 Contact: lauma@ailab.lv
 ===============================================================================

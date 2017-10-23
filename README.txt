@@ -56,7 +56,7 @@ Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. A Prague Marku
 Documentation status: stub
 Data source: automatic
 Data available since: UD v1.3
-License: CC BY 4.0
+License: CC BY-NC-SA 4.0
 Genre: news fiction other
 Contributors: Pretkalniņa, Lauma; Saulīte, Baiba; Rituma, Laura; Nešpore, Gunta; Grūzītis, Normunds
 Contact: lauma@ailab.lv

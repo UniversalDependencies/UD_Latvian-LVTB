@@ -21,6 +21,10 @@ Dep. relations: 36 of which 4 language specific
 POS tags: 16
 Category=value feature pairs: 56
 
+# Licensing
+
+The data set is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please contact us if you are interested in acquiring a commercial licence.
+
 # Acknowledgments
 
 This work was partially supported by European Regional Development Fund under the grant agreement No. 1.1.1.1/16/A/219 (Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian).
@@ -43,7 +47,7 @@ Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. A Prague Marku
   * Added enhanced dependencies.
 
 2017-02-15 v2.0
-  * Annotation changed according to UDv2 guidelines.
+  * Annotation changed according to UD v2 guidelines.
   * Lots of new data.
   * Some annotation errors corrected.
 
@@ -57,7 +61,7 @@ Documentation status: stub
 Data source: automatic
 Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
-Genre: news fiction other
-Contributors: Pretkalniņa, Lauma; Saulīte, Baiba; Rituma, Laura; Nešpore, Gunta; Grūzītis, Normunds
-Contact: lauma@ailab.lv
+Genre: news fiction legal spoken science other
+Contributors: Pretkalniņa, Lauma; Saulīte, Baiba; Rituma, Laura; Nešpore-Bērzkalne, Gunta; Grūzītis, Normunds
+Contact: lauma@ailab.lv, normunds@ailab.lv
 ===============================================================================

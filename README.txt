@@ -37,7 +37,7 @@ Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. Towards a Latv
 # Changelog
 
 2017-11-15 v2.1
-  * Duplicated and artificially constructed sentences removed.
+  * Removed duplicated and artificially constructed sentences.
   * Fixed bug resulting Evident=Fh,Nfh where Evident=Fh should be.
   * Added more data.
   * Added enhanced dependencies.
@@ -65,8 +65,8 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Pretkalniņa, Lauma; Rituma, Laura; Saulīte, Baiba; Grūzītis, Normunds
+Contributors: Pretkalniņa, Lauma; Rituma, Laura; Saulīte, Baiba; Nešpore-Bērzkalne, Gunta; Grūzītis, Normunds
 Contributing: elsewhere
-Contact: lauma@ailab.lv
+Contact: lauma@ailab.lv, normunds@ailab.lv
 Paragraphs to web:18
 ===============================================================================

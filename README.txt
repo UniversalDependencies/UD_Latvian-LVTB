@@ -14,10 +14,10 @@ Test: 918 sentences
 
 # Statictics
 
-Tree count:  3916
-Word count:  54819
-Token count: 54819
-Dep. relations: 36 of which 4 language specific
+Tree count:  6139
+Word count:  88040
+Token count: 88040
+Dep. relations: 122 of which 90 language specific
 POS tags: 16
 Category=value feature pairs: 56
 
@@ -35,9 +35,12 @@ Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. Towards a Latv
 
 
 # Changelog
-To be published in v2.1
+
+2017-11-15 v2.1
   * Duplicated and artificially constructed sentences removed.
   * Fixed bug resulting Evident=Fh,Nfh where Evident=Fh should be.
+  * Added more data.
+  * Added enhanced dependencies.
 
 2017-02-15 v2.0
   * Annotation changed according to UDv2 guidelines.
@@ -55,7 +58,15 @@ Documentation status: stub
 Data source: automatic
 Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
+Includes text: yes
 Genre: news fiction other
-Contributors: Pretkalniņa, Lauma; Saulīte, Baiba; Rituma, Laura; Grūzītis, Normunds
+Lemmas: manual native
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
+Contributors: Pretkalniņa, Lauma; Rituma, Laura; Saulīte, Baiba; Grūzītis, Normunds
+Contributing: elsewhere
 Contact: lauma@ailab.lv
+Paragraphs to web:18
 ===============================================================================

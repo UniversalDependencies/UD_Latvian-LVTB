@@ -10296,6 +10296,101 @@
 30	nedzird	nedzirdēt	VERB	vmnipt330ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	26	ccomp	26:ccomp	SpaceAfter=No
 31	.	.	PUNCT	zs	_	24	punct	24:punct	_
 
+# newDoc id = p1948_r4
+# newpar id = p1948_r4-p1
+# sent_id = a-p1948_r4-p1s1
+# text = Šajā laikā par valsts budžeta līdzekļiem aizturētajiem nodrošināta gan ēdināšana, kas izmaksā vidēji 3,2 latus dienā, gan arī telpu dezinfekcija un uzturēšana.
+1	Šajā	šis	DET	pd0msln	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	2	det	2:det	_
+2	laikā	laiks	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	8	obl	8:obl:loc	_
+3	par	par	ADP	spsa	_	6	case	6:case	_
+4	valsts	valsts	NOUN	ncfsg6	Case=Gen|Gender=Fem|Number=Sing	5	nmod	5:nmod:gen	_
+5	budžeta	budžets	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	6	nmod	6:nmod:gen	_
+6	līdzekļiem	līdzeklis	NOUN	ncmpd2	Case=Dat|Gender=Masc|Number=Plur	8	obl	8:obl:par	_
+7	aizturētajiem	aizturēt	VERB	vmnpdmpdpsyp	Aspect=Perf|Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	iobj	8:iobj	_
+8	nodrošināta	nodrošināt	VERB	vmnpdfsnpsnp	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
+9	gan	gan	CCONJ	cc	_	10	cc	10:cc	_
+10	ēdināšana	ēdināšana	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	8:nsubj:pass	SpaceAfter=No
+11	,	,	PUNCT	zc	_	13	punct	13:punct	_
+12	kas	kas	PRON	pr000nn	Case=Nom|PronType=Rel	13	nsubj	13:nsubj	_
+13	izmaksā	izmaksāt	VERB	vmnipt230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl	10:acl	_
+14	vidēji	vidēji	ADV	r0m	_	16	advmod	16:advmod	_
+15	3,2	3,2	NUM	xn	NumType=Card	16	nummod	16:nummod	_
+16	latus	lats	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	13	obl	13:obl:acc	_
+17	dienā	diena	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	16	acl	16:acl:loc	SpaceAfter=No
+18	,	,	PUNCT	zc	_	13	punct	13:punct	_
+19	gan	gan	CCONJ	cc	_	22	cc	22:cc	_
+20	arī	arī	PART	q	_	19	discourse	19:discourse	_
+21	telpu	telpa	NOUN	ncfpg4	Case=Gen|Gender=Fem|Number=Plur	22	nmod	22:nmod:gen	_
+22	dezinfekcija	dezinfekcija	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	10	conj	8:nsubj:pass|10:conj	_
+23	un	un	CCONJ	cc	_	24	cc	24:cc	_
+24	uzturēšana	uzturēšana	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	22	conj	8:nsubj:pass|10:conj|22:conj	SpaceAfter=No
+25	.	.	PUNCT	zs	_	8	punct	8:punct	_
+
+# sent_id = a-p1948_r4-p1s2
+# text = Turklāt policija norāda, ka, turpinot pieaugt administratīvi arestēto skaitam, jārēķinās ar papildu izmaksām prasībām atbilstošu telpu izbūvei vai remontam.
+1	Turklāt	turklāt	SCONJ	cs	_	3	mark	3:mark	_
+2	policija	policija	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	_
+3	norāda	norādīt	VERB	vmnipt330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	zc	_	13	punct	13:punct	_
+5	ka	ka	SCONJ	cs	_	13	mark	13:mark	SpaceAfter=No
+6	,	,	PUNCT	zc	_	7	punct	7:punct	_
+7	turpinot	turpināt	VERB	vpnpu0000000	VerbForm=Conv	13	advcl	13:advcl	_
+8	pieaugt	pieaugt	VERB	vmnipi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	xcomp	7:xcomp	_
+9	administratīvi	administratīvi	ADV	r0m	_	11	advmod	11:advmod	_
+10	arestēto	arestēt	VERB	vmnpdmpgpsyp	Aspect=Perf|Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	amod	11:amod	_
+11	skaitam	skaits	NOUN	ncmsd1	Case=Dat|Gender=Masc|Number=Sing	7	dep	7:dep|8:dep	SpaceAfter=No
+12	,	,	PUNCT	zc	_	7	punct	7:punct	_
+13	jārēķinās	rēķināties	VERB	vmyd0i300an	Mood=Nec|Polarity=Pos|Reflex=Yes|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	_
+14	ar	ar	ADP	spsa	_	16	case	16:case	_
+15	papildu	papildu	ADV	r0m	_	16	advmod	16:advmod	_
+16	izmaksām	izmaksa	NOUN	ncfpd4	Case=Dat|Gender=Fem|Number=Plur	13	iobj	13:iobj	_
+17	prasībām	prasība	NOUN	ncfpd4	Case=Dat|Gender=Fem|Number=Plur	18	iobj	18:iobj	_
+18	atbilstošu	atbilst	VERB	vmnpdmsaapnp	Aspect=Imp|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	19	amod	19:amod	_
+19	telpu	telpa	NOUN	ncfpg4	Case=Gen|Gender=Fem|Number=Plur	20	nmod	20:nmod:gen	_
+20	izbūvei	izbūve	NOUN	ncfsd5	Case=Dat|Gender=Fem|Number=Sing	16	nmod	16:nmod:dat	_
+21	vai	vai	CCONJ	cc	_	22	cc	22:cc	_
+22	remontam	remonts	NOUN	ncmsd1	Case=Dat|Gender=Masc|Number=Sing	20	conj	16:nmod:dat|20:conj	SpaceAfter=No
+23	.	.	PUNCT	zs	_	3	punct	3:punct	_
+
+# sent_id = a-p1948_r4-p1s3
+# text = Policijas teritoriālajās iestādēs rajonos šīs īslaicīgās aizturēšanas telpas daudzviet ir sliktā stāvoklī, taču nauda remontam nav pieejama, līdz ar to aizturētie vēlāk sūdzas tiesībsargiem par turēšanu nepiemērotos apstākļos vai pat par morālo kaitējumu.
+1	Policijas	policija	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	3	nmod	3:nmod:gen	_
+2	teritoriālajās	teritoriāla	ADJ	arfplyp	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	3	amod	3:amod	_
+3	iestādēs	iestāde	NOUN	ncfpl5	Case=Loc|Gender=Fem|Number=Plur	10	obl	10:obl:loc	_
+4	rajonos	rajons	NOUN	ncmpl1	Case=Loc|Gender=Masc|Number=Plur	3	acl	3:acl:loc	_
+5	šīs	šī	DET	pd0fpan	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	8	det	8:det	_
+6	īslaicīgās	īslaicīga	ADJ	arfsgyp	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	7:amod	_
+7	aizturēšanas	aizturēšana	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	8	nmod	8:nmod:gen	_
+8	telpas	telpa	NOUN	ncfpn4	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	10:nsubj	_
+9	daudzviet	daudzviet	ADV	r0p	_	10	advmod	10:advmod	_
+10	ir	būt	VERB	vmnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+11	sliktā	slikts	ADJ	afmslnp	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	12:amod	_
+12	stāvoklī	stāvoklis	NOUN	ncmsl2	Case=Loc|Gender=Masc|Number=Sing	10	obl	10:obl:loc	SpaceAfter=No
+13	,	,	PUNCT	zc	_	18	punct	18:punct	_
+14	taču	taču	CCONJ	cc	_	18	cc	18:cc	_
+15	nauda	nauda	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	18:nsubj	_
+16	remontam	remonts	NOUN	ncmsd1	Case=Dat|Gender=Masc|Number=Sing	15	nmod	15:nmod:dat	_
+17	nav	nebūt	VERB	vcnipii30ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	18:aux	_
+18	pieejama	pieejama	VERB	vmnpdfsnppnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	10	conj	10:conj	SpaceAfter=No
+19	,	,	PUNCT	zc	_	25	punct	25:punct	_
+20	līdz	līdz	ADV	r0p	_	25	advmod	25:advmod	_
+21	ar	ar	ADP	spsa	_	22	case	22:case	_
+22	to	tas	PRON	pd0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	20	iobj	20:iobj	_
+23	aizturētie	aizturēt	VERB	vmnpdmpnpsyp	Aspect=Perf|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	25	nsubj	25:nsubj	_
+24	vēlāk	vēlu	ADV	rct	Degree=Cmp	25	advmod	25:advmod	_
+25	sūdzas	sūdzēties	VERB	vmyipi330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	10:conj	_
+26	tiesībsargiem	tiesībsargs	NOUN	ncmpd1	Case=Dat|Gender=Masc|Number=Plur	25	iobj	25:iobj	_
+27	par	par	ADP	spsa	_	28	case	28:case	_
+28	turēšanu	turēšana	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	25	iobj	25:iobj	_
+29	nepiemērotos	nepiemēroties	VERB	vmyc0i200ay	Mood=Cnd|Polarity=Neg|Reflex=Yes|VerbForm=Fin|Voice=Act	30	dep	30:dep	_
+30	apstākļos	apstāklis	NOUN	ncmpl2	Case=Loc|Gender=Masc|Number=Plur	28	obl	28:obl:loc	_
+31	vai	vai	CCONJ	cc	_	35	cc	35:cc	_
+32	pat	pat	PART	q	_	35	discourse	35:discourse	_
+33	par	par	ADP	spsa	_	35	case	35:case	_
+34	morālo	morāls	ADJ	armsayp	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	35:amod	_
+35	kaitējumu	kaitējums	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	28	conj	25:iobj|28:conj	SpaceAfter=No
+36	.	.	PUNCT	zs	_	10	punct	10:punct	_
+
 # newDoc id = p214_r44
 # newpar id = p214_r44-p1
 # sent_id = a-p214_r44-p1s1
@@ -10741,6 +10836,38 @@
 19	uzbūvi	uzbūve	NOUN	ncfsa5	Case=Acc|Gender=Fem|Number=Sing	15	obj	15:obj	SpaceAfter=No
 20	.	.	PUNCT	zs	_	4	punct	4:punct	_
 
+# newDoc id = p2516_r1
+# newpar id = p2516_r1-p1
+# sent_id = a-p2516_r1-p1s1
+# text = 49 zivis tika ievietotas nelielā akvārijā un paceltas gaisā lidmašīnā, kas vēlāk strauji laidās lejā, tā imitējot bezsvara stāvokli, ko astronauti piedzīvo kosmosā.
+1	49	49	NUM	xn	NumType=Card	2	nummod	2:nummod	_
+2	zivis	zivs	NOUN	ncfpn6	Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	4:nsubj:pass|8:nsubj:pass	_
+3	tika	tikt	VERB	vtnisi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	4:aux|8:aux	_
+4	ievietotas	ievietot	VERB	vmnpdfpnpsnp	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	_
+5	nelielā	neliels	ADJ	armslnp	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	6:amod	_
+6	akvārijā	akvārijs	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	4	obl	4:obl:loc	_
+7	un	un	CCONJ	cc	_	8	cc	8:cc	_
+8	paceltas	pacelt	VERB	vmnpdfpnpsnp	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	conj	4:conj	_
+9	gaisā	gaiss	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	8	obl	8:obl:loc	_
+10	lidmašīnā	lidmašīna	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	8	obl	8:obl:loc	SpaceAfter=No
+11	,	,	PUNCT	zc	_	15	punct	15:punct	_
+12	kas	kas	PRON	pr000nn	Case=Nom|PronType=Rel	15	nsubj	15:nsubj	_
+13	vēlāk	vēlu	ADV	rct	Degree=Cmp	15	advmod	15:advmod	_
+14	strauji	strauji	ADV	rpm	Degree=Pos	15	advmod	15:advmod	_
+15	laidās	laisties	VERB	vmyisi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	10	acl	10:acl	_
+16	lejā	lejā	ADV	r0p	_	15	advmod	15:advmod	SpaceAfter=No
+17	,	,	PUNCT	zc	_	19	punct	19:punct	_
+18	tā	tā	ADV	r0m	PronType=Dem	19	advmod	19:advmod	_
+19	imitējot	imitēt	VERB	vmnpu0000000	VerbForm=Conv	15	advcl	15:advcl	_
+20	bezsvara	bezsvara	NOUN	ncmsgg	Case=Gen|Gender=Masc|Number=Sing	21	nmod	21:nmod:gen	_
+21	stāvokli	stāvoklis	NOUN	ncmsa2	Case=Acc|Gender=Masc|Number=Sing	19	obj	19:obj	SpaceAfter=No
+22	,	,	PUNCT	zc	_	25	punct	25:punct	_
+23	ko	kas	PRON	pr000an	Case=Acc|PronType=Rel	25	obj	25:obj	_
+24	astronauti	astronauts	PROPN	npmpn1	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	25:nsubj	_
+25	piedzīvo	piedzīvot	VERB	vmnipt230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl	21:acl	_
+26	kosmosā	kosmoss	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	25	obl	25:obl:loc	SpaceAfter=No
+27	.	.	PUNCT	zs	_	4	punct	4:punct	_
+
 # newDoc id = p2743_r6
 # newpar id = p2743_r6-p1
 # sent_id = a-p2743_r6-p1s1
@@ -10831,6 +10958,134 @@
 3	šis	šis	DET	pd0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	4:det	_
 4	raksts	raksts	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	SpaceAfter=No
 5	.	.	PUNCT	zs	_	2	punct	2:punct	_
+
+# newDoc id = p2899_r3
+# newpar id = p2899_r3-p1
+# sent_id = a-p2899_r3-p1s1
+# text = Ņemot vērā to, ka Latvijā uzņēmēju starpā valda liela konkurence, ir pavērtas iespējas negodīgā veidā izrēķināties ar saviem konkurentiem, iesniedzot nepamatotu prasību tiesā un tādējādi iznīcinot savus konkurentus.
+1	Ņemot	ņemt	VERB	vmnpu0000000	VerbForm=Conv	14	advcl	14:advcl	_
+2	vērā	vērā	ADV	r0m	_	1	advmod	1:advmod	_
+3	to	tas	PRON	pd0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	1	obj	1:obj	SpaceAfter=No
+4	,	,	PUNCT	zc	_	9	punct	9:punct	_
+5	ka	ka	SCONJ	cs	_	9	mark	9:mark	_
+6	Latvijā	Latvija	PROPN	npfsl4	Case=Loc|Gender=Fem|Number=Sing	9	obl	9:obl:loc	_
+7	uzņēmēju	uzņēmējs	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	8	nmod	8:nmod:acc	_
+8	starpā	starpa	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	9	obl	9:obl:loc	_
+9	valda	valdīt	VERB	vmnipt330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	_
+10	liela	liela	ADJ	affsnnp	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	11:amod	_
+11	konkurence	konkurence	NOUN	ncfsn5	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	9:nsubj	SpaceAfter=No
+12	,	,	PUNCT	zc	_	9	punct	9:punct	_
+13	ir	būt	VERB	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
+14	pavērtas	pavērt	VERB	vmnpdfpnpsnp	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	_
+15	iespējas	iespēja	NOUN	ncfpn4	Case=Nom|Gender=Fem|Number=Plur	14	nsubj:pass	14:nsubj:pass	_
+16	negodīgā	negodīgs	ADJ	afmslnp	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	17:amod	_
+17	veidā	veids	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	15	obl	15:obl:loc	_
+18	izrēķināties	izrēķināties	VERB	vmyn0i3000n	Polarity=Pos|Reflex=Yes|VerbForm=Inf	15	acl	15:acl	_
+19	ar	ar	ADP	sppd	_	21	case	21:case	_
+20	saviem	savs	DET	ps0mpdn	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	21	det	21:det	_
+21	konkurentiem	konkurents	NOUN	ncmpd1	Case=Dat|Gender=Masc|Number=Plur	18	iobj	18:iobj	SpaceAfter=No
+22	,	,	PUNCT	zc	_	23	punct	23:punct	_
+23	iesniedzot	iesniegt	VERB	vmnpu0000000	VerbForm=Conv	18	advcl	18:advcl	_
+24	nepamatotu	nepamatot	VERB	vmnpdfpgpsnp	Aspect=Perf|Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	25	amod	25:amod	_
+25	prasību	prasība	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	23	obj	23:obj	_
+26	tiesā	tiesa	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	23	acl	23:acl:loc	_
+27	un	un	CCONJ	cc	_	29	cc	29:cc	_
+28	tādējādi	tādējādi	ADV	r0m	_	29	advmod	29:advmod	_
+29	iznīcinot	iznīcināt	VERB	vmnpu0000000	VerbForm=Conv	23	conj	18:advcl|23:conj	_
+30	savus	savs	DET	ps0mpan	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	31	det	31:det	_
+31	konkurentus	konkurents	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	29	obj	29:obj	SpaceAfter=No
+32	.	.	PUNCT	zs	_	14	punct	14:punct	_
+
+# sent_id = a-p2899_r3-p1s2
+# text = Latvijas tiesas ir pārslogotas, un lietu izskatīšana velkas vairāku gadu garumā.
+1	Latvijas	Latvija	PROPN	npfsg4	Case=Gen|Gender=Fem|Number=Sing	2	nmod	2:nmod:gen	_
+2	tiesas	tiesa	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	4	nsubj:pass	4:nsubj:pass	_
+3	ir	būt	VERB	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+4	pārslogotas	pārslogot	VERB	vmnpdfpnpsnp	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	zc	_	9	punct	9:punct	_
+6	un	un	CCONJ	cc	_	9	cc	9:cc	_
+7	lietu	lieta	NOUN	ncfpg4	Case=Gen|Gender=Fem|Number=Plur	8	nmod	8:nmod:gen	_
+8	izskatīšana	izskatīšana	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	9:nsubj	_
+9	velkas	vilkties	VERB	vmyipi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj	_
+10	vairāku	vairāki	DET	pi0mpgn	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	11	det	11:det	_
+11	gadu	gads	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	12	nmod	12:nmod:gen	_
+12	garumā	garums	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	9	obl	9:obl:loc	SpaceAfter=No
+13	.	.	PUNCT	zs	_	4	punct	4:punct	_
+
+# sent_id = a-p2899_r3-p1s3
+# text = Visu šo laiku, ja vien prasītājs nav godprātīgs, spēkā ir prasības nodrošinājums, kas bieži vien pārsniedz uzņēmumam pieejamo naudas līdzekļu daudzumu, kā arī tā kustamās un nekustamās mantas vērtību, uzņēmuma darbība tiek paralizēta, jo tam nav pieejas savai naudai un mantai.
+1	Visu	viss	DET	pg0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	3	det	3:det	_
+2	šo	šis	DET	pd0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	3:det	_
+3	laiku	laiks	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	11	obl	11:obl:acc	SpaceAfter=No
+4	,	,	PUNCT	zc	_	9	punct	9:punct	_
+5	ja	ja	SCONJ	cs	_	9	mark	9:mark	_
+6	vien	vien	PART	q	_	9	discourse	9:discourse	_
+7	prasītājs	prasītājs	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	9:nsubj	_
+8	nav	nebūt	VERB	vcnipii30ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+9	godprātīgs	godprātīgs	ADJ	afmsnnp	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	advcl	11:advcl	SpaceAfter=No
+10	,	,	PUNCT	zc	_	9	punct	9:punct	_
+11	spēkā	spēks	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	0	root	0:root	_
+12	ir	būt	VERB	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
+13	prasības	prasība	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	14	nmod	14:nmod:gen	_
+14	nodrošinājums	nodrošinājums	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	11:nsubj	SpaceAfter=No
+15	,	,	PUNCT	zc	_	19	punct	19:punct	_
+16	kas	kas	PRON	pr000nn	Case=Nom|PronType=Rel	19	nsubj	19:nsubj	_
+17	bieži	bieži	ADV	r0q	_	19	advmod	19:advmod	_
+18	vien	vien	PART	q	_	19	discourse	19:discourse	_
+19	pārsniedz	pārsniegt	VERB	vmnipt130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl	14:acl	_
+20	uzņēmumam	uzņēmums	NOUN	ncmsd1	Case=Dat|Gender=Masc|Number=Sing	21	nmod	21:nmod:dat	_
+21	pieejamo	pieejams	ADJ	afmpgyp	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	23	amod	23:amod	_
+22	naudas	nauda	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	23	nmod	23:nmod:gen	_
+23	līdzekļu	līdzeklis	NOUN	ncmpg2	Case=Gen|Gender=Masc|Number=Plur	24	nmod	24:nmod:gen	_
+24	daudzumu	daudzums	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	19	obj	19:obj	SpaceAfter=No
+25	,	,	PUNCT	zc	_	19	punct	19:punct	_
+26	kā	kā	SCONJ	cs	_	33	cc	33:cc	_
+27	arī	arī	PART	q	_	26	discourse	26:discourse	_
+28	tā	tā	ADV	r0m	PronType=Dem	32	advmod	32:advmod	_
+29	kustamās	kustama	ADJ	affsgyp	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	32:amod	_
+30	un	un	CCONJ	cc	_	31	cc	31:cc	_
+31	nekustamās	nekustama	ADJ	affsgyp	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	conj	29:conj|32:amod	_
+32	mantas	manta	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	33	nmod	33:nmod:gen	_
+33	vērtību	vērtība	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	24	conj	19:obj|24:conj	SpaceAfter=No
+34	,	,	PUNCT	zc	_	38	punct	38:punct	_
+35	uzņēmuma	uzņēmums	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	36	nmod	36:nmod:gen	_
+36	darbība	darbība	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	38	nsubj:pass	38:nsubj:pass	_
+37	tiek	tikt	VERB	vtnipi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	38	aux	38:aux	_
+38	paralizēta	paralizēt	VERB	vmnpdfsnpsnp	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	conj	11:conj	SpaceAfter=No
+39	,	,	PUNCT	zc	_	42	punct	42:punct	_
+40	jo	jo	SCONJ	cs	_	42	mark	42:mark	_
+41	tam	tas	PRON	pd0msdn	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	42	obl	42:obl:dat	_
+42	nav	nebūt	VERB	vmnipii30ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	38	advcl	38:advcl	_
+43	pieejas	pieeja	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	42	nsubj	42:nsubj	_
+44	savai	sava	DET	ps0fsdn	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	45	det	45:det|47:det	_
+45	naudai	nauda	NOUN	ncfsd4	Case=Dat|Gender=Fem|Number=Sing	43	acl	43:acl:dat	_
+46	un	un	CCONJ	cc	_	47	cc	47:cc	_
+47	mantai	manta	NOUN	ncfsd4	Case=Dat|Gender=Fem|Number=Sing	45	conj	43:acl:dat|45:conj	SpaceAfter=No
+48	.	.	PUNCT	zs	_	11	punct	11:punct	_
+
+# sent_id = a-p2899_r3-p1s4
+# text = Jebkuru spriedumu, protams, ir iespējams pārsūdzēt apelācijas kārtībā un kasācijas kārtībā, bet tas aizņem ne mazums laika.
+1	Jebkuru	jebkurš	DET	pi0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	2	det	2:det	_
+2	spriedumu	spriedums	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	8	obj	8:obj	SpaceAfter=No
+3	,	,	PUNCT	zc	_	4	punct	4:punct	_
+4	protams	protams	PART	q	_	7	discourse	7:discourse	SpaceAfter=No
+5	,	,	PUNCT	zc	_	4	punct	4:punct	_
+6	ir	būt	VERB	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
+7	iespējams	iespējams	ADJ	armsnnp	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	0:root	_
+8	pārsūdzēt	pārsūdzēt	VERB	vmnn0t3000n	Polarity=Pos|VerbForm=Inf	7	ccomp	7:ccomp	_
+9	apelācijas	apelācija	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	10	nmod	10:nmod:gen	_
+10	kārtībā	kārtība	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	8	obl	8:obl:loc	_
+11	un	un	CCONJ	cc	_	12	cc	12:cc	_
+12	kasācijas	kasācija	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	10	conj	8:obl:gen|10:conj	_
+13	kārtībā	kārtība	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	12	acl	12:acl	SpaceAfter=No
+14	,	,	PUNCT	zc	_	17	punct	17:punct	_
+15	bet	bet	CCONJ	cc	_	17	cc	17:cc	_
+16	tas	tas	PRON	pd0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	17	nsubj	17:nsubj	_
+17	aizņem	aizņemt	VERB	vmnipt130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	7:conj	_
+18	ne	ne	PART	q	_	19	discourse	19:discourse	_
+19	mazums	mazums	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	17	obl	17:obl:nom	_
+20	laika	laiks	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	19	obl	19:obl:gen	SpaceAfter=No
+21	.	.	PUNCT	zs	_	7	punct	7:punct	_
 
 # newDoc id = p2955_r1
 # newpar id = p2955_r1-p1

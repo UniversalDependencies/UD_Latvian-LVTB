@@ -1,4 +1,4 @@
-# newDoc id = c1_r15
+# newdoc id = c1_r15
 # newpar id = c1_r15-p1
 # sent_id = a-c1_r15-p1s1
 # text = Lai arī viņš tiešām piedzīvoja traģisku galu un viņš savas gleznas nevarēja pārdot, ir jāatzīmē, ka lielāku savas dzīves daļu viņš pavadīja kā mākslas skolotājs un gleznu tirgotājs.
@@ -90,7 +90,7 @@
 10	padomāt	padomāt	VERB	vmnn0t2000n	Polarity=Pos|VerbForm=Inf	9	xcomp	9:xcomp	SpaceAfter=No
 11	.	.	PUNCT	zs	_	1	punct	1:punct	_
 
-# newDoc id = c1_r19
+# newdoc id = c1_r19
 # newpar id = c1_r19-p1
 # sent_id = a-c1_r19-p1s1
 # text = Lielā harta ir zināma kā Anglijas vēstures robežlīnija, kurā tika ierobežotas Anglijas karaļa tiesības, liekot pamatus demokrātiskam valsts pārvaldes modelim.
@@ -187,7 +187,7 @@
 2	nevajag	nevajadzēt	VERB	vmnipt330ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	1:xcomp	SpaceAfter=No
 3	.	.	PUNCT	zs	_	1	punct	1:punct	_
 
-# newDoc id = d115_r11
+# newdoc id = d115_r11
 # newpar id = d115_r11-p1
 # sent_id = a-d115_r11-p1s1
 # text = Nopērku motorolleru.
@@ -251,7 +251,7 @@
 9	šķērskoka	šķērskoks	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	4	obl	4:obl:no	SpaceAfter=No
 10	.	.	PUNCT	zs	_	1	punct	1:punct	_
 
-# newDoc id = d115_r115
+# newdoc id = d115_r115
 # newpar id = d115_r115-p1
 # sent_id = a-d115_r115-p1s1
 # text = Ērikam izklausījās, ka mācītājs sarunājas pats ar sevi un tikai viņam pašam saprotamā valodā.
@@ -288,7 +288,7 @@
 11	sev	sevis	PRON	px000dn	Case=Dat|PronType=Rcp|Reflex=Yes	9	iobj	9:iobj	SpaceAfter=No
 12	.	.	PUNCT	zs	_	4	punct	4:punct	_
 
-# newDoc id = d115_r33
+# newdoc id = d115_r33
 # newpar id = d115_r33-p1
 # sent_id = a-d115_r33-p1s1
 # text = Aizeju uz kino kaut kur nomalē.
@@ -474,7 +474,7 @@
 13	kājām	kāja	NOUN	ncfpd4	Case=Dat|Gender=Fem|Number=Plur	9	obl	9:obl:uz	SpaceAfter=No
 14	.	.	PUNCT	zs	_	6	punct	6:punct	_
 
-# newDoc id = d115_r42
+# newdoc id = d115_r42
 # newpar id = d115_r42-p1
 # sent_id = a-d115_r42-p1s1
 # text = Sēžu ar māti konservatorijas zālē, notiek izlaidums.
@@ -611,7 +611,7 @@
 4	diena	diena	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	1:nsubj	SpaceAfter=No
 5	.	.	PUNCT	zs	_	1	punct	1:punct	_
 
-# newDoc id = d115_r45
+# newdoc id = d115_r45
 # newpar id = d115_r45-p1
 # sent_id = a-d115_r45-p1s1
 # text = Grupas biedri aplūko fotogrāfijas no ekskursijas.
@@ -671,7 +671,7 @@
 4	mēlēm	mēle	NOUN	ncfpd5	Case=Dat|Gender=Fem|Number=Plur	2	iobj	2:iobj	SpaceAfter=No
 5	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = d131_r195
+# newdoc id = d131_r195
 # newpar id = d131_r195-p1
 # sent_id = a-d131_r195-p1s1
 # text = Pēc koncerta visi trijatā brauca uz Valsts Mākslas muzeju, kur pēdējo dienu notika Kubisma izstāde.
@@ -738,7 +738,7 @@
 26	īpatnības	īpatnība	NOUN	ncfpa4	Case=Acc|Gender=Fem|Number=Plur	19	conj	18:obj|19:conj	SpaceAfter=No
 27	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = d131_r26
+# newdoc id = d131_r26
 # newpar id = d131_r26-p1
 # sent_id = a-d131_r26-p1s1
 # text = Morics mēģināja atcerēties pēdējos notikumus.
@@ -788,7 +788,7 @@
 23	diennaktis	diennakts	NOUN	ncfpa6	Case=Acc|Gender=Fem|Number=Plur	20	obl	20:obl:acc	SpaceAfter=No
 24	.	.	PUNCT	zs	_	8	punct	8:punct	_
 
-# newDoc id = d144_r1006
+# newdoc id = d144_r1006
 # newpar id = d144_r1006-p1
 # sent_id = a-d144_r1006-p1s1
 # text = Jau karbonādi cep.
@@ -804,7 +804,7 @@
 3	šoferim	šoferis	NOUN	ncmsd2	Case=Dat|Gender=Masc|Number=Sing	2	iobj	2:iobj	SpaceAfter=No
 4	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = d144_r172
+# newdoc id = d144_r172
 # newpar id = d144_r172-p1
 # sent_id = a-d144_r172-p1s1
 # text = Tēvs allaž cēlās mazā gaismiņā.
@@ -870,7 +870,7 @@
 9	tekstus	teksts	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	6	obj	6:obj	SpaceAfter=No
 10	.	.	PUNCT	zs	_	4	punct	4.1:punct	_
 
-# newDoc id = d144_r197
+# newdoc id = d144_r197
 # newpar id = d144_r197-p1
 # sent_id = a-d144_r197-p1s1
 # text = Tie visi apklusa, apsēdās.
@@ -906,7 +906,7 @@
 21	nažus	nazis	NOUN	ncmpa2	Case=Acc|Gender=Masc|Number=Plur	20	obj	20:obj	SpaceAfter=No
 22	.	.	PUNCT	zs	_	3	punct	3:punct	_
 
-# newDoc id = d144_r258
+# newdoc id = d144_r258
 # newpar id = d144_r258-p1
 # sent_id = a-d144_r258-p1s1
 # text = Iebāzām viņu sienas skapī pie slotām.
@@ -967,7 +967,7 @@
 8	aizlidoja	aizlidot	VERB	vmnisi230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	5:conj	SpaceAfter=No
 9	.	.	PUNCT	zs	_	5	punct	5:punct	_
 
-# newDoc id = d144_r5
+# newdoc id = d144_r5
 # newpar id = d144_r5-p1
 # sent_id = a-d144_r5-p1s1
 # text = Ik mirkli es zaudēju milzīgu daudzumu enerģijas un siltuma.
@@ -996,7 +996,7 @@
 10	mani	es	PRON	pp10san	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	acl	8:acl:acc	SpaceAfter=No
 11	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = d195
+# newdoc id = d195
 # newpar id = d195-p1
 # sent_id = a-d195-p1s1
 # text = Andra Neiburga
@@ -1165,7 +1165,7 @@
 2	pietiks	pietikt	VERB	vmnifi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 3	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = d21
+# newdoc id = d21
 # newpar id = d21-p1
 # sent_id = a-d21-p1s1
 # text = Pauls Bankovskis
@@ -2897,7 +2897,7 @@
 17	putni	putns	NOUN	ncmpn1	Case=Nom|Gender=Masc|Number=Plur	9	acl	9:acl	SpaceAfter=No
 18	?	?	PUNCT	zs	_	4	punct	4:punct	_
 
-# newDoc id = d60
+# newdoc id = d60
 # newpar id = d60-p1
 # sent_id = a-d60-p1s1
 # text = Stum, stum
@@ -9195,7 +9195,7 @@
 4	malku	malka	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	2	iobj	2:iobj	SpaceAfter=No
 5	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = d84_r119
+# newdoc id = d84_r119
 # newpar id = d84_r119-p1
 # sent_id = a-d84_r119-p1s1
 # text = Tēvs pēkšņi pamodās no sava vientuļā snauda, ieraudzīja Ievu un nopriecājās.
@@ -9231,7 +9231,7 @@
 14	ārpusē	ārpuse	NOUN	ncfsl5	Case=Loc|Gender=Fem|Number=Sing	11	obl	11:obl:loc	SpaceAfter=No
 15	.	.	PUNCT	zs	_	3	punct	3:punct	_
 
-# newDoc id = d84_r128
+# newdoc id = d84_r128
 # newpar id = d84_r128-p1
 # sent_id = a-d84_r128-p1s1
 # text = Tēvs kādu brīdi apsvēra Ievas teikto un pēc tam tālu atliecās atpakaļ, skatīdamies uz viņu augstprātīgi un mazliet tāds kā vīlies, kā caur lupu.
@@ -9306,7 +9306,7 @@
 39	vaibstus	vaibsts	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	37	obj	37:obj	SpaceAfter=No
 40	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = d84_r187
+# newdoc id = d84_r187
 # newpar id = d84_r187-p1
 # sent_id = a-d84_r187-p1s1
 # text = - Kā nu nesiesi, - Māte saka.
@@ -9338,7 +9338,7 @@
 14	suniņu	suniņš	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	12	obj	12:obj	SpaceAfter=No
 15	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = d84_r207
+# newdoc id = d84_r207
 # newpar id = d84_r207-p1
 # sent_id = a-d84_r207-p1s1
 # text = Vējš dejo, un dejo uguns.
@@ -9472,7 +9472,7 @@
 8	muguras	mugura	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	5	obl	5:obl:aiz	SpaceAfter=No
 9	.	.	PUNCT	zs	_	5	punct	5:punct	_
 
-# newDoc id = d84_r220
+# newdoc id = d84_r220
 # newpar id = d84_r220-p1
 # sent_id = a-d84_r220-p1s1
 # text = Spēka nav, sejas nokvēpušas, Ievai šķiet, ka viņa šūpodamās grimst zilganā dzelmē, melnā, kailā straumē.
@@ -9549,7 +9549,7 @@
 47	atpakaļ	atpakaļ	ADV	r0p	_	46	advmod	46:advmod	SpaceAfter=No
 48	...	...	PUNCT	zs	_	6	punct	6:punct	_
 
-# newDoc id = d84_r224
+# newdoc id = d84_r224
 # newpar id = d84_r224-p1
 # sent_id = a-d84_r224-p1s1
 # text = Viņa izskrien cauri ugunij, skrien pa lauku, kājas pinas zālē, sirds dauzās kaklā.
@@ -9571,7 +9571,7 @@
 16	kaklā	kakls	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	15	obl	15:obl:loc	SpaceAfter=No
 17	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = d84_r260
+# newdoc id = d84_r260
 # newpar id = d84_r260-p1
 # sent_id = a-d84_r260-p1s1
 # text = Tepat taču stāv ugunsdzēsēju mašīna, patiesi!
@@ -9618,7 +9618,7 @@
 19	pusi	puse	NOUN	ncfsa5	Case=Acc|Gender=Fem|Number=Sing	16	obl	16:obl:uz	SpaceAfter=No
 20	?	?	PUNCT	zs	_	5	punct	5:punct	_
 
-# newDoc id = d84_r91
+# newdoc id = d84_r91
 # newpar id = d84_r91-p1
 # sent_id = a-d84_r91-p1s1
 # text = Trīs govis ir apteļojušās un jāslauc arī pusdienā, teica Māte, kad viņas iegāja garajā, krēslas pilnajā stallī.
@@ -9707,7 +9707,7 @@
 7	klusa	klusa	ADJ	affsnnp	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	conj	3:acl:nom|5:conj	SpaceAfter=No
 8	.	.	PUNCT	zs	_	3	punct	3:punct	_
 
-# newDoc id = n52_r92
+# newdoc id = n52_r92
 # newpar id = n52_r92-p1
 # sent_id = a-n52_r92-p1s1
 # text = Informācija par zinātniskajiem pētījumiem, kas finansēti no valsts vai pašvaldības budžeta, ir atklāta.
@@ -9746,7 +9746,7 @@
 14	ierobežot	ierobežot	VERB	vmnn0t2000n	Polarity=Pos|VerbForm=Inf	13	xcomp	13:xcomp	SpaceAfter=No
 15	.	.	PUNCT	zs	_	13	punct	13:punct	_
 
-# newDoc id = p1176_r4
+# newdoc id = p1176_r4
 # newpar id = p1176_r4-p1
 # sent_id = a-p1176_r4-p1s1
 # text = Andra un Laumas Paipu saimniecības siltumnīcās zaļo galviņkāpostu un ziedkāpostu dēsti, kurus pakāpeniski izstādīs zem plēves vai atklātā laukā, lai raža būtu vācama ilgākā laika posmā.
@@ -9884,7 +9884,7 @@
 7	skābenes	skābene	NOUN	ncfpn5	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	3:nsubj	SpaceAfter=No
 8	.	.	PUNCT	zs	_	3	punct	3:punct	_
 
-# newDoc id = p1178_r9
+# newdoc id = p1178_r9
 # newpar id = p1178_r9-p1
 # sent_id = a-p1178_r9-p1s1
 # text = V. Kadaģis spriež, ka darbu hallē varētu sākt ap Jāņiem.
@@ -9943,7 +9943,7 @@
 10	Kadaģis	Kadaģis	PROPN	npmsn2	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	9:flat:name	SpaceAfter=No
 11	.	.	PUNCT	zs	_	8	punct	8:punct	_
 
-# newDoc id = p1182_r12
+# newdoc id = p1182_r12
 # newpar id = p1182_r12-p1
 # sent_id = a-p1182_r12-p1s1
 # text = SIA “Elpa” vadītājs Gundars Sisenis pastāsta, ka par brīvajām veikala telpām viņam pateicis A. Paipa, aicinot kooperēties.
@@ -9983,7 +9983,7 @@
 9	dzīvoklī	dzīvoklis	NOUN	ncmsl2	Case=Loc|Gender=Masc|Number=Sing	3	acl	3:acl:loc	SpaceAfter=No
 10	.	.	PUNCT	zs	_	3	punct	3:punct	_
 
-# newDoc id = p1188_r2
+# newdoc id = p1188_r2
 # newpar id = p1188_r2-p1
 # sent_id = a-p1188_r2-p1s1
 # text = Pirmā uzstājās izglītības darbinieku vietējās arodorganizācijas līdere Irēna Opšteine.
@@ -10085,7 +10085,7 @@
 14	Opšteine	Opšteine	PROPN	npfsn5	Case=Nom|Gender=Fem|Number=Sing	13	flat:name	13:flat:name	SpaceAfter=No
 15	.	.	PUNCT	zs	_	12	punct	12:punct	_
 
-# newDoc id = p1203_r0
+# newdoc id = p1203_r0
 # newpar id = p1203_r0-p1
 # sent_id = a-p1203_r0-p1s1
 # text = Jaunieši arvien biežāk dodas uz ārzemēm, kur ne tikai apskata skaistākās vietas, bet pievērš vērību arī tam, kā klājas viņu vienaudžiem.
@@ -10181,7 +10181,7 @@
 12	slidotavām	slidotava	NOUN	ncfpd4	Case=Dat|Gender=Fem|Number=Plur	10	conj	6:iobj|10:conj	SpaceAfter=No
 13	.	.	PUNCT	zs	_	6	punct	6:punct	_
 
-# newDoc id = p1212_r1
+# newdoc id = p1212_r1
 # newpar id = p1212_r1-p1
 # sent_id = a-p1212_r1-p1s1
 # text = Liekas, līdz ar suni un citiem cilvēku mīluļiem šis izlēcējs iekļuvis mājdzīvnieka statusā jau pirmajās dienās pēc grēku plūdiem.
@@ -10241,7 +10241,7 @@
 30	vezumu	vezums	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	28	obj	28:obj	SpaceAfter=No
 31	.	.	PUNCT	zs	_	1	punct	1:punct	_
 
-# newDoc id = p1212_r6
+# newdoc id = p1212_r6
 # newpar id = p1212_r6-p1
 # sent_id = a-p1212_r6-p1s1
 # text = Literāts Arvīds Grigulis, stāstot par karu, reiz rakstīja, ka savu lodi nedzird.
@@ -10296,7 +10296,7 @@
 30	nedzird	nedzirdēt	VERB	vmnipt330ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	26	ccomp	26:ccomp	SpaceAfter=No
 31	.	.	PUNCT	zs	_	24	punct	24:punct	_
 
-# newDoc id = p1948_r4
+# newdoc id = p1948_r4
 # newpar id = p1948_r4-p1
 # sent_id = a-p1948_r4-p1s1
 # text = Šajā laikā par valsts budžeta līdzekļiem aizturētajiem nodrošināta gan ēdināšana, kas izmaksā vidēji 3,2 latus dienā, gan arī telpu dezinfekcija un uzturēšana.
@@ -10391,7 +10391,7 @@
 35	kaitējumu	kaitējums	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	28	conj	25:iobj|28:conj	SpaceAfter=No
 36	.	.	PUNCT	zs	_	10	punct	10:punct	_
 
-# newDoc id = p214_r44
+# newdoc id = p214_r44
 # newpar id = p214_r44-p1
 # sent_id = a-p214_r44-p1s1
 # text = Jā.
@@ -10584,7 +10584,7 @@
 3	nesaukšu	nesaukt	VERB	vmnift11say	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 4	.	.	PUNCT	zs	_	3	punct	3:punct	_
 
-# newDoc id = p2160_r2
+# newdoc id = p2160_r2
 # newpar id = p2160_r2-p1
 # sent_id = a-p2160_r2-p1s1
 # text = Tomēr tad uzdzīvotājam jau sekoja britu militārā policija.
@@ -10623,7 +10623,7 @@
 21	beigušās	beigties	VERB	vmypdfpnasnp	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur|Reflex=Yes|Tense=Past|VerbForm=Part	10	conj	10:conj	SpaceAfter=No
 22	.	.	PUNCT	zs	_	10	punct	10:punct	_
 
-# newDoc id = p216_r41
+# newdoc id = p216_r41
 # newpar id = p216_r41-p1
 # sent_id = a-p216_r41-p1s1
 # text = Latvijas politikā šobrīd diemžēl situācija ir tāda, ka, iekļūstot politiskajā elitē – parlamentā, deputāts aizmirst, no kuras vides viņš nācis, aizmirst tēvu un māti.
@@ -10836,7 +10836,7 @@
 19	uzbūvi	uzbūve	NOUN	ncfsa5	Case=Acc|Gender=Fem|Number=Sing	15	obj	15:obj	SpaceAfter=No
 20	.	.	PUNCT	zs	_	4	punct	4:punct	_
 
-# newDoc id = p2516_r1
+# newdoc id = p2516_r1
 # newpar id = p2516_r1-p1
 # sent_id = a-p2516_r1-p1s1
 # text = 49 zivis tika ievietotas nelielā akvārijā un paceltas gaisā lidmašīnā, kas vēlāk strauji laidās lejā, tā imitējot bezsvara stāvokli, ko astronauti piedzīvo kosmosā.
@@ -10868,7 +10868,7 @@
 26	kosmosā	kosmoss	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	25	obl	25:obl:loc	SpaceAfter=No
 27	.	.	PUNCT	zs	_	4	punct	4:punct	_
 
-# newDoc id = p2743_r6
+# newdoc id = p2743_r6
 # newpar id = p2743_r6-p1
 # sent_id = a-p2743_r6-p1s1
 # text = Ir saprotams, ka gadīties var visādi.
@@ -10935,7 +10935,7 @@
 20	piezīmes	piezīme	NOUN	ncfsg5	Case=Gen|Gender=Fem|Number=Sing	18	iobj	18:iobj	SpaceAfter=No
 21	?	?	PUNCT	zs	_	5	punct	5:punct	_
 
-# newDoc id = p2751_r5
+# newdoc id = p2751_r5
 # newpar id = p2751_r5-p1
 # sent_id = a-p2751_r5-p1s1
 # text = Šodien TVNETā atkal bija ziņa: cilvēki neiet pie ārstiem.
@@ -10959,7 +10959,7 @@
 4	raksts	raksts	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	SpaceAfter=No
 5	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = p2899_r3
+# newdoc id = p2899_r3
 # newpar id = p2899_r3-p1
 # sent_id = a-p2899_r3-p1s1
 # text = Ņemot vērā to, ka Latvijā uzņēmēju starpā valda liela konkurence, ir pavērtas iespējas negodīgā veidā izrēķināties ar saviem konkurentiem, iesniedzot nepamatotu prasību tiesā un tādējādi iznīcinot savus konkurentus.
@@ -11087,7 +11087,7 @@
 20	laika	laiks	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	19	obl	19:obl:gen	SpaceAfter=No
 21	.	.	PUNCT	zs	_	7	punct	7:punct	_
 
-# newDoc id = p2955_r1
+# newdoc id = p2955_r1
 # newpar id = p2955_r1-p1
 # sent_id = a-p2955_r1-p1s1
 # text = Mēs paši mēdzam ievērot, ka sadusmojamies par sīkumiem, ka lūpu uzmetam ilgāk nekā vajadzētu, ka nespējam pirmie spert soli pretī izlīgumam vai vienkārši sarunai, lai noskaidrotu, kā īsti ir, un tā plaisa attiecībās kļūst vēl lielāka.
@@ -11154,7 +11154,7 @@
 15	attiecības	attiecība	NOUN	ncfpa4	Case=Acc|Gender=Fem|Number=Plur	13	obj	13:obj	SpaceAfter=No
 16	.	.	PUNCT	zs	_	1	punct	1:punct	_
 
-# newDoc id = p2963_r9
+# newdoc id = p2963_r9
 # newpar id = p2963_r9-p1
 # sent_id = a-p2963_r9-p1s1
 # text = Ķiploki ir viens no visplašāk lietotajiem afrodīzijiem.
@@ -11194,7 +11194,7 @@
 7	asinsriti	asinsrite	NOUN	ncfsa5	Case=Acc|Gender=Fem|Number=Sing	5	conj	2:obj|5:conj	SpaceAfter=No
 8	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = p3316_r16
+# newdoc id = p3316_r16
 # newpar id = p3316_r16-p1
 # sent_id = a-p3316_r16-p1s1
 # text = Vispirms iepazīsti savu esošo domāšanas modeli un apgūsti mehānismu, kādam jābūt jaunajam domāšanas modelim.
@@ -11303,7 +11303,7 @@
 7	domāšanu	domāšana	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	6	obj	6:obj	SpaceAfter=No
 8	.	.	PUNCT	zs	_	4	punct	4:punct	_
 
-# newDoc id = p3323_r11
+# newdoc id = p3323_r11
 # newpar id = p3323_r11-p1
 # sent_id = a-p3323_r11-p1s1
 # text = Mēs regulāri satikāmies, Edgars pēc darba bieži ieradās manā mazajā vienistabas dzīvoklī, kurā es viņu allaž uzticīgi gaidīju.
@@ -11453,7 +11453,7 @@
 22	Edgars	Edgars	PROPN	npmsn1	Case=Nom|Gender=Masc|Number=Sing	15	csubj	15:csubj	SpaceAfter=No
 23	.	.	PUNCT	zs	_	7	punct	7:punct	_
 
-# newDoc id = p3325_r54
+# newdoc id = p3325_r54
 # newpar id = p3325_r54-p1
 # sent_id = a-p3325_r54-p1s1
 # text = Jūs teicāt, ka sākumā dēlu vedāt uz futbola treniņiem.
@@ -11469,7 +11469,7 @@
 10	treniņiem	treniņš	NOUN	ncmpd1	Case=Dat|Gender=Masc|Number=Plur	7	obl	7:obl:uz	SpaceAfter=No
 11	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = p3326_r11
+# newdoc id = p3326_r11
 # newpar id = p3326_r11-p1
 # sent_id = a-p3326_r11-p1s1
 # text = Kad sievietes kliedz, viņas ar savu kliegšanu grib panākt, lai beidzot būtu sadzirdētas.
@@ -11516,7 +11516,7 @@
 12	vienaldzīgs	vienaldzīgs	ADJ	afmsnnp	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	ccomp	3:ccomp	SpaceAfter=No
 13	.	.	PUNCT	zs	_	3	punct	3:punct	_
 
-# newDoc id = p3326_r12
+# newdoc id = p3326_r12
 # newpar id = p3326_r12-p1
 # sent_id = a-p3326_r12-p1s1
 # text = Bet mēdz pienākt brīdis, kad konfliktsituācija ir tik tālu samilzusi, ka sieviete pārstāj kliegt un sāk sevī klusi šņākt, viņa pauž zināmu vienaldzību pret to, kas agrāk viņu padarīja vai traku.
@@ -11581,7 +11581,7 @@
 20	nākotne	nākotne	NOUN	ncfsn5	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	18:nsubj	SpaceAfter=No
 21	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = p3383_r2
+# newdoc id = p3383_r2
 # newpar id = p3383_r2-p1
 # sent_id = a-p3383_r2-p1s1
 # text = Sevilja bija Spānijas lielākā ostas pilsēta, kurā ieradās tirdzniecības kuģi no tuvām un tālām zemēm.
@@ -11647,7 +11647,7 @@
 16	gājiens	gājiens	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	13:nsubj	SpaceAfter=No
 17	.	.	PUNCT	zs	_	8	punct	8:punct	_
 
-# newDoc id = p3383_r39
+# newdoc id = p3383_r39
 # newpar id = p3383_r39-p1
 # sent_id = a-p3383_r39-p1s1
 # text = Jaunais lielinkvizitors Torkvemada ienīda jūdus, lai gan klīda runas, ka viņa paša vecmāmiņa esot cēlusies no jūdiem.
@@ -11707,7 +11707,7 @@
 10	Spānijas	Spānija	PROPN	npfsg4	Case=Gen|Gender=Fem|Number=Sing	8	obl	8:obl:no	SpaceAfter=No
 11	.	.	PUNCT	zs	_	4	punct	4:punct	_
 
-# newDoc id = p3388_r61
+# newdoc id = p3388_r61
 # newpar id = p3388_r61-p1
 # sent_id = a-p3388_r61-p1s1
 # text = Kukuļus ņēma visi, kam nebija slinkums.
@@ -11784,7 +11784,7 @@
 19	politiķi	politiķis	NOUN	ncmpa2	Case=Acc|Gender=Masc|Number=Plur	15	conj	10:iobj|15:conj	SpaceAfter=No
 20	.	.	PUNCT	zs	_	9	punct	9:punct	_
 
-# newDoc id = p3389_r56
+# newdoc id = p3389_r56
 # newpar id = p3389_r56-p1
 # sent_id = a-p3389_r56-p1s1
 # text = Eiropā karš bija beidzies pirms dažiem mēnešiem.
@@ -11826,7 +11826,7 @@
 8	padoties	padoties	VERB	vmyn0i2000n	Polarity=Pos|Reflex=Yes|VerbForm=Inf	7	xcomp	7:xcomp	SpaceAfter=No
 9	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = p3389_r62
+# newdoc id = p3389_r62
 # newpar id = p3389_r62-p1
 # sent_id = a-p3389_r62-p1s1
 # text = Tūkstošiem japāņu gāja bojā nepilnu sekundi pēc tam, kad ieraudzīja sprādziena uzliesmojumu.
@@ -11845,7 +11845,7 @@
 13	uzliesmojumu	uzliesmojums	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	11	obj	11:obj	SpaceAfter=No
 14	.	.	PUNCT	zs	_	3	punct	3:punct	_
 
-# newDoc id = p3733
+# newdoc id = p3733
 # newpar id = p3733-p1
 # sent_id = a-p3733-p1s1
 # text = Rāviņš neizslēdz iespēju sodīt atbildīgos par pārkāpumiem Jelgavas pašvaldības aģentūrās
@@ -12104,7 +12104,7 @@
 25	latu	lats	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	23	nsubj	23:nsubj	SpaceAfter=No
 26	.	.	PUNCT	zs	_	4	punct	4:punct	_
 
-# newDoc id = p3738
+# newdoc id = p3738
 # newpar id = p3738-p1
 # sent_id = a-p3738-p1s1
 # text = Lipmans: Notiek sarunas par jaunas "Grindeks" rūpnīcas būvniecību Krievijā
@@ -12577,7 +12577,7 @@
 40	%	%	SYM	xx	_	35	conj	32:obl:par|35:conj	SpaceAfter=No
 41	.	.	PUNCT	zs	_	19	punct	19:punct	_
 
-# newDoc id = p3743
+# newdoc id = p3743
 # newpar id = p3743-p1
 # sent_id = a-p3743-p1s1
 # text = Dienas Bizness: Vidusāzija vilina, vien jāpaspēj būt starp pirmajiem
@@ -12699,7 +12699,7 @@
 30	jaudu	jauda	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	23	obj	23:obj	SpaceAfter=No
 31	.	.	PUNCT	zs	_	10	punct	10:punct	_
 
-# newDoc id = p3750
+# newdoc id = p3750
 # newpar id = p3750-p1
 # sent_id = a-p3750-p1s1
 # text = Dienas Bizness: Jāvētī atalgojuma sistēma un priekšstati
@@ -12863,7 +12863,7 @@
 41	izvairīties	izvairīties	VERB	vmyn0t3000n	Polarity=Pos|Reflex=Yes|VerbForm=Inf	40	ccomp	40:ccomp	SpaceAfter=No
 42	.	.	PUNCT	zs	_	12	punct	12:punct	_
 
-# newDoc id = p3751
+# newdoc id = p3751
 # newpar id = p3751-p1
 # sent_id = a-p3751-p1s1
 # text = Dienas Bizness: Arābiem atņem miljonus
@@ -13004,7 +13004,7 @@
 20	instrumentus	instruments	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	17	obj	17:obj	SpaceAfter=No
 21	.	.	PUNCT	zs	_	7	punct	7:punct	_
 
-# newDoc id = p3753
+# newdoc id = p3753
 # newpar id = p3753-p1
 # sent_id = a-p3753-p1s1
 # text = Ar "Lattelecom" mājas telefonu varēs zvanīt no visas pasaules
@@ -15993,7 +15993,7 @@
 28	programmā	programma	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	14	obl	14:obl:loc	SpaceAfter=No
 29	.	.	PUNCT	zs	_	14	punct	14:punct	_
 
-# newDoc id = p3756
+# newdoc id = p3756
 # newpar id = p3756-p1
 # sent_id = a-p3756-p1s1
 # text = Latvijas Avīze: Diezgan nesmuks dūrieniņš
@@ -16516,7 +16516,7 @@
 9	pasūtījis	pasūtīt	VERB	vmnpdmsnasnp	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
 10	?	?	PUNCT	zs	_	9	punct	9:punct	_
 
-# newDoc id = p3758
+# newdoc id = p3758
 # newpar id = p3758-p1
 # sent_id = a-p3758-p1s1
 # text = Prezentēs no stēvijas auga iegūtu saldinātāju
@@ -16746,7 +16746,7 @@
 13	/	/	PUNCT	zx	_	14	punct	14:punct	_
 14	29717121	29717121	NUM	xn	NumType=Card	12	conj	10:acl|12:conj	_
 
-# newDoc id = p3759
+# newdoc id = p3759
 # newpar id = p3759-p1
 # sent_id = a-p3759-p1s1
 # text = papildināta -"Imprimatur Capital Seed Fund" investē 200 000 eiro jaunā 3D lāzeru mērierīču tehnoloģiju uzņēmumā
@@ -17418,7 +17418,7 @@
 35	līdzekļiem	līdzeklis	NOUN	ncmpd2	Case=Dat|Gender=Masc|Number=Plur	28	obl	28:obl:no	SpaceAfter=No
 36	.	.	PUNCT	zs	_	10	punct	10:punct	_
 
-# newDoc id = p638_r15
+# newdoc id = p638_r15
 # newpar id = p638_r15-p1
 # sent_id = a-p638_r15-p1s1
 # text = Aizkraukliete Marina Siņavina šogad beidza mākslas skolu, un meitenes diplomdarbs bija ļoti neparasts.
@@ -17607,7 +17607,7 @@
 28	Marina	Marina	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	27	nsubj	27:nsubj	SpaceAfter=No
 29	.	.	PUNCT	zs	_	27	punct	27:punct	_
 
-# newDoc id = p640_r22
+# newdoc id = p640_r22
 # newpar id = p640_r22-p1
 # sent_id = a-p640_r22-p1s1
 # text = Neko nepanākuši, vecāki ar amatpersonām džipā sekoja autobusam līdz pagasta centram, kur braucējus gaidīja pārējie vecāki.
@@ -17631,7 +17631,7 @@
 18	vecāki	vecāki	NOUN	ncmdn1	Case=Nom|Gender=Masc|Number=Ptan	16	nsubj	16:nsubj	SpaceAfter=No
 19	.	.	PUNCT	zs	_	8	punct	8:punct	_
 
-# newDoc id = p641_r24
+# newdoc id = p641_r24
 # newpar id = p641_r24-p1
 # sent_id = a-p641_r24-p1s1
 # text = Kad pēc nepilnas stundas stāstījuma nelaimīgā pircēja aizgāja, ieradās policijas darbinieks Andersona kungs, kurš bija veikalā, kad pārmeklēja šo sievieti.
@@ -17755,7 +17755,7 @@
 18	pareizi	pareizi	ADJ	armpnyp	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	13	ccomp	13:ccomp	SpaceAfter=No
 19	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = p642_r30
+# newdoc id = p642_r30
 # newpar id = p642_r30-p1
 # sent_id = a-p642_r30-p1s1
 # text = Nopietnāk sākām trenēties augstskolā.
@@ -17800,7 +17800,7 @@
 9	bērnus	bērns	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	8	obj	8:obj	SpaceAfter=No
 10	.	.	PUNCT	zs	_	7	punct	7:punct	_
 
-# newDoc id = p651_r16
+# newdoc id = p651_r16
 # newpar id = p651_r16-p1
 # sent_id = a-p651_r16-p1s1
 # text = Notiekot demokrātiskajām pārmaiņām, vēsture pierādīja, ka līdzšinējā aizbildņu patvaļa neatbilda jaunāko laiku prasībām un morālām vērtībām.
@@ -17850,7 +17850,7 @@
 22	ievērošanu	ievērošana	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	16	obj	16:obj	SpaceAfter=No
 23	.	.	PUNCT	zs	_	5	punct	5:punct	_
 
-# newDoc id = p652_r10
+# newdoc id = p652_r10
 # newpar id = p652_r10-p1
 # sent_id = a-p652_r10-p1s1
 # text = Pēdējo dienu skolēni pavadīja Berlīnē.
@@ -17986,7 +17986,7 @@
 19	gadu	gads	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	17	obl	17:obl:acc	SpaceAfter=No
 20	.	.	PUNCT	zs	_	3	punct	3:punct	_
 
-# newDoc id = p652_r25
+# newdoc id = p652_r25
 # newpar id = p652_r25-p1
 # sent_id = a-p652_r25-p1s1
 # text = Pēc Haidparka devāmies uz termālo baseinu Soltavā.
@@ -18040,7 +18040,7 @@
 9	patīkami	patīkami	ADV	rpm	Degree=Pos	0	root	0:root	SpaceAfter=No
 10	.	.	PUNCT	zs	_	9	punct	9:punct	_
 
-# newDoc id = p654_r26
+# newdoc id = p654_r26
 # newpar id = p654_r26-p1
 # sent_id = a-p654_r26-p1s1
 # text = Siguldā šarmantajai Veltas kundzei pavērās iespējas aktīvāk nodoties lielajam vaļas un sirdspriekam – teātra spēlēšanai.
@@ -18194,7 +18194,7 @@
 10	mājasmāte	mājasmāte	NOUN	ncfsn5	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	9:nsubj	SpaceAfter=No
 11	.	.	PUNCT	zs	_	9	punct	9:punct	_
 
-# newDoc id = p656_r44
+# newdoc id = p656_r44
 # newpar id = p656_r44-p1
 # sent_id = a-p656_r44-p1s1
 # text = Inita Krūma: – Jā, turklāt liela.
@@ -18309,7 +18309,7 @@
 8	rūpēties	rūpēties	VERB	vmyn0i2000n	Polarity=Pos|Reflex=Yes|VerbForm=Inf	4	ccomp	4:ccomp	SpaceAfter=No
 9	.	.	PUNCT	zs	_	4	punct	4:punct	_
 
-# newDoc id = p656_r46
+# newdoc id = p656_r46
 # newpar id = p656_r46-p1
 # sent_id = a-p656_r46-p1s1
 # text = – Ko vēl jūs redzējāt un piedzīvojāt Grieķijā?
@@ -18323,7 +18323,7 @@
 8	Grieķijā	Grieķija	PROPN	npfsl4	Case=Loc|Gender=Fem|Number=Sing	5	obl	5:obl:loc|7:obl:loc	SpaceAfter=No
 9	?	?	PUNCT	zs	_	5	punct	5:punct	_
 
-# newDoc id = s3_r46
+# newdoc id = s3_r46
 # newpar id = s3_r46-p1
 # sent_id = a-s3_r46-p1s1
 # text = Es aicinu jūs tomēr pārdomāt un vēl pirms NATO sammita atrast vārdus, kāpēc mums arī šis sammits ir vajadzīgs.
@@ -18447,7 +18447,7 @@
 19	pasākumā	pasākums	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	16	obl	16:obl:loc	SpaceAfter=No
 20	.	.	PUNCT	zs	_	2	punct	2:punct	_
 
-# newDoc id = z52_r83
+# newdoc id = z52_r83
 # newpar id = z52_r83-p1
 # sent_id = a-z52_r83-p1s1
 # text = III posmā turpinās nesadedzinātu mirušo apbedīšana ar galvu ZR, ZZR un Z virzienā.

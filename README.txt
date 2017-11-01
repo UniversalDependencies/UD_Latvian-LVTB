@@ -1,6 +1,6 @@
 # Treebank
 
-Latvian UD Treebank is based on Latvian Treebank (http://sintakse.korpuss.lv) being created at University of Latvia, Institute of Mathematics and Computer Science, Artificial Intelligence Laboratory.
+Latvian UD Treebank is based on Latvian Treebank (http://sintakse.korpuss.lv) being created at University of Latvia, Institute of Mathematics and Computer Science, Artificial Intelligence Laboratory (http://ailab.lv).
 
 The UD Latvian treebank consists of 6,296 sentences (90,639 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original treebank. The original data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas.
 

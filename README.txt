@@ -64,7 +64,7 @@ Category=value feature pairs: 56
 Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
 Includes text: yes
-Genre: news fiction academic legal spoken other
+Genre: news fiction legal spoken academic misc
 Lemmas: manual native
 UPOS: converted from manual
 XPOS: manual native

@@ -43,6 +43,9 @@ Category=value feature pairs: 56
 
 # Changelog
 
+2018-04-15 v2.2
+  * Repository renamed from UD_Latvian to UD_Latvian-LVTB.
+
 2017-11-15 v2.1
   * Removed duplicated and artificially constructed sentences.
   * Fixed a bug producing Evident=Fh,Nfh where Evident=Fh should be.

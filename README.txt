@@ -28,23 +28,27 @@ The data set is licensed under the Creative Commons Attribution-NonCommercial-Sh
 
 The training data covers various text types: news, fiction, academic texts, legal texts, transcripts of spoken language, etc. The development and test sets are carefully split out to cover all those types.
 
-Train: 4124 sentences
-Dev: 989 sentences
-Test: 1183 sentences
+Train: 5120 sentences
+Dev:   1047 sentences
+Test:  1226 sentences
 
 # Statictics
 
-Tree count: 6296
-Word count: 90639
-Token count: 90639
-Dependency relations: 122 of which 90 language specific
-POS tags: 16
+Tree count:  7411
+Word count:  105710
+Token count: 105710
+Dep. relations: 124 of which 92 language specific
+POS tags: 17
 Category=value feature pairs: 56
 
 # Changelog
 
 2018-04-15 v2.2
   * Repository renamed from UD_Latvian to UD_Latvian-LVTB.
+  * Fixed tokenization for text errors.
+  * Added notifications MISC field for corrected textual errors.
+  * Better enhanced dependencies.
+  * Added more data.
 
 2017-11-15 v2.1
   * Removed duplicated and artificially constructed sentences.

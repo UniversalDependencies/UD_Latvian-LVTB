@@ -66,7 +66,7 @@ Category=value feature pairs: 56
   * Multi-word conjunctions: first part is now tagged PART.
   * Added new sentences.
 
-
+<pre>
 === Machine-readable metadata =================================================
 Data available since: UD v1.3
 License: CC BY-NC-SA 4.0
@@ -81,3 +81,4 @@ Contributors: Pretkalniņa, Lauma; Rituma, Laura; Saulīte, Baiba; Nešpore-Bēr
 Contributing: elsewhere
 Contact: lauma@ailab.lv, normunds@ailab.lv
 ===============================================================================
+</pre>

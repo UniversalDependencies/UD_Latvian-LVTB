@@ -28,17 +28,17 @@ The data set is licensed under the Creative Commons Attribution-NonCommercial-Sh
 
 The training data covers various text types: news, fiction, academic texts, legal texts, transcripts of spoken language, etc. The development and test sets are carefully split out to cover all those types.
 
-Train: 5120 sentences
-Dev:   1047 sentences
+Train: 5120 sentences\
+Dev:   1047 sentences\
 Test:  1226 sentences
 
 # Statictics
 
-Tree count:  7411
-Word count:  105710
-Token count: 105710
-Dep. relations: 124 of which 92 language specific
-POS tags: 17
+Tree count:  7411\
+Word count:  105710\
+Token count: 105710\
+Dep. relations: 124 of which 92 language specific\
+POS tags: 17\
 Category=value feature pairs: 56
 
 # Changelog

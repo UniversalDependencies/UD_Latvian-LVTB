@@ -1,16 +1,18 @@
 # Summary
 
-Latvian UD Treebank is based on Latvian Treebank (http://sintakse.korpuss.lv) being created at University of Latvia, Institute of Mathematics and Computer Science, Artificial Intelligence Laboratory (http://ailab.lv).
+Latvian UD Treebank is based on Latvian Treebank ([LVTB](http://sintakse.korpuss.lv)), being created at University of Latvia, Institute of Mathematics and Computer Science, [Artificial Intelligence Laboratory](http://ailab.lv).
 
 # Introduction
 
-The UD Latvian treebank consists of 7,411 sentences (105,710 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original treebank. The original data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas.
+Latvian UD Treebank v2.2 consists of 7,411 sentences (105,710 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original LVTB treebank. LVTB data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas.
 
 # Acknowledgments
 
 This work is supported by European Regional Development Fund under the grant agreement No. 1.1.1.1/16/A/219 (Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian). The pilot project was supported by State Research Programme "National Identity".
 
 # References
+
+Grūzītis N., Pretkalniņa L., Saulīte B., Rituma L., Nešpore-Bērzkalne G., Znotiņš A., Paikens P. Creation of a Balanced State-of-the-Art Multilayer Corpus for NLU. Proceedings of the 11th International Conference on Language Resources and Evaluation (LREC). Miyazaki, Japan, 2018 (to appear)
 
 Pretkalniņa L., Rituma L., Saulīte B. Universal Dependency Treebank for Latvian: A Pilot. Human Language Technologies - The Baltic Perspective, Frontiers in Artificial Intelligence and Applications, Vol. 289, IOS Press, 2016, pp. 136-143
 
@@ -46,8 +48,8 @@ Category=value feature pairs: 56
 2018-04-15 v2.2
   * Repository renamed from UD_Latvian to UD_Latvian-LVTB.
   * Fixed tokenization for text errors.
-  * Added notifications MISC field for corrected textual errors.
-  * Better enhanced dependencies.
+  * Added notifications in the MISC field for corrected text errors.
+  * Improved enhanced dependencies.
   * Added more data.
 
 2017-11-15 v2.1

@@ -1,41 +1,42 @@
-Sun Feb 11 20:46:46 CET 2018
-perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Latvian
 Running the following version of tools/evaluate_treebank.pl:
-commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+commit 87d374bbd458d29331d76014d05c52eaac32518d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Feb 11 20:27:50 2018 +0100
-Switched to branch 'master'
-Your branch is up-to-date with 'origin/master'.
-Evaluating the following revision of UD_Latvian:
-commit e97058891c97ec346a1ecdab02436157e725eccd
-Author: Normunds Grūzītis <normundsg@gmail.com>
-Date:   Sun Nov 5 21:21:04 2017 +0200
-Size: counted 90314 of 90314 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.00658497433073.
+Date:   Wed Apr 11 09:21:53 2018 +0200
+Evaluating the following revision of UD_Latvian-LVTB:
+commit 5100a5738d42f03e4f809d3b9328443f9a7a0315
+Merge: dc83a84 f451abc
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Size: counted 110324 of 110324 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.40684298197164.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
-Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 58510 out of 90314 total words have one or more features.
+Features: 71348 out of 110324 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 4346 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 90314 words.
+Udapi: found 4060 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 110324 words.
 Genres: found 5 out of 14 known.
+validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-dev.conllu
+*** PASSED ***
+validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-test.conllu
+*** PASSED ***
+validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-train.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.357142857142857) = 0.0274725274725275
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.651918359190763) = 0.167158553638657
+(weight=0.256410256410256) * (score{size}=0.680889999866769) = 0.174587179453018
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.518789999335651) = 0.159627692103277
+(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
+(weight=0.307692307692308) * (score{udapi}=0.631993038686052) = 0.194459396518785
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.655143368216704) * (availability=1) * (validity=1) = 0.655143368216704
+(TOTAL score=0.701023607948835) * (availability=1) * (validity=1) = 0.701023607948835
 STARS = 3.5
-UD_Latvian	0.655143368216704	3.5
-Switched to branch 'dev'
-Your branch is up-to-date with 'origin/dev'.
+UD_Latvian-LVTB	0.701023607948835	3.5

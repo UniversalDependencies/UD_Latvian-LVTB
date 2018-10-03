@@ -4,7 +4,7 @@ Latvian UD Treebank is based on Latvian Treebank ([LVTB](http://sintakse.korpuss
 
 # Introduction
 
-Latvian UD Treebank v2.3 consists of 8,593 sentences (128,747 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original LVTB treebank. LVTB data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas.
+Latvian UD Treebank v2.3 consists of 9,643 sentences (147,822 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original LVTB treebank. LVTB data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas.
 
 # Acknowledgments
 
@@ -30,18 +30,18 @@ The data set is licensed under the Creative Commons Attribution-NonCommercial-Sh
 
 The training data covers various text types: news, fiction, academic texts, legal texts, transcripts of spoken language, etc. The development and test sets are carefully split out to cover all those types.
 
-Train: 6113 sentences\
-Dev:   1173 sentences\
-Test:  1307 sentences
+Train: 6938 sentences\
+Dev:   1281 sentences\
+Test:  1424 sentences
 
 # Statictics
 
-Tree count:  8593\
-Word count:  128747\
-Token count: 128747\
+Tree count:  9643\
+Word count:  147822\
+Token count: 147822\
 Dep. relations: 124 of which 92 language specific\
 POS tags: 17\
-Category=value feature pairs: 56
+Category=value feature pairs: 56\
 
 # Changelog
 

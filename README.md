@@ -12,7 +12,9 @@ This work is supported by European Regional Development Fund under the grant agr
 
 # References
 
-Grūzītis N., Pretkalniņa L., Saulīte B., Rituma L., Nešpore-Bērzkalne G., Znotiņš A., Paikens P. Creation of a Balanced State-of-the-Art Multilayer Corpus for NLU. Proceedings of the 11th International Conference on Language Resources and Evaluation (LREC). Miyazaki, Japan, 2018 (to appear)
+Pretkalniņa L., Rituma L., Saulīte B. Deriving enhanced Universal Dependencies from a hybrid dependency-constituency treebank. Proceedings of the 21sh International Conference Text, Speech, and Dialogue, LNCS, Vol. 11107, Springer Link, 2018, pp. 95-105
+
+Grūzītis N., Pretkalniņa L., Saulīte B., Rituma L., Nešpore-Bērzkalne G., Znotiņš A., Paikens P. Creation of a Balanced State-of-the-Art Multilayer Corpus for NLU. Proceedings of the 11th International Conference on Language Resources and Evaluation (LREC). Miyazaki, Japan, 2018, pp. 4506-4513
 
 Pretkalniņa L., Rituma L., Saulīte B. Universal Dependency Treebank for Latvian: A Pilot. Human Language Technologies - The Baltic Perspective, Frontiers in Artificial Intelligence and Applications, Vol. 289, IOS Press, 2016, pp. 136-143
 
@@ -41,15 +43,16 @@ Word count:  152706\
 Token count: 152706\
 Dep. relations: 125 of which 93 language specific\
 POS tags: 17\
-Category=value feature pairs: 56\
+Category=value feature pairs: 56
 
 # Changelog
 
 2018-11-15 v2.3
   * Added more data.
-  * Negative verbs and participles now have lemmas without prefix 'ne'.
-  * Both masculine and feminine adjectives have the same lemmas (masculine).
-  * Fixed some annotation errors.
+  * Negative verbs and participles now have lemmas without the prefix 'ne'.
+  * Both masculine and feminine adjectives have the same lemma (masculine).
+  * Fixed varios annotation errors.
+  * Added more data.
 
 2018-04-15 v2.2
   * Repository renamed from UD_Latvian to UD_Latvian-LVTB.

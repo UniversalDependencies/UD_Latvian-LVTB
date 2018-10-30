@@ -52,7 +52,6 @@ Category=value feature pairs: 56
   * Negative verbs and participles now have lemmas without the prefix 'ne'.
   * Both masculine and feminine adjectives have the same lemma (masculine).
   * Fixed varios annotation errors.
-  * Added more data.
 
 2018-04-15 v2.2
   * Repository renamed from UD_Latvian to UD_Latvian-LVTB.

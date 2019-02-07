@@ -36,8 +36,6 @@ Train: 8700 sentences\
 Dev:   1506 sentences\
 Test:  1118 sentences
 
-# Statictics
-
 
 # Changelog
 

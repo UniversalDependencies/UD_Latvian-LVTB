@@ -100,16 +100,16 @@
     <dep name="amod">9965</dep>
     <dep name="appos">8</dep>
     <dep name="aux">1234</dep>
-    <dep name="aux:pass">1120</dep>
-    <dep name="case">8758</dep>
-    <dep name="cc">7615</dep>
+    <dep name="aux:pass">1119</dep>
+    <dep name="case">8757</dep>
+    <dep name="cc">7614</dep>
     <dep name="ccomp">2795</dep>
     <dep name="compound">243</dep>
     <dep name="conj">10656</dep>
-    <dep name="cop">2894</dep>
+    <dep name="cop">2868</dep>
     <dep name="csubj">520</dep>
     <dep name="csubj:pass">66</dep>
-    <dep name="dep">368</dep>
+    <dep name="dep">281</dep>
     <dep name="det">4994</dep>
     <dep name="discourse">4361</dep>
     <dep name="fixed">648</dep>
@@ -119,18 +119,18 @@
     <dep name="goeswith">5</dep>
     <dep name="iobj">4533</dep>
     <dep name="mark">3584</dep>
-    <dep name="nmod">18816</dep>
-    <dep name="nsubj">14891</dep>
+    <dep name="nmod">18815</dep>
+    <dep name="nsubj">14890</dep>
     <dep name="nsubj:pass">1402</dep>
     <dep name="nummod">1654</dep>
     <dep name="obj">8508</dep>
     <dep name="obl">12089</dep>
     <dep name="orphan">333</dep>
     <dep name="parataxis">666</dep>
-    <dep name="punct">32842</dep>
+    <dep name="punct">32962</dep>
     <dep name="reparandum">3</dep>
     <dep name="root">11669</dep>
     <dep name="vocative">57</dep>
-    <dep name="xcomp">2342</dep>
+    <dep name="xcomp">2340</dep>
   </deps>
 </treebank>

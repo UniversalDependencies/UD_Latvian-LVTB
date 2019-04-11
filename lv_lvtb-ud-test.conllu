@@ -2691,7 +2691,7 @@
 1	Bet	bet	CCONJ	cc	_	5	cc	4.1:cc	LvtbNodeId=a-d21-p16s4w1
 2	tad	tad	ADV	r0t	PronType=Dem	5	orphan	4.1:advmod	LvtbNodeId=a-d21-p16s4w2
 3	uzreiz	uzreiz	ADV	r0t	_	5	orphan	4.1:advmod	LvtbNodeId=a-d21-p16s4w3
-4	—	—	PUNCT	zd	_	5	dep	4.1:dep	LvtbNodeId=a-d21-p16s4w4
+4	—	—	PUNCT	zd	_	5	punct	4.1:punct	LvtbNodeId=a-d21-p16s4w4
 4.1	_	_	VERB	vcni0ii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|VerbForm=Fin|Voice=Act	_	_	0:root	LvtbNodeId=a-d21-p16s4w4
 5	sprādziens	sprādziens	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	0	root	4.1:nsubj	LvtbNodeId=a-d21-p16s4w5|SpaceAfter=No
 6	.	.	PUNCT	zs	_	5	punct	4.1:punct	LvtbNodeId=a-d21-p16s4w6
@@ -6434,7 +6434,7 @@
 8	bet	bet	CCONJ	cc	_	13	cc	11.1:cc	LvtbNodeId=a-p11719-p1s2w8
 9	Zaļajā	zaļš	ADJ	affslyp	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	10:amod	LvtbNodeId=a-p11719-p1s2w9
 10	klasē	klase	NOUN	ncfsl5	Case=Loc|Gender=Fem|Number=Sing	13	orphan	11.1:obl:loc	LvtbNodeId=a-p11719-p1s2w10
-11	-	-	PUNCT	zd	_	13	dep	11.1:dep	LvtbNodeId=a-p11719-p1s2w11
+11	-	-	PUNCT	zd	_	13	punct	11.1:punct	LvtbNodeId=a-p11719-p1s2w11
 11.1	iestādija	iestādija	VERB	vmnist330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	_	_	3:conj	LvtbNodeId=a-p11719-p1s2w11
 12	30	30	NUM	xn	NumType=Card	13	nummod	13:nummod	LvtbNodeId=a-p11719-p1s2w12
 13	krūmus	krūms	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	3	conj	11.1:obj	LvtbNodeId=a-p11719-p1s2w13|SpaceAfter=No
@@ -11196,7 +11196,7 @@
 20	"	"	PUNCT	zq	_	21	punct	21:punct	LvtbNodeId=a-p3733-p7s2w20|SpaceAfter=No
 21	Kultūra	kultūra	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	25	orphan	23.1:obl:loc	LvtbNodeId=a-p3733-p7s2w21|SpaceAfter=No
 22	"	"	PUNCT	zq	_	21	punct	21:punct	LvtbNodeId=a-p3733-p7s2w22|SpaceAfter=No
-23	-	-	PUNCT	zd	_	25	dep	23.1:dep	LvtbNodeId=a-p3733-p7s2w23
+23	-	-	PUNCT	zd	_	25	punct	23.1:punct	LvtbNodeId=a-p3733-p7s2w23
 23.1	_	_	VERB	vmni0i030an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|VerbForm=Fin|Voice=Act	_	_	4:conj	LvtbNodeId=a-p3733-p7s2w23
 24	8000	8000	NUM	xn	NumType=Card	25	nummod	25:nummod	LvtbNodeId=a-p3733-p7s2w24
 25	latu	lats	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	4	conj	23.1:nsubj	LvtbNodeId=a-p3733-p7s2w25|SpaceAfter=No
@@ -18574,8 +18574,7 @@
 17	(	(	PUNCT	zb	_	22	punct	22:punct	LvtbNodeId=a-z104-p54s4w17|SpaceAfter=No
 18	bet	bet	CCONJ	cc	_	22	cc	22:cc	LvtbNodeId=a-z104-p54s4w18
 19	vietvārdi	vietvārds	NOUN	ncmpn1	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	22:nsubj	LvtbNodeId=a-z104-p54s4w19
-20	-	-	PUNCT	zd	_	22	cop	20.1:dep	LvtbNodeId=a-z104-p54s4w20
-20.1	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	22:cop	LvtbNodeId=a-z104-p54s4w20
+20	-	-	PUNCT	zd	_	22	punct	22:punct	LvtbNodeId=a-z104-p54s4w20
 21	vidusēģiptes	Vidusēģipte	PROPN	npfsg5	Case=Gen|Gender=Fem|Number=Sing	22	nmod	22:nmod:gen	CorrectedForm=Vidusēģiptes|CorrectionType=Spelling|LvtbNodeId=a-z104-p54s4w21
 22	dialektā	dialekts	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	16	parataxis	16:parataxis	LvtbNodeId=a-z104-p54s4w22|SpaceAfter=No
 23	)	)	PUNCT	zb	_	22	punct	22:punct	LvtbNodeId=a-z104-p54s4w23|SpaceAfter=No

@@ -32,16 +32,17 @@ The data set is licensed under the Creative Commons Attribution-NonCommercial-Sh
 
 The training data covers various text types: news, fiction, academic texts, legal texts, transcripts of spoken language, etc. The development and test sets are carefully split out to cover all those types.
 
-Train: 9117 sentences\
+Train: 9122 sentences\
 Dev:   1542 sentences\
-Test:  1010 sentences
+Test:  1527 sentences
 
 
 # Changelog
 
-2019-04-09
+2019-04-18
   * Added more data.
   * Participle voice fixed.
+  * Issues #5, #6, #7, #8 fixed in original data.
   * Working on validation errors.
 
 2018-11-15 v2.3

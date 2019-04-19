@@ -34,12 +34,12 @@ The training data covers various text types: news, fiction, academic texts, lega
 
 Train: 9122 sentences\
 Dev:   1542 sentences\
-Test:  1527 sentences
+Test:  1670 sentences
 
 
 # Changelog
 
-2019-04-18
+2019-04-19
   * Added more data.
   * Participle voice fixed.
   * Issues #5, #6, #7, #8 fixed in original data.

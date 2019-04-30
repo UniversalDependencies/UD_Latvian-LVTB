@@ -5,132 +5,132 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>12334</sentences><tokens>196453</tokens><words>196453</words><fused>0</fused></total>
+    <total><sentences>12343</sentences><tokens>196604</tokens><words>196604</words><fused>0</fused></total>
   </size>
-  <lemmas unique="18476" /><!-- ,, ., būt, un, tas, ka, ar, ", kas, par, no, viņš, es, arī, uz -->
-  <forms unique="39845" /><!-- ,, ., un, ir, ka, ar, ", par, no, uz, arī, kā, kas, bet, bija -->
+  <lemmas unique="18482" /><!-- ,, ., būt, un, tas, ka, ar, ", kas, par, no, viņš, es, arī, uz -->
+  <forms unique="39867" /><!-- ,, ., un, ir, ka, ar, ", par, no, uz, arī, kā, kas, bet, bija -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">10659</tag><!-- liels, jauns, pirmais, labs, dažāds, vecs, mazs, nepieciešams, iespējams, galvenais -->
-    <tag name="ADP">8563</tag><!-- ar, par, no, uz, pēc, pie, pa, līdz, pret, pirms -->
-    <tag name="ADV">10981</tag><!-- kad, jau, kā, vēl, tad, daudz, tā, ļoti, kur, tik -->
-    <tag name="AUX">5423</tag><!-- būt, tikt, kļūt, tapt -->
-    <tag name="CCONJ">8191</tag><!-- un, bet, vai, gan, taču, arī, ne, kā, jo, tomēr -->
-    <tag name="DET">4659</tag><!-- šis, šī, sava, tas, savs, viss, tā, visa, kāds, cits -->
+    <tag name="ADJ">10669</tag><!-- liels, jauns, pirmais, labs, dažāds, vecs, mazs, iespējams, nepieciešams, galvenais -->
+    <tag name="ADP">8562</tag><!-- ar, par, no, uz, pēc, pie, pa, līdz, pret, pirms -->
+    <tag name="ADV">10986</tag><!-- kad, jau, kā, vēl, tad, daudz, tā, ļoti, kur, tik -->
+    <tag name="AUX">5433</tag><!-- būt, tikt, kļūt, tapt -->
+    <tag name="CCONJ">8198</tag><!-- un, bet, vai, gan, taču, arī, ne, kā, jo, tomēr -->
+    <tag name="DET">4668</tag><!-- šis, šī, sava, tas, savs, viss, tā, visa, kāds, cits -->
     <tag name="INTJ">158</tag><!-- paldies, re, ak, lūdzu, labrīt, lūk, vau, vot, nu, ai -->
-    <tag name="NOUN">52651</tag><!-- gads, laiks, valsts, cilvēks, darbs, bērns, vieta, diena, pasaule, dzīve -->
-    <tag name="NUM">2340</tag><!-- viens, divi, trīs, otrs, četri, pieci, 3, 1, 2, desmit -->
-    <tag name="PART">3659</tag><!-- arī, tikai, pat, vai, kaut, ne, vien, gan, jau, tieši -->
-    <tag name="PRON">11039</tag><!-- tas, kas, viņš, es, viņa, mēs, tā, kurš, kura, tu -->
-    <tag name="PROPN">8625</tag><!-- Latvija, Rīga, Eiropa, Sofija, Krievija, es, Saeima, leta, Andris, Baltija -->
-    <tag name="PUNCT">34639</tag><!-- ,, ., ", -, ?, ), (, –, ”, ! -->
-    <tag name="SCONJ">4323</tag><!-- ka, lai, kā, ja, jo, vai, nekā, gan, turklāt, kamēr -->
+    <tag name="NOUN">52681</tag><!-- gads, laiks, valsts, cilvēks, darbs, bērns, vieta, diena, pasaule, dzīve -->
+    <tag name="NUM">2338</tag><!-- viens, divi, trīs, otrs, četri, pieci, 3, 1, 2, desmit -->
+    <tag name="PART">3661</tag><!-- arī, tikai, pat, vai, kaut, ne, vien, gan, jau, tieši -->
+    <tag name="PRON">11049</tag><!-- tas, kas, viņš, es, viņa, mēs, tā, kurš, kura, tu -->
+    <tag name="PROPN">8624</tag><!-- Latvija, Rīga, Eiropa, Sofija, Krievija, es, Saeima, leta, Andris, Baltija -->
+    <tag name="PUNCT">34669</tag><!-- ,, ., ", -, ?, ), (, –, ”, ! -->
+    <tag name="SCONJ">4329</tag><!-- ka, lai, kā, ja, jo, vai, nekā, gan, turklāt, kamēr -->
     <tag name="SYM">462</tag><!-- %, *, a, Re, &, nozare.lv, ***, u.c., OV, b -->
-    <tag name="VERB">29349</tag><!-- būt, varēt, zināt, sākt, notikt, teikt, redzēt, domāt, izmantot, iet -->
+    <tag name="VERB">29385</tag><!-- būt, varēt, zināt, sākt, notikt, teikt, redzēt, domāt, izmantot, iet -->
     <tag name="X">732</tag><!-- the, Pillar, Imprimatur, Capital, fund, of, Initiatives, Spatial, _, al -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="59">
-    <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,SYM,VERB">1215</feat><!-- ES, LETA, SIA, ASV, A., v., ZAAO, IKP, M., D. -->
-    <feat name="Aspect" value="Imp" upos="AUX,VERB">405</feat><!-- esošo, atbilstošu, esošais, notiekošo, esošajiem, esošā, esošās, atbilstoša, atbilstošas, atbilstošā -->
-    <feat name="Aspect" value="Perf" upos="AUX,VERB">5974</feat><!-- bijis, bijusi, pagājušā, saistīts, paredzēts, bijuši, pagājušajā, ziņots, minēto, minētā -->
-    <feat name="Case" value="Acc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">18371</feat><!-- to, ko, savu, šo, viņu, visu, mani, kādu, laiku, gadus -->
-    <feat name="Case" value="Dat" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9074</feat><!-- man, tam, mums, viņai, viņam, piemēram, tev, viņiem, tiem, sev -->
-    <feat name="Case" value="Gen" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">23090</feat><!-- Latvijas, valsts, gada, darba, viņa, tā, mūsu, Eiropas, viņas, gadu -->
-    <feat name="Case" value="Loc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">10571</feat><!-- gadā, laikā, Latvijā, kurā, šajā, tajā, vietā, gadījumā, savā, mājās -->
-    <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">31807</feat><!-- kas, es, tas, viņš, viņa, mēs, tā, viņi, tu, kurš -->
+    <feat name="Abbr" value="Yes" upos="ADJ,ADV,NOUN,PROPN,SYM,VERB">1216</feat><!-- ES, LETA, SIA, ASV, A., v., ZAAO, IKP, M., D. -->
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">406</feat><!-- esošo, atbilstošu, esošais, notiekošo, esošajiem, esošā, esošās, atbilstoša, atbilstošas, atbilstošā -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">5981</feat><!-- bijis, bijusi, pagājušā, saistīts, paredzēts, bijuši, pagājušajā, ziņots, minēto, minētā -->
+    <feat name="Case" value="Acc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">18394</feat><!-- to, ko, savu, šo, viņu, visu, mani, kādu, laiku, gadus -->
+    <feat name="Case" value="Dat" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9075</feat><!-- man, tam, mums, viņai, viņam, piemēram, tev, viņiem, tiem, sev -->
+    <feat name="Case" value="Gen" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">23100</feat><!-- Latvijas, valsts, gada, darba, viņa, tā, mūsu, Eiropas, viņas, izglītības -->
+    <feat name="Case" value="Loc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">10578</feat><!-- gadā, laikā, Latvijā, kurā, šajā, tajā, vietā, gadījumā, savā, mājās -->
+    <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">31832</feat><!-- kas, es, tas, viņš, viņa, mēs, tā, viņi, tu, kurš -->
     <feat name="Case" value="Voc" upos="ADJ,NOUN,PROPN,VERB">83</feat><!-- minci, Sofij, kolēģi, Opi, cienījamie, meli, Armand, Didzi, Dievs, Dmitrij -->
-    <feat name="Definite" value="Def" upos="ADJ,AUX,VERB">2020</feat><!-- pirmo, pirmā, pirmais, otrajā, pirmajā, pirmās, pagājušā, esošo, otrā, pagājušajā -->
-    <feat name="Definite" value="Ind" upos="AUX,VERB">5455</feat><!-- bijis, bijusi, redzams, saistīts, paredzēts, bijuši, zināms, ziņots, noticis, plānots -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV,VERB">1187</feat><!-- vairāk, vēlāk, labāk, mazāk, tālāk, lielākā, vieglāk, ātrāk, lielāka, lielāko -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV,AUX,DET,PRON,VERB">17447</feat><!-- daudz, labi, iespējams, bijis, liela, īpaši, pirmo, jaunu, lielu, pirmā -->
+    <feat name="Definite" value="Def" upos="ADJ,AUX,VERB">2023</feat><!-- pirmo, pirmā, pirmais, otrajā, pirmajā, pirmās, pagājušā, esošo, otrā, pagājušajā -->
+    <feat name="Definite" value="Ind" upos="AUX,VERB">5462</feat><!-- bijis, bijusi, redzams, saistīts, paredzēts, bijuši, zināms, ziņots, noticis, plānots -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV,VERB">1189</feat><!-- vairāk, vēlāk, labāk, mazāk, tālāk, lielākā, vieglāk, ātrāk, lielāka, lielāko -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,AUX,DET,PRON,VERB">17466</feat><!-- daudz, labi, iespējams, bijis, liela, īpaši, pirmo, jaunu, lielu, pirmā -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV,VERB">144</feat><!-- vislabāk, visbiežāk, visticamāk, visvairāk, vislabākais, vislielāko, labākā, visdažādākie, vislabāko, vislielākais -->
-    <feat name="Evident" value="Fh" upos="AUX,VERB">19584</feat><!-- ir, bija, nav, var, tiek, būs, tika, nebija, esmu, tiks -->
+    <feat name="Evident" value="Fh" upos="AUX,VERB">19604</feat><!-- ir, bija, nav, var, tiek, būs, tika, nebija, esmu, tiks -->
     <feat name="Evident" value="Nfh" upos="AUX,VERB">256</feat><!-- esot, neesot, nevarot, būšot, mīlot, varot, iekarot, ietilpstot, liecinot, nevajagot -->
     <feat name="Foreign" value="Yes" upos="X">726</feat><!-- the, Pillar, Imprimatur, Capital, fund, of, Initiatives, Spatial, Twitter, al -->
-    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">43061</feat><!-- viņa, Latvijas, valsts, tā, tās, viņas, Latvijā, savu, Eiropas, viņai -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">45609</feat><!-- to, tas, viņš, gada, gadā, laikā, viņi, tam, darba, viņu -->
-    <feat name="Mood" value="Cnd" upos="AUX,VERB">1076</feat><!-- varētu, būtu, nebūtu, vajadzētu, tiktu, vēlētos, nevarētu, nodrošinātu, gribētos, iegūtu -->
+    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">43087</feat><!-- viņa, Latvijas, tā, valsts, tās, viņas, Latvijā, savu, Eiropas, viņai -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">45644</feat><!-- to, tas, viņš, gada, gadā, laikā, viņi, tam, darba, viņu -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">1080</feat><!-- varētu, būtu, nebūtu, vajadzētu, tiktu, vēlētos, nevarētu, nodrošinātu, gribētos, iegūtu -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">397</feat><!-- stum, lasiet, liec, ej, vari, ziniet, pagaidi, ēd, atceries, beidz -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">19584</feat><!-- ir, bija, nav, var, tiek, būs, tika, nebija, esmu, tiks -->
-    <feat name="Mood" value="Nec" upos="AUX,VERB">642</feat><!-- jābūt, jādara, jāņem, jāmaksā, jāveic, jāatzīmē, jāatzīst, jādomā, jābrauc, jādodas -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">19604</feat><!-- ir, bija, nav, var, tiek, būs, tika, nebija, esmu, tiks -->
+    <feat name="Mood" value="Nec" upos="AUX,VERB">643</feat><!-- jābūt, jādara, jāņem, jāmaksā, jāveic, jāatzīmē, jāatzīst, jādomā, jābrauc, jādodas -->
     <feat name="Mood" value="Qot" upos="AUX,VERB">256</feat><!-- esot, neesot, nevarot, būšot, mīlot, varot, iekarot, ietilpstot, liecinot, nevajagot -->
     <feat name="Number" value="Coll" upos="NOUN">176</feat><!-- vidū, interneta, ledus, alus, piena, zelta, mierā, internetu, cilvēces, gaļu -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">26406</feat><!-- mēs, viņi, tās, mums, mūsu, tie, kuri, cilvēki, visi, trīs -->
-    <feat name="Number" value="Ptan" upos="NOUN,PROPN">1636</feat><!-- atkritumu, finanšu, smiekli, tiesības, beigās, tiesību, datu, beigām, durvis, datus -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">66126</feat><!-- to, es, viņa, tas, viņš, tā, Latvijas, man, valsts, gada -->
-    <feat name="NumType" value="Card" upos="NUM">2335</feat><!-- viens, trīs, vienu, viena, divas, vienā, divi, 3, 1, 2 -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">26430</feat><!-- mēs, viņi, tās, mums, mūsu, tie, kuri, cilvēki, visi, trīs -->
+    <feat name="Number" value="Ptan" upos="NOUN,PROPN">1642</feat><!-- atkritumu, finanšu, smiekli, tiesības, beigās, tiesību, datu, beigām, durvis, bailes -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">66161</feat><!-- to, es, viņa, tas, viņš, tā, Latvijas, man, valsts, gada -->
+    <feat name="NumType" value="Card" upos="NUM">2333</feat><!-- viens, trīs, vienu, viena, divas, vienā, divi, 3, 1, 2 -->
     <feat name="NumType" value="Frac" upos="NUM">5</feat><!-- pusotra, pusotru, pusotras -->
     <feat name="NumType" value="Mult" upos="ADV">14</feat><!-- divreiz, vienreiz -->
     <feat name="NumType" value="Ord" upos="ADJ">1570</feat><!-- pirmo, 1., pirmā, 2., 2012., 3., pirmais, otrajā, pirmajā, 2011. -->
-    <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">4224</feat><!-- es, man, mēs, mums, mani, mūsu, esmu, esam, biju, domāju -->
+    <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">4228</feat><!-- es, man, mēs, mums, mani, mūsu, esmu, esam, biju, domāju -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">1378</feat><!-- tu, tev, jūs, jums, esi, tevi, jūsu, vari, esat, stum -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">22806</feat><!-- ir, bija, to, nav, viņa, tas, viņš, tā, var, viņu -->
-    <feat name="Polarity" value="Neg" upos="AUX,CCONJ,PART,VERB">3032</feat><!-- nav, ne, nebija, nevar, nē, nebūs, nebūtu, neesot, nedrīkst, netika -->
-    <feat name="Polarity" value="Pos" upos="AUX,PART,VERB">32172</feat><!-- ir, bija, var, tiek, būs, tika, varētu, būtu, būt, esmu -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">22833</feat><!-- ir, bija, to, nav, viņa, tas, viņš, tā, var, viņu -->
+    <feat name="Polarity" value="Neg" upos="AUX,CCONJ,PART,VERB">3038</feat><!-- nav, ne, nebija, nevar, nē, nebūs, nebūtu, neesot, nedrīkst, netika -->
+    <feat name="Polarity" value="Pos" upos="AUX,PART,VERB">32214</feat><!-- ir, bija, var, tiek, būs, tika, varētu, būtu, būt, esmu -->
     <feat name="Poss" value="Yes" upos="DET,PRON">863</feat><!-- savu, savas, savā, saviem, savus, mans, sava, mana, manu, savām -->
-    <feat name="PronType" value="Dem" upos="ADV,DET,NOUN,PRON">5651</feat><!-- to, tā, tas, tad, tās, tam, šo, tik, tur, šī -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,NOUN,PRON">5656</feat><!-- to, tā, tas, tad, tās, tam, šo, tik, tur, šī -->
     <feat name="PronType" value="Dem,Neg" upos="DET">1</feat><!-- nekādos -->
-    <feat name="PronType" value="Ind" upos="ADV,DET,NOUN,PRON">1409</feat><!-- kādu, citu, ko, kāds, kas, kāda, citiem, daudzi, citi, kādā -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,NOUN,PRON">1410</feat><!-- kādu, citu, ko, kāds, kas, kāda, citiem, daudzi, citi, kādā -->
     <feat name="PronType" value="Ind,Neg" upos="ADV,DET,PRON">278</feat><!-- neviens, neko, nekas, nekādas, nekā, nevienam, neviena, nekādu, nekāda, nevienu -->
-    <feat name="PronType" value="Int" upos="ADV,DET,NOUN,PRON">1442</feat><!-- kad, kā, kur, cik, kāpēc, kas, ko, kāds, kādēļ, kurš -->
+    <feat name="PronType" value="Int" upos="ADV,DET,NOUN,PRON">1443</feat><!-- kad, kā, kur, cik, kāpēc, kas, ko, kāds, kādēļ, kurš -->
     <feat name="PronType" value="Int,Neg" upos="ADV">74</feat><!-- nekad, nekur, nekā -->
-    <feat name="PronType" value="Neg" upos="ADV,NOUN">234</feat><!-- nemaz, nesen, nedaudz, nereti, netālu, nepārtraukti, neatkarīgi, neiespējami, neilgi, nekādi -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">5504</feat><!-- es, viņa, viņš, man, mēs, savu, viņu, viņi, tu, viņas -->
-    <feat name="PronType" value="Rcp" upos="PRON">200</feat><!-- sevi, sev, sevī, sevis -->
-    <feat name="PronType" value="Rel" upos="DET,PRON">2286</feat><!-- kas, ko, kuru, kurš, kurā, kuri, kuras, kura, kuriem, kurus -->
-    <feat name="PronType" value="Tot" upos="ADV,DET,PRON">1533</feat><!-- visu, viss, visi, vienmēr, pats, visas, pati, visiem, katru, visus -->
+    <feat name="PronType" value="Neg" upos="ADV,NOUN">235</feat><!-- nemaz, nesen, nedaudz, nereti, netālu, nepārtraukti, neatkarīgi, neiespējami, neilgi, nekādi -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">5509</feat><!-- es, viņa, viņš, man, mēs, savu, viņu, viņi, tu, viņas -->
+    <feat name="PronType" value="Rcp" upos="PRON">202</feat><!-- sevi, sev, sevī, sevis -->
+    <feat name="PronType" value="Rel" upos="DET,PRON">2290</feat><!-- kas, ko, kuru, kurš, kurā, kuri, kuras, kura, kuriem, kurus -->
+    <feat name="PronType" value="Tot" upos="ADV,DET,PRON">1534</feat><!-- visu, viss, visi, vienmēr, visas, pats, pati, visiem, katru, visus -->
     <feat name="Reflex" value="Yes" upos="PRON,VERB">4916</feat><!-- sevi, sev, atrodas, vēlas, devās, doties, likās, darbojas, dodas, izskatās -->
-    <feat name="Tense" value="Fut" upos="AUX,VERB">1566</feat><!-- būs, tiks, varēs, nebūs, notiks, izdosies, saņems, turpinās, dosies, ļaus -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">12358</feat><!-- bija, tika, nebija, bijis, teica, sāka, varēja, biju, sacīja, gāja -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">12977</feat><!-- ir, nav, var, tiek, esmu, esot, nevar, esam, notiek, saka -->
-    <feat name="VerbForm" value="Conv" upos="AUX,VERB">1431</feat><!-- izmantojot, ņemot, sakot, izņemot, pateicoties, runājot, pamatojoties, salīdzinot, neskatoties, sākot -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">21955</feat><!-- ir, bija, nav, var, tiek, būs, tika, varētu, būtu, nebija -->
-    <feat name="VerbForm" value="Inf" upos="AUX,VERB">4381</feat><!-- būt, darīt, izmantot, strādāt, runāt, iet, dzīvot, atrast, teikt, veikt -->
-    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">7111</feat><!-- bijis, bijusi, redzams, pagājušā, saistīts, paredzēts, bijuši, esošo, zināms, pagājušajā -->
-    <feat name="Voice" value="Act" upos="ADJ,AUX,VERB">25078</feat><!-- ir, bija, nav, var, tiek, būs, tika, varētu, būtu, nebija -->
-    <feat name="Voice" value="Pass" upos="VERB">3995</feat><!-- redzams, saistīts, paredzēts, zināms, ziņots, minēto, minētā, plānots, Protams, rakstīts -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">1565</feat><!-- būs, tiks, varēs, nebūs, notiks, izdosies, saņems, turpinās, dosies, ļaus -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">12361</feat><!-- bija, tika, nebija, bijis, teica, sāka, varēja, biju, sacīja, gāja -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">13005</feat><!-- ir, nav, var, tiek, esmu, esot, nevar, esam, notiek, saka -->
+    <feat name="VerbForm" value="Conv" upos="AUX,VERB">1434</feat><!-- izmantojot, ņemot, sakot, izņemot, pateicoties, runājot, pamatojoties, salīdzinot, neskatoties, sākot -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">21980</feat><!-- ir, bija, nav, var, tiek, būs, tika, varētu, būtu, nebija -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">4389</feat><!-- būt, darīt, izmantot, strādāt, runāt, iet, dzīvot, atrast, teikt, veikt -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">7121</feat><!-- bijis, bijusi, redzams, pagājušā, saistīts, paredzēts, bijuši, esošo, zināms, pagājušajā -->
+    <feat name="Voice" value="Act" upos="ADJ,AUX,VERB">25112</feat><!-- ir, bija, nav, var, tiek, būs, tika, varētu, būtu, nebija -->
+    <feat name="Voice" value="Pass" upos="VERB">3999</feat><!-- redzams, saistīts, paredzēts, zināms, ziņots, minēto, minētā, plānots, Protams, rakstīts -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="38">
-    <dep name="acl">5446</dep>
-    <dep name="advcl">3382</dep>
-    <dep name="advmod">9618</dep>
-    <dep name="amod">10203</dep>
+    <dep name="acl">5453</dep>
+    <dep name="advcl">3387</dep>
+    <dep name="advmod">9623</dep>
+    <dep name="amod">10214</dep>
     <dep name="appos">9</dep>
-    <dep name="aux">1279</dep>
-    <dep name="aux:pass">1139</dep>
-    <dep name="case">9108</dep>
-    <dep name="cc">7900</dep>
-    <dep name="ccomp">2843</dep>
+    <dep name="aux">1286</dep>
+    <dep name="aux:pass">1140</dep>
+    <dep name="case">9109</dep>
+    <dep name="cc">7906</dep>
+    <dep name="ccomp">2849</dep>
     <dep name="compound">261</dep>
-    <dep name="conj">11073</dep>
-    <dep name="cop">2942</dep>
-    <dep name="csubj">541</dep>
+    <dep name="conj">11079</dep>
+    <dep name="cop">2945</dep>
+    <dep name="csubj">542</dep>
     <dep name="csubj:pass">67</dep>
-    <dep name="dep">277</dep>
-    <dep name="det">5216</dep>
-    <dep name="discourse">4668</dep>
-    <dep name="fixed">671</dep>
+    <dep name="dep">275</dep>
+    <dep name="det">5225</dep>
+    <dep name="discourse">4670</dep>
+    <dep name="fixed">670</dep>
     <dep name="flat">95</dep>
     <dep name="flat:foreign">95</dep>
     <dep name="flat:name">1700</dep>
     <dep name="goeswith">6</dep>
-    <dep name="iobj">4672</dep>
-    <dep name="mark">3681</dep>
-    <dep name="nmod">19278</dep>
-    <dep name="nsubj">15370</dep>
-    <dep name="nsubj:pass">1424</dep>
-    <dep name="nummod">1700</dep>
-    <dep name="obj">8769</dep>
-    <dep name="obl">12482</dep>
-    <dep name="orphan">398</dep>
-    <dep name="parataxis">689</dep>
-    <dep name="punct">34636</dep>
+    <dep name="iobj">4674</dep>
+    <dep name="mark">3686</dep>
+    <dep name="nmod">19285</dep>
+    <dep name="nsubj">15381</dep>
+    <dep name="nsubj:pass">1426</dep>
+    <dep name="nummod">1693</dep>
+    <dep name="obj">8782</dep>
+    <dep name="obl">12487</dep>
+    <dep name="orphan">396</dep>
+    <dep name="parataxis">690</dep>
+    <dep name="punct">34668</dep>
     <dep name="reparandum">4</dep>
-    <dep name="root">12334</dep>
+    <dep name="root">12343</dep>
     <dep name="vocative">78</dep>
-    <dep name="xcomp">2399</dep>
+    <dep name="xcomp">2405</dep>
   </deps>
 </treebank>

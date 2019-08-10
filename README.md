@@ -32,12 +32,19 @@ The data set is licensed under the Creative Commons Attribution-NonCommercial-Sh
 
 The training data covers various text types: news, fiction, academic texts, legal texts, transcripts of spoken language, etc. The development and test sets are carefully split out to cover all those types.
 
-Train: 9664 sentences\
-Dev:   1622 sentences\
-Test:  1740 sentences
+Train: 9756 sentences\
+Dev:   1628 sentences\
+Test:  1749 sentences
 
 
 # Changelog
+
+2019-08-10
+  * Added more data.
+  * 'Sevis' is not a reciprox.
+  * Some objects are actually 'obl'.
+  * Adjective definetness fixed.
+  * Multiple singular errors.
 
 2019-04-28 v2.4
   * Added more data.

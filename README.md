@@ -39,7 +39,7 @@ Test:   1823 sentences
 
 # Changelog
 
-2019-10-22
+2019-10-27 v2.5
   * Added more data.
   * Major revision in what Latvian model considers secondary predicative components ('obl', 'appos', 'xcomp' etc. in UD terms).
   * 'Sevis' is not a reciprox.

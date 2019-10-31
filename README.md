@@ -30,6 +30,8 @@ This data set is licensed under a [Creative Commons Attribution-ShareAlike 4.0 I
 
 By using this data set, you agree to comply with the European Intellectual Property Rights and the European General Data Protection Regulation.
 
+Please, [let us know](mailto:normunds.gruzitis@ailab.lv) if you use this data set for product or service development.
+
 # Data splits
 
 The training data covers various text types: news, fiction, academic texts, legal texts, transcripts of spoken language, etc. The development and test sets are carefully split out to cover all those types.

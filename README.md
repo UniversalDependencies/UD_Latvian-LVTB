@@ -4,11 +4,11 @@ Latvian UD Treebank is based on Latvian Treebank ([LVTB](http://sintakse.korpuss
 
 # Introduction
 
-Latvian UD Treebank v2.5 consists of 13,643 sentences (219,955 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original LVTB treebank. LVTB data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas. LVTB is released in parallel with Latvian UD Treebank since v2.2 and features the same version numbers. Corresponding LVTB versions are listed ([here](http://sintakse.korpuss.lv/versions.html)). Key `LvtbNodeId` in Latvian UD Treebank CoNLL-U field `MISC` provides the mapping from Latvian UD Treebank to LVTB. Each LVTB version is superset of the corresponding Latvian UD Treebank version in terms of included sentences.
+Latvian UD Treebank v2.5 consists of 13,643 sentences (219,955 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original LVTB treebank. LVTB data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas. LVTB is released in parallel with Latvian UD Treebank since v2.2 and features the same version numbers. The corresponding LVTB versions are listed [here](http://sintakse.korpuss.lv/versions.html). Key `LvtbNodeId` in Latvian UD Treebank CoNLL-U field `MISC` provides the mapping from Latvian UD Treebank to LVTB. Each LVTB version is superset of the corresponding Latvian UD Treebank version in terms of included sentences.
 
 # Acknowledgments
 
-This work is supported by European Regional Development Fund under the grant agreement No. 1.1.1.1/16/A/219 (Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian, [data](https://github.com/LUMII-AILab/FullStack)). The pilot project was supported by State Research Programme "National Identity".
+This work is supported by European Regional Development Fund under the grant agreement No. 1.1.1.1/16/A/219 ([Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian](https://github.com/LUMII-AILab/FullStack)) in synergy with the grant agreement No. 1.1.1.2/VIAA/1/16/188. The pilot project was supported by State Research Programme "National Identity".
 
 # References
 
@@ -26,7 +26,9 @@ Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. A Prague Marku
 
 # Licensing
 
-The data set is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please contact us if you are interested in acquiring a commercial licence.
+This data set is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+By using this data set, you agree to comply with the European Intellectual Property Rights and the European General Data Protection Regulation.
 
 # Data splits
 
@@ -42,7 +44,7 @@ Test:   1823 sentences
 2019-10-27 v2.5
   * Added more data.
   * Major revision in what Latvian model considers secondary predicative components ('obl', 'appos', 'xcomp' etc. in UD terms).
-  * 'Sevis' is not a reciprox.
+  * The reflexive pronoun 'sevis' is not a reciprox.
   * Some objects are actually 'obl'.
   * Adjective definetness fixed.
   * Multiple singular errors.
@@ -85,7 +87,7 @@ Test:   1823 sentences
 <pre>
 === Machine-readable metadata =================================================
 Data available since: UD v1.3
-License: CC BY-NC-SA 4.0
+License: CC BY-SA 4.0
 Includes text: yes
 Genre: news fiction legal spoken academic
 Lemmas: manual native

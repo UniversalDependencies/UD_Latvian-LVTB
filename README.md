@@ -40,22 +40,21 @@ Train: 10156 sentences\
 Dev:    1664 sentences\
 Test:   1823 sentences
 
-
 # Changelog
 
 2019-10-27 v2.5
-  * Added more data.
+  * Added more data, improved consistency.
   * Major revision in what Latvian model considers secondary predicative components ('obl', 'appos', 'xcomp' etc. in UD terms).
   * The reflexive pronoun 'sevis' is not a reciprox.
   * Some objects are actually 'obl'.
   * Adjective definetness fixed.
-  * Multiple singular errors.
+  * Multiple singular errors fixed.
 
 2019-04-28 v2.4
   * Added more data.
   * Participle voice fixed.
-  * Issues #5, #6, #7, #8 fixed in original data.
-  * Fixed annotation errors according to new, more strict validator.
+  * Issues #5, #6, #7, #8 fixed in the original data.
+  * Fixed annotation errors according to the more strict validator.
 
 2018-11-15 v2.3
   * Added more data.

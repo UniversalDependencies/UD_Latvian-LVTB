@@ -4,11 +4,11 @@ Latvian UD Treebank is based on Latvian Treebank ([LVTB](http://sintakse.korpuss
 
 # Introduction
 
-Latvian UD Treebank v2.4 consists of 13,026 sentences (208,438 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original LVTB treebank. LVTB data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas. LVTB is released in parallel with Latvian UD Treebank since v2.2 and features the same version numbers. Corresponding LVTB versions are listed ([here](http://sintakse.korpuss.lv/versions.html)). Key `LvtbNodeId` in Latvian UD Treebank CoNLL-U field `MISC` provides the mapping from Latvian UD Treebank to LVTB. Each LVTB version is superset of the corresponding Latvian UD Treebank version in terms of included sentences.
+Latvian UD Treebank v2.5 consists of 13,643 sentences (219,955 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original LVTB treebank. LVTB data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas. LVTB is released in parallel with Latvian UD Treebank since v2.2 and features the same version numbers. The corresponding LVTB versions are listed [here](http://sintakse.korpuss.lv/versions.html). Key `LvtbNodeId` in Latvian UD Treebank CoNLL-U field `MISC` provides the mapping from Latvian UD Treebank to LVTB. Each LVTB version is superset of the corresponding Latvian UD Treebank version in terms of included sentences.
 
 # Acknowledgments
 
-This work is supported by European Regional Development Fund under the grant agreement No. 1.1.1.1/16/A/219 (Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian, [data](https://github.com/LUMII-AILab/FullStack)). The pilot project was supported by State Research Programme "National Identity".
+This work is supported by European Regional Development Fund under the grant agreement No. 1.1.1.1/16/A/219 ([Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian](https://github.com/LUMII-AILab/FullStack)) in synergy with the grant agreement No. 1.1.1.2/VIAA/1/16/188. The pilot project was supported by State Research Programme "National Identity".
 
 # References
 
@@ -26,24 +26,35 @@ Pretkalniņa L., Nešpore G., Levāne-Petrova K., and Saulīte B. A Prague Marku
 
 # Licensing
 
-The data set is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please contact us if you are interested in acquiring a commercial licence.
+This data set is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+By using this data set, you agree to comply with the European Intellectual Property Rights and the European General Data Protection Regulation.
+
+Please, [let us know](mailto:normunds.gruzitis@ailab.lv) if you use this data set for product or service development.
 
 # Data splits
 
 The training data covers various text types: news, fiction, academic texts, legal texts, transcripts of spoken language, etc. The development and test sets are carefully split out to cover all those types.
 
-Train: 9664 sentences\
-Dev:   1622 sentences\
-Test:  1740 sentences
-
+Train: 10156 sentences\
+Dev:    1664 sentences\
+Test:   1823 sentences
 
 # Changelog
+
+2019-10-27 v2.5
+  * Added more data, improved consistency.
+  * Major revision in what Latvian model considers secondary predicative components ('obl', 'appos', 'xcomp' etc. in UD terms).
+  * The reflexive pronoun 'sevis' is not a reciprox.
+  * Some objects are actually 'obl'.
+  * Adjective definetness fixed.
+  * Multiple singular errors fixed.
 
 2019-04-28 v2.4
   * Added more data.
   * Participle voice fixed.
-  * Issues #5, #6, #7, #8 fixed in original data.
-  * Fixed annotation errors according to new, more strict validator.
+  * Issues #5, #6, #7, #8 fixed in the original data.
+  * Fixed annotation errors according to the more strict validator.
 
 2018-11-15 v2.3
   * Added more data.
@@ -77,7 +88,7 @@ Test:  1740 sentences
 <pre>
 === Machine-readable metadata =================================================
 Data available since: UD v1.3
-License: CC BY-NC-SA 4.0
+License: CC BY-SA 4.0
 Includes text: yes
 Genre: news fiction legal spoken academic
 Lemmas: manual native

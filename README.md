@@ -42,7 +42,10 @@ Test:   1823 sentences
 
 # Changelog
 
-2019-10-27 v2.5
+2020-05-15 v2.6
+  * Some singular errors fixed.
+
+2019-11-15 v2.5
   * Added more data, improved consistency.
   * Major revision in what Latvian model considers secondary predicative components ('obl', 'appos', 'xcomp' etc. in UD terms).
   * The reflexive pronoun 'sevis' is not a reciprox.
@@ -50,7 +53,7 @@ Test:   1823 sentences
   * Adjective definetness fixed.
   * Multiple singular errors fixed.
 
-2019-04-28 v2.4
+2019-05-15 v2.4
   * Added more data.
   * Participle voice fixed.
   * Issues #5, #6, #7, #8 fixed in the original data.

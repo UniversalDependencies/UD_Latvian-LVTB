@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Latvian-LVTB:
-commit a56dbaf75545d0de14b1fead4bda54dcd79cda20
-Merge: b1c1186 c5aba41
+commit c19470778576b871190bf3ea5a9190e1a53fe760
+Merge: 7507e83 e1eaa7a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 219955 of 219955 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.7868459599511.
@@ -19,7 +19,7 @@ Features: 145969 out of 219955 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 8476 bugs.
+Udapi: found 8472 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 219955 words.
 Genres: found 5 out of 17 known.
 validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.780777946257857) = 0.20019947339945
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.614648450819486) = 0.189122600252149
+(weight=0.307692307692308) * (score{udapi}=0.614830306198995) = 0.189178555753537
 (weight=0.0769230769230769) * (score{udeprels}=0.735135135135135) = 0.0565488565488566
-(TOTAL score=0.719777415871648) * (availability=1) * (validity=1) = 0.719777415871648
+(TOTAL score=0.719833371373036) * (availability=1) * (validity=1) = 0.719833371373036
 STARS = 3.5
-UD_Latvian-LVTB	0.719777415871648	3.5
+UD_Latvian-LVTB	0.719833371373036	3.5

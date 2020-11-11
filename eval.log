@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Latvian-LVTB:
-commit c19470778576b871190bf3ea5a9190e1a53fe760
-Merge: 7507e83 e1eaa7a
+commit 3542b0a9324c714e705f09c41449a52ed4f9e07e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 10 18:26:08 2020 +0200
 Size: counted 219955 of 219955 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.7868459599511.
 Size: maximum value 13.815511 is for 1000000 words or more.

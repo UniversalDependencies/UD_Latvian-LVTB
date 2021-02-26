@@ -4,7 +4,7 @@ Latvian UD Treebank is based on Latvian Treebank ([LVTB](http://sintakse.korpuss
 
 # Introduction
 
-Latvian UD Treebank v2.8 consists of 15,374 sentences (243,274 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original LVTB treebank. LVTB data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas. LVTB is released in parallel with Latvian UD Treebank since v2.2 and features the same version numbers. The corresponding LVTB versions are listed [here](http://sintakse.korpuss.lv/versions.html). Key `LvtbNodeId` in Latvian UD Treebank CoNLL-U field `MISC` provides the mapping from Latvian UD Treebank to LVTB. Each LVTB version is superset of the corresponding Latvian UD Treebank version in terms of included sentences.
+Latvian UD Treebank v2.8 consists of 14,872 sentences (243,704 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original LVTB treebank. LVTB data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas. LVTB is released in parallel with Latvian UD Treebank since v2.2 and features the same version numbers. The corresponding LVTB versions are listed [here](http://sintakse.korpuss.lv/versions.html). Key `LvtbNodeId` in Latvian UD Treebank CoNLL-U field `MISC` provides the mapping from Latvian UD Treebank to LVTB. Each LVTB version is superset of the corresponding Latvian UD Treebank version in terms of included sentences.
 
 # Acknowledgments
 
@@ -36,15 +36,15 @@ Please, [let us know](mailto:normunds.gruzitis@ailab.lv) if you use this data se
 
 The training data covers various text types: news, fiction, academic texts, legal texts, transcripts of spoken language, etc. The development and test sets are carefully split out to cover all those types.
 
-Train: 11126 sentences\
-Dev:    1774 sentences\
-Test:   1967 sentences
+Train: 11114 sentences\
+Dev:    1778 sentences\
+Test:   1980 sentences
 
 # Changelog
 
 2021-03-15 v2.8
   * New data.
-  * "kļūt" is not aux anymore.
+  * "kļūt" is not AUX anymore.
   
 2020-05-15 v2.6
   * Some singular errors fixed.

@@ -8,7 +8,7 @@ Latvian UD Treebank v2.9 consists of 15,984 sentences (265,041 tokens), and it h
 
 # Acknowledgments
 
-This work is supported by European Regional Development Fund under the grant agreement No. 1.1.1.1/16/A/219 ([Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian](https://github.com/LUMII-AILab/FullStack)) in synergy with the grant agreement No. 1.1.1.2/VIAA/1/16/188. The pilot project was supported by State Research Programme "National Identity".
+This work is supported by European Regional Development Fund under the grant agreement No. 1.1.1.1/16/A/219 ([Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian](https://github.com/LUMII-AILab/FullStack)) in synergy with the grant agreement No. 1.1.1.2/VIAA/1/16/188. The pilot project was supported by State Research Programme "National Identity". The work is continued within the State Research Programme "[Digital Resources for the Humanities](http://www.digitalhumanities.lv/projects/DHVPP-en/)" under the grant agreement No. VPP-IZM-DH-2020/1-0001.
 
 # References
 

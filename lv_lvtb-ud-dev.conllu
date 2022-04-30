@@ -20756,7 +20756,7 @@
 2	komanda	komanda	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	LvtbNodeId=a-p14292-p2s2w2
 3	neaizvadīs	aizvadīt	VERB	vmnift330ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-p14292-p2s2w3
 4	ne	neviens	DET	pi0msay	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind,Neg|Typo=Yes	6	det	6:det	CorrectForm=nevienu|CorrectionType=Spacing,Spelling|CorrectSpaceAfter=No|LvtbNodeId=a-p14292-p2s2w4
-5	vienu	_	X	_	_	4	goeswith	4:goeswith	CorrectionType=Spacing,Spelling|LvtbNodeId=a-p14292-p2s2w4
+5	vienu	_	X	_	_	4	goeswith	4:goeswith	LvtbNodeId=a-p14292-p2s2w4
 6	treniņu	treniņš	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	3	obj	3:obj	LvtbNodeId=a-p14292-p2s2w5
 7	Latvijā	Latvija	PROPN	npfsl4	Case=Loc|Gender=Fem|Number=Sing	6	nmod	6:nmod:loc	LvtbNodeId=a-p14292-p2s2w6
 8	-	-	PUNCT	zd	_	11	punct	11:punct	LvtbNodeId=a-p14292-p2s2w7
@@ -26409,7 +26409,7 @@
 34	bet	bet	CCONJ	cc	_	36	cc	36.1:cc	LvtbNodeId=a-p3752-p2s4w34
 35	"	"	PUNCT	zq	_	36	punct	36:punct	LvtbNodeId=a-p3752-p2s4w35|SpaceAfter=No
 36	Tele2	Tele2	PROPN	np0000	_	29	conj	36.1:nsubj	LvtbNodeId=a-p3752-p2s4w36|SpaceAfter=No
-36.1	_	_	VERB	vmyipi03san	Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	29:conj	LvtbNodeId=a-p3752-p2s4x10
+36.1	_	_	VERB	vmyipi03san	Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	29:conj	LvtbNodeId=a-p3752-p2s4x9
 37	"	"	PUNCT	zq	_	36	punct	36:punct	LvtbNodeId=a-p3752-p2s4w37
 38	par	par	ADP	sppd	_	40	case	40:case	LvtbNodeId=a-p3752-p2s4w38
 39	16,6	16,6	NUM	xn	NumType=Card	40	nummod	40:nummod	LvtbNodeId=a-p3752-p2s4w39
@@ -38852,7 +38852,7 @@
 20	lai	lai	SCONJ	cs	_	22	mark	22.1:mark	LvtbNodeId=a-z22-p42s4w20
 21	gan	gan	SCONJ	cs	_	20	fixed	20:fixed	LvtbNodeId=a-z22-p42s4w21
 22	vēl	vēl	ADV	r0t	_	3	advcl	22.1:advmod	LvtbNodeId=a-z22-p42s4w22
-22.1	_	_	VERB	vm0ip0030an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	3:advcl	LvtbNodeId=a-z22-p42s4x4
+22.1	_	_	VERB	vm0ip0030an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	3:advcl	LvtbNodeId=a-z22-p42s4x5
 23	diezgan	diezgan	ADV	r0q	_	24	advmod	24:advmod	LvtbNodeId=a-z22-p42s4w23
 24	neveikli	neveikli	ADV	rpm	Degree=Pos	22	orphan	22.1:advmod	LvtbNodeId=a-z22-p42s4w24|SpaceAfter=No
 25	.	.	PUNCT	zs	_	3	punct	3:punct	LvtbNodeId=a-z22-p42s4w25

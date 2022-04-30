@@ -8017,7 +8017,7 @@
 # sent_id = a-d60-p5s4
 # text = Tā pat vien pavērties, bez domas kādas.
 1	Tā	tāpat	ADV	r0m	Typo=Yes	4	advmod	4:advmod	CorrectForm=Tāpat|CorrectionType=Spacing,Spelling|CorrectSpaceAfter=No|LvtbNodeId=a-d60-p5s4w1
-2	pat	_	X	_	_	1	goeswith	1:goeswith	CorrectionType=Spacing,Spelling|LvtbNodeId=a-d60-p5s4w1
+2	pat	_	X	_	_	1	goeswith	1:goeswith	LvtbNodeId=a-d60-p5s4w1
 3	vien	vien	PART	q	_	1	discourse	1:discourse	LvtbNodeId=a-d60-p5s4w2
 4	pavērties	pavērties	VERB	vmyn0i1000n	Polarity=Pos|Reflex=Yes|VerbForm=Inf	0	root	0:root	LvtbNodeId=a-d60-p5s4w3|SpaceAfter=No
 5	,	,	PUNCT	zc	_	7	punct	7:punct	LvtbNodeId=a-d60-p5s4w4
@@ -14787,6 +14787,897 @@
 14	mazs	mazs	ADJ	afmsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	15	amod	15:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p4s8w14
 15	zēns	zēns	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	8	acl	8:acl	LvtbNodeId=a-dXYZ-Mazais-princis-p4s8w15|SpaceAfter=No
 16	.	.	PUNCT	zs	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p4s8w16
+
+# newdoc id = dXYZ-Mazais-princis
+# newpar id = dXYZ-Mazais-princis-p17
+# sent_id = a-dXYZ-Mazais-princis-p17s1
+# text = 2
+1	2	2	NUM	xn	NumType=Card	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p17s1w1
+
+# newpar id = dXYZ-Mazais-princis-p18
+# sent_id = a-dXYZ-Mazais-princis-p18s1
+# text = Tā es dzīvoju viens pats, un līdz katastrofai Sahāras tuksnesī pirms sešiem gadiem man patiešām nebija neviena, ar ko parunāties.
+1	Tā	tā	ADV	r0m	PronType=Dem	3	advmod	3:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w1
+2	es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w2
+3	dzīvoju	dzīvot	VERB	vmnisi21san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w3
+4	viens	viens	NUM	mcsmsn	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	3	obl	3:obl:nom	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w4
+5	pats	pats	PRON	pg0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	4	compound	4:compound	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w5|SpaceAfter=No
+6	,	,	PUNCT	zc	_	17	punct	17:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w6
+7	un	un	CCONJ	cc	_	17	cc	17:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w7
+8	līdz	līdz	ADP	spsd	_	9	case	9:case	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w8
+9	katastrofai	katastrofa	NOUN	ncfsd4	Case=Dat|Gender=Fem|Number=Sing	17	obl	17:obl:līdz	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w9
+10	Sahāras	Sahāra	PROPN	npfsg4	Case=Gen|Gender=Fem|Number=Sing	11	nmod	11:nmod:gen	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w10
+11	tuksnesī	tuksnesis	NOUN	ncmsl2	Case=Loc|Gender=Masc|Number=Sing	9	nmod	9:nmod:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w11
+12	pirms	pirms	ADP	sppd	_	14	case	14:case	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w12
+13	sešiem	seši	NUM	mcsmpd	Case=Dat|Gender=Masc|Number=Plur|NumType=Card	14	nummod	14:nummod	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w13
+14	gadiem	gads	NOUN	ncmpd1	Case=Dat|Gender=Masc|Number=Plur	9	nmod	9:nmod:pirms	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w14
+15	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	17	obl	17:obl:dat	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w15
+16	patiešām	patiešām	PART	q	_	17	discourse	17:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w16
+17	nebija	būt	VERB	vmnisii30ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	3:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w17
+18	neviena	neviens	PRON	pi0msgy	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind,Neg	17	nsubj	17:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w18|SpaceAfter=No
+19	,	,	PUNCT	zc	_	22	punct	22:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w19
+20	ar	ar	ADP	spsa	_	21	case	21:case	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w20
+21	ko	kas	PRON	pr000an	Case=Acc|PronType=Rel	22	iobj	22:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w21
+22	parunāties	parunāties	VERB	vmyn0i2000n	Polarity=Pos|Reflex=Yes|VerbForm=Inf	18	acl	18:acl	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w22|SpaceAfter=No
+23	.	.	PUNCT	zs	_	3	punct	3:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p18s1w23
+
+# sent_id = a-dXYZ-Mazais-princis-p18s2
+# text = Manas lidmašīnas motorā kaut kas bija salūzis.
+1	Manas	mana	DET	ps0fsgn	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det	2:det	LvtbNodeId=a-dXYZ-Mazais-princis-p18s2w1
+2	lidmašīnas	lidmašīna	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	3	nmod	3:nmod:gen	LvtbNodeId=a-dXYZ-Mazais-princis-p18s2w2
+3	motorā	motors	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	7	obl	7:obl:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p18s2w3
+4	kaut	kaut	PART	q	_	5	discourse	5:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p18s2w4
+5	kas	kas	PRON	pi000nn	Case=Nom|PronType=Ind	7	nsubj	7:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p18s2w5
+6	bija	būt	AUX	vcnisii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	7:aux	LvtbNodeId=a-dXYZ-Mazais-princis-p18s2w6
+7	salūzis	salūzt	VERB	vmnpdmsnasnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p18s2w7|SpaceAfter=No
+8	.	.	PUNCT	zs	_	7	punct	7:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p18s2w8
+
+# sent_id = a-dXYZ-Mazais-princis-p18s3
+# text = Un, tā kā man nebija līdzi ne mehāniķa, ne pasažieru, nolēmu mēģināt viens pats veikt sarežģīto labošanu.
+1	Un	un	CCONJ	cc	_	14	cc	14:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w1|SpaceAfter=No
+2	,	,	PUNCT	zc	_	6	punct	6:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w2
+3	tā	tā	SCONJ	cs	_	6	mark	6:mark	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w3
+4	kā	kā	SCONJ	cs	_	3	fixed	3:fixed	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w4
+5	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	obl	6:obl:dat	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w5
+6	nebija	būt	VERB	vmnisii30ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	14:advcl	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w6
+7	līdzi	līdzi	ADV	r0m	_	6	advmod	6:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w7
+8	ne	ne	CCONJ	cc	Polarity=Neg	9	cc	9:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w8
+9	mehāniķa	mehāniķis	NOUN	ncmsg2	Case=Gen|Gender=Masc|Number=Sing	6	iobj	6:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w9|SpaceAfter=No
+10	,	,	PUNCT	zc	_	12	punct	12:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w10
+11	ne	ne	CCONJ	cc	Polarity=Neg	12	cc	12:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w11
+12	pasažieru	pasažieris	NOUN	ncmpg2	Case=Gen|Gender=Masc|Number=Plur	9	conj	6:iobj|9:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w12|SpaceAfter=No
+13	,	,	PUNCT	zc	_	6	punct	6:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w13
+14	nolēmu	nolemt	VERB	vmnist11san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w14
+15	mēģināt	mēģināt	VERB	vonn0i3000n	Polarity=Pos|VerbForm=Inf	14	ccomp	14:ccomp	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w15
+16	viens	viens	NUM	mcsmsn	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	15	obl	15:obl:nom	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w16
+17	pats	pats	PRON	pg0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	16	compound	16:compound	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w17
+18	veikt	veikt	VERB	vmnn0t1000n	Polarity=Pos|VerbForm=Inf	15	xcomp	15:xcomp	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w18
+19	sarežģīto	sarežģīt	VERB	vmnpdfsapsypn	Aspect=Perf|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	20:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w19
+20	labošanu	labošana	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	18	obj	18:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w20|SpaceAfter=No
+21	.	.	PUNCT	zs	_	14	punct	14:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p18s3w21
+
+# sent_id = a-dXYZ-Mazais-princis-p18s4
+# text = Man tas nozīmēja dzīvot vai mirt.
+1	Man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl	3:obl:dat	LvtbNodeId=a-dXYZ-Mazais-princis-p18s4w1
+2	tas	tas	PRON	pd3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	3:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p18s4w2
+3	nozīmēja	nozīmēt	VERB	vmnist230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p18s4w3
+4	dzīvot	dzīvot	VERB	vmnn0i2000n	Polarity=Pos|VerbForm=Inf	3	iobj	3:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p18s4w4
+5	vai	vai	CCONJ	cc	_	6	cc	6:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p18s4w5
+6	mirt	mirt	VERB	vmnn0i1000n	Polarity=Pos|VerbForm=Inf	4	conj	3:iobj|4:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p18s4w6|SpaceAfter=No
+7	.	.	PUNCT	zs	_	3	punct	3:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p18s4w7
+
+# sent_id = a-dXYZ-Mazais-princis-p18s5
+# text = Dzeramā ūdens man pietika tikko astoņām dienām.
+1	Dzeramā	dzert	VERB	vmnpdmsgppypn	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	2:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p18s5w1
+2	ūdens	ūdens	NOUN	ncmsg2	Case=Gen|Gender=Masc|Number=Sing	4	nsubj	4:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p18s5w2
+3	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obl	4:obl:dat	LvtbNodeId=a-dXYZ-Mazais-princis-p18s5w3
+4	pietika	pietikt	VERB	vmnisi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p18s5w4
+5	tikko	tikko	ADV	r0q	_	6	advmod	6:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p18s5w5
+6	astoņām	astoņi	NUM	mcsfpd	Case=Dat|Gender=Fem|Number=Plur|NumType=Card	7	nummod	7:nummod	LvtbNodeId=a-dXYZ-Mazais-princis-p18s5w6
+7	dienām	diena	NOUN	ncfpd4	Case=Dat|Gender=Fem|Number=Plur	4	obl	4:obl:dat	LvtbNodeId=a-dXYZ-Mazais-princis-p18s5w7|SpaceAfter=No
+8	.	.	PUNCT	zs	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p18s5w8
+
+# newpar id = dXYZ-Mazais-princis-p19
+# sent_id = a-dXYZ-Mazais-princis-p19s1
+# text = Pirmajā vakarā iemigu uz smiltīm tūkstošiem jūdžu tālu no jebkuras apdzīvotas vietas.
+1	Pirmajā	pirmais	ADJ	mosmsl	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	2	amod	2:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p19s1w1
+2	vakarā	vakars	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	3	obl	3:obl:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p19s1w2
+3	iemigu	iemigt	VERB	vmnisi11san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p19s1w3
+4	uz	uz	ADP	sppd	_	5	case	5:case	LvtbNodeId=a-dXYZ-Mazais-princis-p19s1w4
+5	smiltīm	smilts	NOUN	ncfpd6	Case=Dat|Gender=Fem|Number=Plur	3	obl	3:obl:uz	LvtbNodeId=a-dXYZ-Mazais-princis-p19s1w5
+6	tūkstošiem	tūkstotis	NOUN	ncmpd2	Case=Dat|Gender=Masc|Number=Plur	7	nmod	7:nmod:dat	LvtbNodeId=a-dXYZ-Mazais-princis-p19s1w6
+7	jūdžu	jūdze	NOUN	ncfpg5	Case=Gen|Gender=Fem|Number=Plur	8	obl	8:obl:gen	LvtbNodeId=a-dXYZ-Mazais-princis-p19s1w7
+8	tālu	tālu	ADV	rpp	Degree=Pos	3	advmod	3:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p19s1w8
+9	no	no	ADP	spsg	_	12	case	12:case	LvtbNodeId=a-dXYZ-Mazais-princis-p19s1w9
+10	jebkuras	jebkura	DET	pi0fsgn	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	12	det	12:det	LvtbNodeId=a-dXYZ-Mazais-princis-p19s1w10
+11	apdzīvotas	apdzīvot	VERB	vmnpdfsgpsnpn	Aspect=Perf|Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	12:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p19s1w11
+12	vietas	vieta	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	8	obl	8:obl:no	LvtbNodeId=a-dXYZ-Mazais-princis-p19s1w12|SpaceAfter=No
+13	.	.	PUNCT	zs	_	3	punct	3:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p19s1w13
+
+# sent_id = a-dXYZ-Mazais-princis-p19s2
+# text = Es biju vēl vientuļāks par kuģa avārijā cietušu cilvēku uz plosta okeāna vidū.
+1	Es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p19s2w1
+2	biju	būt	AUX	vcnisii1san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	4:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p19s2w2
+3	vēl	vēl	ADV	r0q	_	4	advmod	4:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p19s2w3
+4	vientuļāks	vientuļš	ADJ	afmsnnc	Case=Nom|Definite=Ind|Degree=Cmp|Gender=Masc|Number=Sing	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p19s2w4
+5	par	par	ADP	spsa	_	9	case	9:case	LvtbNodeId=a-dXYZ-Mazais-princis-p19s2w5
+6	kuģa	kuģis	NOUN	ncmsg2	Case=Gen|Gender=Masc|Number=Sing	7	nmod	7:nmod:gen	LvtbNodeId=a-dXYZ-Mazais-princis-p19s2w6
+7	avārijā	avārija	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	8	obl	8:obl:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p19s2w7
+8	cietušu	ciest	VERB	vmnpdmpgasnpn	Aspect=Perf|Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	amod	9:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p19s2w8
+9	cilvēku	cilvēks	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	4	obl	4:obl	LvtbNodeId=a-dXYZ-Mazais-princis-p19s2w9
+10	uz	uz	ADP	spsg	_	11	case	11:case	LvtbNodeId=a-dXYZ-Mazais-princis-p19s2w10
+11	plosta	plosts	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	9	nmod	9:nmod:uz	LvtbNodeId=a-dXYZ-Mazais-princis-p19s2w11
+12	okeāna	okeāns	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	13	nmod	13:nmod:gen	LvtbNodeId=a-dXYZ-Mazais-princis-p19s2w12
+13	vidū	vidus	NOUN	ncmsl3	Case=Loc|Gender=Masc|Number=Sing	11	nmod	11:nmod:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p19s2w13|SpaceAfter=No
+14	.	.	PUNCT	zs	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p19s2w14
+
+# sent_id = a-dXYZ-Mazais-princis-p19s3
+# text = Tad nu jūs varat iedomāties manu pārsteigumu, kad rītausmā mani atmodināja kāda sīka, bērnišķīga balss.
+1	Tad	tad	PART	q	_	4	discourse	4:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w1
+2	nu	nu	PART	q	_	4	discourse	4:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w2
+3	jūs	jūs	PRON	pp20pnn	Case=Nom|Number=Plur|Person=2|PronType=Prs	4	nsubj	4:nsubj|5:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w3
+4	varat	varēt	VERB	vonipt32pan	Evident=Fh|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w4
+5	iedomāties	iedomāties	VERB	vmyn0t2000n	Polarity=Pos|Reflex=Yes|VerbForm=Inf	4	xcomp	4:xcomp	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w5
+6	manu	mans	DET	ps0msan	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det	7:det	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w6
+7	pārsteigumu	pārsteigums	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	5	obj	5:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w7|SpaceAfter=No
+8	,	,	PUNCT	zc	_	12	punct	12:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w8
+9	kad	kad	ADV	r0t	PronType=Int	12	advmod	12:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w9
+10	rītausmā	rītausma	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	12	obl	12:obl:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w10
+11	mani	es	PRON	pp10san	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	12:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w11
+12	atmodināja	atmodināt	VERB	vmnist330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	7	acl	7:acl	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w12
+13	kāda	kāda	DET	pi0fsnn	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	17	det	17:det	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w13
+14	sīka	sīks	ADJ	affsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	17	amod	17:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w14|SpaceAfter=No
+15	,	,	PUNCT	zc	_	16	punct	16:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w15
+16	bērnišķīga	bērnišķīgs	ADJ	affsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	14	conj	14:conj|17:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w16
+17	balss	balss	NOUN	ncfsn6	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	12:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w17|SpaceAfter=No
+18	.	.	PUNCT	zs	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p19s3w18
+
+# sent_id = a-dXYZ-Mazais-princis-p19s4
+# text = Tā teica: - Lūdzu… uzzīmē man jēriņu!
+1	Tā	tā	PRON	pd3fsnn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	nsubj	2:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p19s4w1
+2	teica	teikt	VERB	vmnist130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p19s4w2|SpaceAfter=No
+3	:	:	PUNCT	zo	_	7	punct	7:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p19s4w3
+4	-	-	PUNCT	zd	_	7	punct	7:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p19s4w4|NewPar=Yes
+5	Lūdzu	lūdzu	INTJ	i	_	7	discourse	7:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p19s4w5|SpaceAfter=No
+6	…	...	PUNCT	zs	_	5	punct	5:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p19s4w6
+7	uzzīmē	uzzīmēt	VERB	vmnipt230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	2:parataxis	LvtbNodeId=a-dXYZ-Mazais-princis-p19s4w7
+8	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	7:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p19s4w8
+9	jēriņu	jēriņš	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	7	obj	7:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p19s4w9|SpaceAfter=No
+10	!	!	PUNCT	zs	_	7	punct	7:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p19s4w10
+
+# newpar id = dXYZ-Mazais-princis-p20
+# sent_id = a-dXYZ-Mazais-princis-p20s1
+# text = -Hm!
+1	-	-	PUNCT	zd	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p20s1w1|SpaceAfter=No
+2	Hm	hm	INTJ	i	_	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p20s1w2|SpaceAfter=No
+3	!	!	PUNCT	zs	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p20s1w3
+
+# newpar id = dXYZ-Mazais-princis-p21
+# sent_id = a-dXYZ-Mazais-princis-p21s1
+# text = - Uzzīmē man jēriņu…
+1	-	-	PUNCT	zd	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p21s1w1
+2	Uzzīmē	uzzīmēt	VERB	vmnipt230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p21s1w2
+3	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	2:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p21s1w3
+4	jēriņu	jēriņš	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	2	obj	2:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p21s1w4|SpaceAfter=No
+5	…	...	PUNCT	zs	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p21s1w5
+
+# newpar id = dXYZ-Mazais-princis-p22
+# sent_id = a-dXYZ-Mazais-princis-p22s1
+# text = Pielēcu kājās, kā zibens ķerts.
+1	Pielēcu	pielēkt	VERB	vmnisi11san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p22s1w1
+2	kājās	kāja	NOUN	ncfpl4	Case=Loc|Gender=Fem|Number=Plur	1	obl	1:obl:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p22s1w2|SpaceAfter=No
+3	,	,	PUNCT	zc	_	6	punct	6:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p22s1w3
+4	kā	kā	SCONJ	cs	_	6	mark	6:mark	LvtbNodeId=a-dXYZ-Mazais-princis-p22s1w4
+5	zibens	zibens	NOUN	ncmsn2	Case=Nom|Gender=Masc|Number=Sing	6	xcomp	6:xcomp	LvtbNodeId=a-dXYZ-Mazais-princis-p22s1w5
+6	ķerts	ķert	VERB	vmnpdmsnpsnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	1	xcomp	1:xcomp	LvtbNodeId=a-dXYZ-Mazais-princis-p22s1w6|SpaceAfter=No
+7	.	.	PUNCT	zs	_	1	punct	1:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p22s1w7
+
+# sent_id = a-dXYZ-Mazais-princis-p22s2
+# text = Krietni izberzēju acis.
+1	Krietni	krietni	ADV	rpm	Degree=Pos	2	advmod	2:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p22s2w1
+2	izberzēju	izberzēt	VERB	vmnist21san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p22s2w2
+3	acis	acs	NOUN	ncfpa6	Case=Acc|Gender=Fem|Number=Plur	2	obj	2:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p22s2w3|SpaceAfter=No
+4	.	.	PUNCT	zs	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p22s2w4
+
+# sent_id = a-dXYZ-Mazais-princis-p22s3
+# text = Pavēros visapkārt un ieraudzīju pavisam neparastu mazu puisēnu, kas mani nopietni aplūkoja.
+1	Pavēros	pavērties	VERB	vmyisi11san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p22s3w1
+2	visapkārt	visapkārt	ADV	r0m	_	1	advmod	1:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p22s3w2
+3	un	un	CCONJ	cc	_	4	cc	4:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p22s3w3
+4	ieraudzīju	ieraudzīt	VERB	vmnist31san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	1:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p22s3w4
+5	pavisam	pavisam	ADV	r0q	_	6	advmod	6:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p22s3w5
+6	neparastu	neparasts	ADJ	afmsanp	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	amod	8:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p22s3w6
+7	mazu	mazs	ADJ	afmsanp	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	amod	8:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p22s3w7
+8	puisēnu	puisēns	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	4	obj	4:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p22s3w8|SpaceAfter=No
+9	,	,	PUNCT	zc	_	13	punct	13:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p22s3w9
+10	kas	kas	PRON	pr000nn	Case=Nom|PronType=Rel	13	nsubj	13:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p22s3w10
+11	mani	es	PRON	pp10san	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	13:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p22s3w11
+12	nopietni	nopietni	ADV	rpm	Degree=Pos	13	advmod	13:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p22s3w12
+13	aplūkoja	aplūkot	VERB	vmnist230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	8	acl	8:acl	LvtbNodeId=a-dXYZ-Mazais-princis-p22s3w13|SpaceAfter=No
+14	.	.	PUNCT	zs	_	1	punct	1:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p22s3w14
+
+# newpar id = dXYZ-Mazais-princis-p23
+# sent_id = a-dXYZ-Mazais-princis-p23s1
+# text = Lūk, viņa labākais portrets, kādu man vēlāk izdevās uzzīmēt.
+1	Lūk	lūk	INTJ	i	_	5	discourse	5:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p23s1w1|SpaceAfter=No
+2	,	,	PUNCT	zc	_	1	punct	1:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p23s1w2
+3	viņa	viņš	PRON	pp3msgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	det	5:det	LvtbNodeId=a-dXYZ-Mazais-princis-p23s1w3
+4	labākais	labs	ADJ	afmsnyc	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	5	amod	5:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p23s1w4
+5	portrets	portrets	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p23s1w5|SpaceAfter=No
+6	,	,	PUNCT	zc	_	10	punct	10:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p23s1w6
+7	kādu	kāds	PRON	pi0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	11	obj	11:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p23s1w7
+8	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj|11:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p23s1w8
+9	vēlāk	vēlu	ADV	rct	Degree=Cmp	10	advmod	10:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p23s1w9
+10	izdevās	izdoties	VERB	veyisii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	5	acl	5:acl	LvtbNodeId=a-dXYZ-Mazais-princis-p23s1w10
+11	uzzīmēt	uzzīmēt	VERB	vmnn0t2000n	Polarity=Pos|VerbForm=Inf	10	xcomp	10:xcomp	LvtbNodeId=a-dXYZ-Mazais-princis-p23s1w11|SpaceAfter=No
+12	.	.	PUNCT	zs	_	5	punct	5:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p23s1w12
+
+# sent_id = a-dXYZ-Mazais-princis-p23s2
+# text = Mans zīmējums, protams, nav tik valdzinošs kā pats oriģināls.
+1	Mans	mans	DET	ps0msnn	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	2:det	LvtbNodeId=a-dXYZ-Mazais-princis-p23s2w1
+2	zīmējums	zīmējums	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	8:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p23s2w2|SpaceAfter=No
+3	,	,	PUNCT	zc	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p23s2w3
+4	protams	protams	PART	q	_	8	discourse	8:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p23s2w4|SpaceAfter=No
+5	,	,	PUNCT	zc	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p23s2w5
+6	nav	būt	AUX	vcnipii30ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p23s2w6
+7	tik	tik	ADV	r0q	PronType=Dem	8	advmod	8:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p23s2w7
+8	valdzinošs	valdzināt	VERB	vmnpdmsnapnpn	Aspect=Imp|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p23s2w8
+9	kā	kā	SCONJ	cs	_	11	case	11:case	LvtbNodeId=a-dXYZ-Mazais-princis-p23s2w9
+10	pats	pats	DET	pg0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	11	det	11:det	LvtbNodeId=a-dXYZ-Mazais-princis-p23s2w10
+11	oriģināls	oriģināls	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	8	obl	8:obl:kā	LvtbNodeId=a-dXYZ-Mazais-princis-p23s2w11|SpaceAfter=No
+12	.	.	PUNCT	zs	_	8	punct	8:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p23s2w12
+
+# sent_id = a-dXYZ-Mazais-princis-p23s3
+# text = Tā nav mana vaina.
+1	Tā	tā	PRON	pd3fsnn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	nsubj	4:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p23s3w1
+2	nav	būt	AUX	vcnipii30ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p23s3w2
+3	mana	mana	DET	ps0fsnn	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det	4:det	LvtbNodeId=a-dXYZ-Mazais-princis-p23s3w3
+4	vaina	vaina	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p23s3w4|SpaceAfter=No
+5	.	.	PUNCT	zs	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p23s3w5
+
+# sent_id = a-dXYZ-Mazais-princis-p23s4
+# text = Drosmi uzsākt gleznotāja karjeru man laupīja pieaugušie, kad biju sešus gadus vecs, un, izņemot boa čūskas no ārpuses un iekšpuses, neko citu neesmu iemācījies zīmēt.
+1	Drosmi	drosme	NOUN	ncfsa5	Case=Acc|Gender=Fem|Number=Sing	6	obj	6:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w1
+2	uzsākt	uzsākt	VERB	vmnn0t1000n	Polarity=Pos|VerbForm=Inf	1	acl	1:acl	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w2
+3	gleznotāja	gleznotājs	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	4	nmod	4:nmod:gen	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w3
+4	karjeru	karjera	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	2	obj	2:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w4
+5	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	6:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w5
+6	laupīja	laupīt	VERB	vmnist330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w6
+7	pieaugušie	pieaugt	VERB	vmnpdmpnasypn	Aspect=Perf|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	nsubj	6:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w7|SpaceAfter=No
+8	,	,	PUNCT	zc	_	13	punct	13:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w8
+9	kad	kad	ADV	r0t	PronType=Int	13	advmod	13:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w9
+10	biju	būt	AUX	vcnisii1san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	13:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w10
+11	sešus	seši	NUM	mcsmpa	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	12	nummod	12:nummod	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w11
+12	gadus	gads	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	13	obl	13:obl:acc	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w12
+13	vecs	vecs	ADJ	afmsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	advcl	6:advcl	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w13|SpaceAfter=No
+14	,	,	PUNCT	zc	_	28	punct	28:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w14
+15	un	un	CCONJ	cc	_	28	cc	28:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w15|SpaceAfter=No
+16	,	,	PUNCT	zc	_	17	punct	17:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w16
+17	izņemot	izņemt	VERB	vmnpu0000000n	Polarity=Pos|VerbForm=Conv	28	advcl	28:advcl	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w17
+18	boa	boa	NOUN	nc0000	_	19	nmod	19:nmod	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w18
+19	čūskas	čūska	NOUN	ncfpa4	Case=Acc|Gender=Fem|Number=Plur	17	obj	17:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w19
+20	no	no	ADP	spsg	_	21	case	21:case|23:case	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w20
+21	ārpuses	ārpuse	NOUN	ncfsg5	Case=Gen|Gender=Fem|Number=Sing	19	nmod	19:nmod:no	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w21
+22	un	un	CCONJ	cc	_	23	cc	23:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w22
+23	iekšpuses	iekšpuse	NOUN	ncfsg5	Case=Gen|Gender=Fem|Number=Sing	21	conj	19:nmod:no|21:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w23|SpaceAfter=No
+24	,	,	PUNCT	zc	_	17	punct	17:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w24
+25	neko	nekas	PRON	pi000ay	Case=Acc|PronType=Ind,Neg	29	obj	29:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w25
+26	citu	cits	PRON	pi0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	25	compound	25:compound	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w26
+27	neesmu	būt	AUX	vcnipii1say	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	28	aux	28:aux	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w27
+28	iemācījies	iemācīties	VERB	vmypdmsnasnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Part|Voice=Act	6	conj	6:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w28
+29	zīmēt	zīmēt	VERB	vmnn0t2000n	Polarity=Pos|VerbForm=Inf	28	ccomp	28:ccomp	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w29|SpaceAfter=No
+30	.	.	PUNCT	zs	_	6	punct	6:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p23s4w30
+
+# newpar id = dXYZ-Mazais-princis-p24
+# sent_id = a-dXYZ-Mazais-princis-p24s1
+# text = Un tā es raudzījos uz šo parādību izbrīnā plati ieplestām acīm.
+1	Un	un	CCONJ	cc	_	4	cc	4:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p24s1w1
+2	tā	tā	ADV	r0m	PronType=Dem	4	advmod	4:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p24s1w2
+3	es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s1w3
+4	raudzījos	raudzīties	VERB	vmyisi31san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p24s1w4
+5	uz	uz	ADP	spsa	_	7	case	7:case	LvtbNodeId=a-dXYZ-Mazais-princis-p24s1w5
+6	šo	šī	DET	pd3fsan	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	det	7:det	LvtbNodeId=a-dXYZ-Mazais-princis-p24s1w6
+7	parādību	parādība	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	4	iobj	4:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s1w7
+8	izbrīnā	izbrīns	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	10	obl	10:obl:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p24s1w8
+9	plati	plati	ADV	rpm	Degree=Pos	10	advmod	10:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p24s1w9
+10	ieplestām	ieplest	VERB	vmnpdfpdpsnpn	Aspect=Perf|Case=Dat|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	11:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p24s1w10
+11	acīm	acs	NOUN	ncfpd6	Case=Dat|Gender=Fem|Number=Plur	4	obl	4:obl:dat	LvtbNodeId=a-dXYZ-Mazais-princis-p24s1w11|SpaceAfter=No
+12	.	.	PUNCT	zs	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s1w12
+
+# sent_id = a-dXYZ-Mazais-princis-p24s2
+# text = Neaizmirstiet, ka atrados tūkstošiem jūdžu tālu no jebkuras apdzīvotas vietas.
+1	Neaizmirstiet	aizmirst	VERB	vmnm0t12pay	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p24s2w1|SpaceAfter=No
+2	,	,	PUNCT	zc	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s2w2
+3	ka	ka	SCONJ	cs	_	4	mark	4:mark	LvtbNodeId=a-dXYZ-Mazais-princis-p24s2w3
+4	atrados	atrasties	VERB	vmyisi11san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	LvtbNodeId=a-dXYZ-Mazais-princis-p24s2w4
+5	tūkstošiem	tūkstotis	NOUN	ncmpd2	Case=Dat|Gender=Masc|Number=Plur	6	nmod	6:nmod:dat	LvtbNodeId=a-dXYZ-Mazais-princis-p24s2w5
+6	jūdžu	jūdze	NOUN	ncfpg5	Case=Gen|Gender=Fem|Number=Plur	7	obl	7:obl:gen	LvtbNodeId=a-dXYZ-Mazais-princis-p24s2w6
+7	tālu	tālu	ADV	rpp	Degree=Pos	4	advmod	4:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p24s2w7
+8	no	no	ADP	spsg	_	11	case	11:case	LvtbNodeId=a-dXYZ-Mazais-princis-p24s2w8
+9	jebkuras	jebkura	DET	pi0fsgn	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	11	det	11:det	LvtbNodeId=a-dXYZ-Mazais-princis-p24s2w9
+10	apdzīvotas	apdzīvot	VERB	vmnpdfsgpsnpn	Aspect=Perf|Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	11:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p24s2w10
+11	vietas	vieta	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	7	obl	7:obl:no	LvtbNodeId=a-dXYZ-Mazais-princis-p24s2w11|SpaceAfter=No
+12	.	.	PUNCT	zs	_	1	punct	1:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s2w12
+
+# sent_id = a-dXYZ-Mazais-princis-p24s3
+# text = Taču šis mazais puisēns nelikās nedz nomaldījies, nedz noguris līdz nāvei, neizskatījās arī, ka viņš mirtu nost no bada, slāpēm vai bailēm.
+1	Taču	taču	CCONJ	cc	_	5	cc	5:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w1
+2	šis	šis	DET	pd3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	det	4:det	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w2
+3	mazais	mazs	ADJ	afmsnyp	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	4:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w3
+4	puisēns	puisēns	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	5:nsubj|7:nsubj|10:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w4
+5	nelikās	likties	VERB	vtyisi130ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w5
+6	nedz	nedz	CCONJ	cc	_	7	cc	7:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w6
+7	nomaldījies	nomaldīties	VERB	vmypdmsnasnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Part|Voice=Act	5	xcomp	5:xcomp	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w7|SpaceAfter=No
+8	,	,	PUNCT	zc	_	10	punct	10:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w8
+9	nedz	nedz	CCONJ	cc	_	10	cc	10:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w9
+10	noguris	nogurt	VERB	vmnpdmsnasnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	conj	5:xcomp|7:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w10
+11	līdz	līdz	ADP	spsd	_	12	case	12:case	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w11
+12	nāvei	nāve	NOUN	ncfsd5	Case=Dat|Gender=Fem|Number=Sing	10	obl	10:obl:līdz	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w12|SpaceAfter=No
+13	,	,	PUNCT	zc	_	14	punct	14:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w13
+14	neizskatījās	izskatīties	VERB	vmyisi330ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	5:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w14
+15	arī	arī	PART	q	_	14	discourse	14:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w15|SpaceAfter=No
+16	,	,	PUNCT	zc	_	19	punct	19:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w16
+17	ka	ka	SCONJ	cs	_	19	mark	19:mark	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w17
+18	viņš	viņš	PRON	pp3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	19:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w18
+19	mirtu	mirt	VERB	vmnc0i100an	Mood=Cnd|Polarity=Pos|VerbForm=Fin|Voice=Act	14	ccomp	14:ccomp	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w19
+20	nost	nost	ADV	rpm	Degree=Pos	19	advmod	19:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w20
+21	no	no	ADP	spsg	_	22	case	22:case|24:case|26:case	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w21
+22	bada	bads	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	19	obl	19:obl:no	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w22|SpaceAfter=No
+23	,	,	PUNCT	zc	_	24	punct	24:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w23
+24	slāpēm	slāpes	NOUN	ncfdd5	Case=Dat|Gender=Fem|Number=Ptan	22	conj	19:obl:no|22:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w24
+25	vai	vai	CCONJ	cc	_	26	cc	26:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w25
+26	bailēm	bailes	NOUN	ncfdd5	Case=Dat|Gender=Fem|Number=Ptan	22	conj	19:obl:no|22:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w26|SpaceAfter=No
+27	.	.	PUNCT	zs	_	5	punct	5:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s3w27
+
+# sent_id = a-dXYZ-Mazais-princis-p24s4
+# text = Nekas neliecināja, ka viņš būtu neapdzīvota tuksneša vidū nomaldījies bērns.
+1	Nekas	nekas	PRON	pi000ny	Case=Nom|PronType=Ind,Neg	2	nsubj	2:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s4w1
+2	neliecināja	liecināt	VERB	vmnist330ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p24s4w2|SpaceAfter=No
+3	,	,	PUNCT	zc	_	11	punct	11:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s4w3
+4	ka	ka	SCONJ	cs	_	11	mark	11:mark	LvtbNodeId=a-dXYZ-Mazais-princis-p24s4w4
+5	viņš	viņš	PRON	pp3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s4w5
+6	būtu	būt	AUX	vcnc0ii00an	Mood=Cnd|Polarity=Pos|VerbForm=Fin|Voice=Act	11	cop	11:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p24s4w6
+7	neapdzīvota	apdzīvot	VERB	vmnpdfsnapnpy	Aspect=Imp|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	8:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p24s4w7
+8	tuksneša	tuksnesis	NOUN	ncmsg2	Case=Gen|Gender=Masc|Number=Sing	9	nmod	9:nmod:gen	LvtbNodeId=a-dXYZ-Mazais-princis-p24s4w8
+9	vidū	vidus	NOUN	ncmsl3	Case=Loc|Gender=Masc|Number=Sing	10	obl	10:obl:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p24s4w9
+10	nomaldījies	nomaldīties	VERB	vmypdmsnasnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Part|Voice=Act	11	amod	11:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p24s4w10
+11	bērns	bērns	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	2	ccomp	2:ccomp	LvtbNodeId=a-dXYZ-Mazais-princis-p24s4w11|SpaceAfter=No
+12	.	.	PUNCT	zs	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s4w12
+
+# sent_id = a-dXYZ-Mazais-princis-p24s5
+# text = Kad beidzot atguvu spēju runāt, es viņam jautāju: - Bet… ko tad tu še dari?
+1	Kad	kad	ADV	r0t	PronType=Int	3	advmod	3:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w1
+2	beidzot	beidzot	ADV	r0t	_	3	advmod	3:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w2
+3	atguvu	atgūt	VERB	vmnist11san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	9:advcl	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w3
+4	spēju	spēja	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	3	obj	3:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w4
+5	runāt	runāt	VERB	vmnn0i2000n	Polarity=Pos|VerbForm=Inf	4	acl	4:acl	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w5|SpaceAfter=No
+6	,	,	PUNCT	zc	_	3	punct	3:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w6
+7	es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w7
+8	viņam	viņš	PRON	pp3msdn	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	9:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w8
+9	jautāju	jautāt	VERB	vmnipt21san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w9|SpaceAfter=No
+10	:	:	PUNCT	zo	_	18	punct	18:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w10
+11	-	-	PUNCT	zd	_	18	punct	18:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w11|NewPar=Yes
+12	Bet	bet	CCONJ	cc	_	18	cc	18:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w12|SpaceAfter=No
+13	…	...	PUNCT	zs	_	18	punct	18:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w13
+14	ko	kas	PRON	pq000an	Case=Acc|PronType=Int	18	obj	18:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w14
+15	tad	tad	PART	q	_	18	discourse	18:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w15
+16	tu	tu	PRON	pp20snn	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w16
+17	še	še	ADV	r0p	_	18	advmod	18:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w17
+18	dari	darīt	VERB	vmnipt32san	Evident=Fh|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	dep	9:dep	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w18|SpaceAfter=No
+19	?	?	PUNCT	zs	_	18	punct	18:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p24s5w19
+
+# newpar id = dXYZ-Mazais-princis-p26
+# sent_id = a-dXYZ-Mazais-princis-p26s1
+# text = Un viņš atkal man mierīgi palūdza, it kā runa būtu par kaut ko sevišķi svarīgu: - Lūdzu… uzzīmē man jēriņu…
+1	Un	un	CCONJ	cc	_	6	cc	6:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w1
+2	viņš	viņš	PRON	pp3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w2
+3	atkal	atkal	ADV	r0t	_	6	advmod	6:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w3
+4	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	6:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w4
+5	mierīgi	mierīgi	ADV	rpm	Degree=Pos	6	advmod	6:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w5
+6	palūdza	palūgt	VERB	vmnist130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w6|SpaceAfter=No
+7	,	,	PUNCT	zc	_	16	punct	16:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w7
+8	it	it	PART	q	_	16	mark	16:mark	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w8
+9	kā	kā	SCONJ	cs	_	8	fixed	8:fixed	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w9
+10	runa	runa	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	16:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w10
+11	būtu	būt	AUX	vcnc0ii00an	Mood=Cnd|Polarity=Pos|VerbForm=Fin|Voice=Act	16	cop	16:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w11
+12	par	par	ADP	spsa	_	16	case	16:case	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w12
+13	kaut	kaut	PART	q	_	14	discourse	14:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w13
+14	ko	kas	DET	pi000an	Case=Acc|PronType=Ind	16	det	16:det	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w14
+15	sevišķi	sevišķi	ADV	rpq	Degree=Pos	16	advmod	16:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w15
+16	svarīgu	svarīgs	ADJ	afmsanp	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	advcl	6:advcl	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w16|SpaceAfter=No
+17	:	:	PUNCT	zo	_	21	punct	21:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w17
+18	-	-	PUNCT	zd	_	21	punct	21:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w18|NewPar=Yes
+19	Lūdzu	lūdzu	INTJ	i	_	21	discourse	21:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w19|SpaceAfter=No
+20	…	...	PUNCT	zs	_	19	punct	19:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w20
+21	uzzīmē	uzzīmēt	VERB	vmnipt230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	6:parataxis	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w21
+22	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	21	iobj	21:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w22
+23	jēriņu	jēriņš	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	21	obj	21:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w23|SpaceAfter=No
+24	…	...	PUNCT	zs	_	21	punct	21:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p26s1w24
+
+# newpar id = dXYZ-Mazais-princis-p28
+# sent_id = a-dXYZ-Mazais-princis-p28s1
+# text = Kad noslēpums mūs pārāk satrauc, mēs neuzdrošināmies nepaklausīt.
+1	Kad	kad	ADV	r0t	PronType=Int	5	advmod	5:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p28s1w1
+2	noslēpums	noslēpums	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	5:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s1w2
+3	mūs	mēs	PRON	pp10pan	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obj	5:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s1w3
+4	pārāk	pārāk	ADV	r0q	_	5	advmod	5:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p28s1w4
+5	satrauc	satraukt	VERB	vmnipt130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	8:advcl	LvtbNodeId=a-dXYZ-Mazais-princis-p28s1w5|SpaceAfter=No
+6	,	,	PUNCT	zc	_	5	punct	5:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p28s1w6
+7	mēs	mēs	PRON	pp10pnn	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	8:nsubj|9:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s1w7
+8	neuzdrošināmies	uzdrošināties	VERB	voyipt31pay	Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p28s1w8
+9	nepaklausīt	paklausīt	VERB	vmnn0i3000y	Polarity=Neg|VerbForm=Inf	8	xcomp	8:xcomp	LvtbNodeId=a-dXYZ-Mazais-princis-p28s1w9|SpaceAfter=No
+10	.	.	PUNCT	zs	_	8	punct	8:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p28s1w10
+
+# sent_id = a-dXYZ-Mazais-princis-p28s2
+# text = Kaut arī tūkstošiem jūdžu tālu no apdzīvotām vietām un nāves briesmās tas man šķita muļķīgi, es tomēr izņēmu no kabatas papīra lapu un pildspalvu.
+1	Kaut	kaut	SCONJ	cs	_	14	mark	14:mark	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w1
+2	arī	arī	PART	q	_	1	fixed	1:fixed	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w2
+3	tūkstošiem	tūkstotis	NOUN	ncmpd2	Case=Dat|Gender=Masc|Number=Plur	4	nmod	4:nmod:dat	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w3
+4	jūdžu	jūdze	NOUN	ncfpg5	Case=Gen|Gender=Fem|Number=Plur	5	obl	5:obl:gen	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w4
+5	tālu	tālu	ADV	rpp	Degree=Pos	14	dep	14:dep	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w5
+6	no	no	ADP	sppd	_	8	case	8:case	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w6
+7	apdzīvotām	apdzīvot	VERB	vmnpdfpdpsnpn	Aspect=Perf|Case=Dat|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	8:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w7
+8	vietām	vieta	NOUN	ncfpd4	Case=Dat|Gender=Fem|Number=Plur	5	iobj	5:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w8
+9	un	un	CCONJ	cc	_	11	cc	11:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w9
+10	nāves	nāve	NOUN	ncfsg5	Case=Gen|Gender=Fem|Number=Sing	11	nmod	11:nmod:gen	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w10
+11	briesmās	briesmas	NOUN	ncfdl4	Case=Loc|Gender=Fem|Number=Ptan	5	conj	5:conj|14:obl:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w11
+12	tas	tas	PRON	pd3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	14:nsubj|15:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w12
+13	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	obl	14:obl:dat	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w13
+14	šķita	šķist	VERB	vtnisi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	19	advcl	19:advcl	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w14
+15	muļķīgi	muļķīgi	ADV	rpm	Degree=Pos	14	xcomp	14:xcomp	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w15|SpaceAfter=No
+16	,	,	PUNCT	zc	_	14	punct	14:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w16
+17	es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	19:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w17
+18	tomēr	tomēr	PART	q	_	19	discourse	19:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w18
+19	izņēmu	izņemt	VERB	vmnist11san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w19
+20	no	no	ADP	spsg	_	21	case	21:case	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w20
+21	kabatas	kabata	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	19	obl	19:obl:no	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w21
+22	papīra	papīrs	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	23	nmod	23:nmod:gen	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w22
+23	lapu	lapa	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	19	obj	19:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w23
+24	un	un	CCONJ	cc	_	25	cc	25:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w24
+25	pildspalvu	pildspalva	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	23	conj	19:obj|23:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w25|SpaceAfter=No
+26	.	.	PUNCT	zs	_	19	punct	19:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p28s2w26
+
+# sent_id = a-dXYZ-Mazais-princis-p28s3
+# text = Tad gan atcerējos, ka esmu mācījies gandrīz vienīgi ģeogrāfiju, vēsturi, rēķināšanu un gramatiku, un teicu mazliet īgni puisēnam, ka neprotu zīmēt.
+1	Tad	tad	ADV	r0t	PronType=Dem	3	advmod	3:advmod|19:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w1
+2	gan	gan	PART	q	_	3	discourse	3:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w2
+3	atcerējos	atcerēties	VERB	vmyist31san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w3|SpaceAfter=No
+4	,	,	PUNCT	zc	_	7	punct	7:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w4
+5	ka	ka	SCONJ	cs	_	7	mark	7:mark	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w5
+6	esmu	būt	AUX	vcnipii1san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w6
+7	mācījies	mācīties	VERB	vmypdmsnasnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Part|Voice=Act	3	ccomp	3:ccomp	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w7
+8	gandrīz	gandrīz	ADV	r0q	_	9	advmod	9:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w8
+9	vienīgi	vienīgi	ADV	r0q	_	10	advmod	10:advmod|12:advmod|14:advmod|16:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w9
+10	ģeogrāfiju	ģeogrāfija	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	7	obj	7:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w10|SpaceAfter=No
+11	,	,	PUNCT	zc	_	12	punct	12:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w11
+12	vēsturi	vēsture	NOUN	ncfsa5	Case=Acc|Gender=Fem|Number=Sing	10	conj	7:obj|10:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w12|SpaceAfter=No
+13	,	,	PUNCT	zc	_	14	punct	14:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w13
+14	rēķināšanu	rēķināšana	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	10	conj	7:obj|10:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w14
+15	un	un	CCONJ	cc	_	16	cc	16:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w15
+16	gramatiku	gramatika	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	10	conj	7:obj|10:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w16|SpaceAfter=No
+17	,	,	PUNCT	zc	_	19	punct	19:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w17
+18	un	un	CCONJ	cc	_	19	cc	19:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w18
+19	teicu	teikt	VERB	vmnist11san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	3:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w19
+20	mazliet	mazliet	ADV	r0q	_	21	advmod	21:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w20
+21	īgni	īgni	ADV	rpm	Degree=Pos	19	advmod	19:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w21
+22	puisēnam	puisēns	NOUN	ncmsd1	Case=Dat|Gender=Masc|Number=Sing	19	iobj	19:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w22|SpaceAfter=No
+23	,	,	PUNCT	zc	_	25	punct	25:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w23
+24	ka	ka	SCONJ	cs	_	25	mark	25:mark	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w24
+25	neprotu	prast	VERB	vonipi11say	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl	22:acl	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w25
+26	zīmēt	zīmēt	VERB	vmnn0t2000n	Polarity=Pos|VerbForm=Inf	25	xcomp	25:xcomp	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w26|SpaceAfter=No
+27	.	.	PUNCT	zs	_	3	punct	3:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p28s3w27
+
+# sent_id = a-dXYZ-Mazais-princis-p28s4
+# text = Viņš man atbildēja: - Tas nekas.
+1	Viņš	viņš	PRON	pp3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s4w1
+2	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	3:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s4w2
+3	atbildēja	atbildēt	VERB	vmnisi330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p28s4w3|SpaceAfter=No
+4	:	:	PUNCT	zo	_	7	punct	7:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p28s4w4
+5	-	-	PUNCT	zd	_	7	punct	7:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p28s4w5|NewPar=Yes
+6	Tas	tas	PRON	pd3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	7:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p28s4w6
+7	nekas	nekas	PRON	pi000ny	Case=Nom|PronType=Ind,Neg	3	parataxis	3:parataxis	LvtbNodeId=a-dXYZ-Mazais-princis-p28s4w7|SpaceAfter=No
+8	.	.	PUNCT	zs	_	7	punct	7:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p28s4w8
+
+# newpar id = dXYZ-Mazais-princis-p29
+# sent_id = a-dXYZ-Mazais-princis-p29s1
+# text = Uzzīmē man jēriņu.
+1	Uzzīmē	uzzīmēt	VERB	vmnipt230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p29s1w1
+2	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	1:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p29s1w2
+3	jēriņu	jēriņš	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	1	obj	1:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p29s1w3|SpaceAfter=No
+4	.	.	PUNCT	zs	_	1	punct	1:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p29s1w4
+
+# newpar id = dXYZ-Mazais-princis-p30
+# sent_id = a-dXYZ-Mazais-princis-p30s1
+# text = Tā kā nekad nebiju zīmējis jēriņu, es uzmetu vienu no tiem diviem vienīgajiem zīmējumiem, ko pratu zīmēt, proti, neuzšķērsto čūsku ar ziloni vēderā.
+1	Tā	tā	SCONJ	cs	_	5	mark	5:mark	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w1
+2	kā	kā	SCONJ	cs	_	1	fixed	1:fixed	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w2
+3	nekad	nekad	ADV	r0t	PronType=Int,Neg	5	advmod	5:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w3
+4	nebiju	būt	AUX	vcnisii1say	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w4
+5	zīmējis	zīmēt	VERB	vmnpdmsnasnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	advcl	9:advcl	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w5
+6	jēriņu	jēriņš	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	5	obj	5:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w6|SpaceAfter=No
+7	,	,	PUNCT	zc	_	5	punct	5:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w7
+8	es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w8
+9	uzmetu	uzmest	VERB	vmnist11san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w9
+10	vienu	viens	NUM	mcsmsa	Case=Acc|Gender=Masc|Number=Sing|NumType=Card	9	obj	9:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w10
+11	no	no	ADP	sppd	_	15	case	15:case	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w11
+12	tiem	tas	DET	pd3mpdn	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Dem	15	det	15:det	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w12
+13	diviem	divi	NUM	mcsmpd	Case=Dat|Gender=Masc|Number=Plur|NumType=Card	15	nummod	15:nummod	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w13
+14	vienīgajiem	vienīgs	ADJ	afmpdyp	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	15	amod	15:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w14
+15	zīmējumiem	zīmējums	NOUN	ncmpd1	Case=Dat|Gender=Masc|Number=Plur	10	nmod	10:nmod:no	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w15|SpaceAfter=No
+16	,	,	PUNCT	zc	_	18	punct	18:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w16
+17	ko	kas	PRON	pr000an	Case=Acc|PronType=Rel	19	obj	19:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w17
+18	pratu	prast	VERB	vonisi11san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	15	acl	15:acl	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w18
+19	zīmēt	zīmēt	VERB	vmnn0t2000n	Polarity=Pos|VerbForm=Inf	18	xcomp	18:xcomp	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w19|SpaceAfter=No
+20	,	,	PUNCT	zc	_	24	punct	24:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w20
+21	proti	proti	PART	q	_	24	discourse	24:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w21|SpaceAfter=No
+22	,	,	PUNCT	zc	_	21	punct	21:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w22
+23	neuzšķērsto	uzšķērst	VERB	vmnpdfsapsypy	Aspect=Perf|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	24:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w23
+24	čūsku	čūska	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	10	acl	10:acl:acc	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w24
+25	ar	ar	ADP	spsa	_	26	case	26:case	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w25
+26	ziloni	zilonis	NOUN	ncmsa2	Case=Acc|Gender=Masc|Number=Sing	24	nmod	24:nmod:acc	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w26
+27	vēderā	vēders	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	26	nmod	26:nmod:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w27|SpaceAfter=No
+28	.	.	PUNCT	zs	_	9	punct	9:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p30s1w28
+
+# sent_id = a-dXYZ-Mazais-princis-p30s2
+# text = Biju ārkārtīgi pārsteigts, kad izdzirdu mazo puisēnu atbildam: -Nē!
+1	Biju	būt	AUX	vcnisii1san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	3:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p30s2w1
+2	ārkārtīgi	ārkārtīgi	ADV	rpq	Degree=Pos	3	advmod	3:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p30s2w2
+3	pārsteigts	pārsteigts	ADJ	afmsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p30s2w3|SpaceAfter=No
+4	,	,	PUNCT	zc	_	6	punct	6:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p30s2w4
+5	kad	kad	ADV	r0t	PronType=Int	6	advmod	6:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p30s2w5
+6	izdzirdu	izdzirdēt	VERB	vmnipt31san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	3:advcl	LvtbNodeId=a-dXYZ-Mazais-princis-p30s2w6
+7	mazo	mazs	ADJ	afmsayp	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	8:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p30s2w7
+8	puisēnu	puisēns	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	6	obj	6:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p30s2w8
+9	atbildam	atbildēt	VERB	vmnipi31pan	Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	dep	6:dep	LvtbNodeId=a-dXYZ-Mazais-princis-p30s2w9|SpaceAfter=No
+10	:	:	PUNCT	zo	_	12	punct	12:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p30s2w10
+11	-	-	PUNCT	zd	_	12	punct	12:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p30s2w11|NewPar=Yes|SpaceAfter=No
+12	Nē	nē	PART	q	Polarity=Neg	9	parataxis	9:parataxis	LvtbNodeId=a-dXYZ-Mazais-princis-p30s2w12|SpaceAfter=No
+13	!	!	PUNCT	zs	_	12	punct	12:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p30s2w13
+
+# newpar id = dXYZ-Mazais-princis-p31
+# sent_id = a-dXYZ-Mazais-princis-p31s1
+# text = Nē!
+1	Nē	nē	PART	q	Polarity=Neg	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p31s1w1|SpaceAfter=No
+2	!	!	PUNCT	zs	_	1	punct	1:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p31s1w2
+
+# sent_id = a-dXYZ-Mazais-princis-p31s2
+# text = Es negribu ziloni čūskas vēderā.
+1	Es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p31s2w1
+2	negribu	gribēt	VERB	vmnipt31san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p31s2w2
+3	ziloni	zilonis	NOUN	ncmsa2	Case=Acc|Gender=Masc|Number=Sing	2	obj	2:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p31s2w3
+4	čūskas	čūska	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	5	nmod	5:nmod:gen	LvtbNodeId=a-dXYZ-Mazais-princis-p31s2w4
+5	vēderā	vēders	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	3	nmod	3:nmod:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p31s2w5|SpaceAfter=No
+6	.	.	PUNCT	zs	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p31s2w6
+
+# sent_id = a-dXYZ-Mazais-princis-p31s3
+# text = Čūska ir ļoti bīstama, un zilonis ir ļoti liels un neveikls.
+1	Čūska	čūska	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p31s3w1
+2	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p31s3w2
+3	ļoti	ļoti	ADV	r0q	_	4	advmod	4:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p31s3w3
+4	bīstama	bīstams	ADJ	affsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p31s3w4|SpaceAfter=No
+5	,	,	PUNCT	zc	_	10	punct	10:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p31s3w5
+6	un	un	CCONJ	cc	_	10	cc	10:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p31s3w6
+7	zilonis	zilonis	NOUN	ncmsn2	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	10:nsubj|12:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p31s3w7
+8	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop|12:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p31s3w8
+9	ļoti	ļoti	ADV	r0q	_	10	advmod	10:advmod|12:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p31s3w9
+10	liels	liels	ADJ	afmsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	conj	4:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p31s3w10
+11	un	un	CCONJ	cc	_	12	cc	12:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p31s3w11
+12	neveikls	neveikls	ADJ	afmsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	conj	10:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p31s3w12|SpaceAfter=No
+13	.	.	PUNCT	zs	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p31s3w13
+
+# sent_id = a-dXYZ-Mazais-princis-p31s4
+# text = Manās mājās viss ir tik mazs.
+1	Manās	mana	DET	ps0fpln	Case=Loc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	2	det	2:det	LvtbNodeId=a-dXYZ-Mazais-princis-p31s4w1
+2	mājās	māja	NOUN	ncfpl4	Case=Loc|Gender=Fem|Number=Plur	6	obl	6:obl:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p31s4w2
+3	viss	viss	PRON	pg0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	6	nsubj	6:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p31s4w3
+4	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p31s4w4
+5	tik	tik	ADV	r0q	PronType=Dem	6	advmod	6:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p31s4w5
+6	mazs	mazs	ADJ	afmsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p31s4w6|SpaceAfter=No
+7	.	.	PUNCT	zs	_	6	punct	6:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p31s4w7
+
+# sent_id = a-dXYZ-Mazais-princis-p31s5
+# text = Man vajag jēriņu.
+1	Man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p31s5w1
+2	vajag	vajadzēt	VERB	vmnipt330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p31s5w2
+3	jēriņu	jēriņš	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	2	obj	2:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p31s5w3|SpaceAfter=No
+4	.	.	PUNCT	zs	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p31s5w4
+
+# sent_id = a-dXYZ-Mazais-princis-p31s6
+# text = Uzzīmē man jēriņu.
+1	Uzzīmē	uzzīmēt	VERB	vmnmpt22san	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p31s6w1
+2	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	1:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p31s6w2
+3	jēriņu	jēriņš	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	1	obj	1:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p31s6w3|SpaceAfter=No
+4	.	.	PUNCT	zs	_	1	punct	1:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p31s6w4
+
+# sent_id = a-dXYZ-Mazais-princis-p31s7
+# text = Un es uzzīmēju.
+1	Un	un	CCONJ	cc	_	3	cc	3:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p31s7w1
+2	es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p31s7w2
+3	uzzīmēju	uzzīmēt	VERB	vmnist21san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p31s7w3|SpaceAfter=No
+4	.	.	PUNCT	zs	_	3	punct	3:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p31s7w4
+
+# newpar id = dXYZ-Mazais-princis-p32
+# sent_id = a-dXYZ-Mazais-princis-p32s1
+# text = Uzmanīgi apskatījis zīmējumu, puisēns iebilda: - Nē!
+1	Uzmanīgi	uzmanīgi	ADV	rpm	Degree=Pos	2	advmod	2:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p32s1w1
+2	apskatījis	apskatīt	VERB	vmnpdmsnasnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	xcomp	6:xcomp	LvtbNodeId=a-dXYZ-Mazais-princis-p32s1w2
+3	zīmējumu	zīmējums	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	2	obj	2:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p32s1w3|SpaceAfter=No
+4	,	,	PUNCT	zc	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p32s1w4
+5	puisēns	puisēns	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	6:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p32s1w5
+6	iebilda	iebilst	VERB	vmnist130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p32s1w6|SpaceAfter=No
+7	:	:	PUNCT	zo	_	6	punct	6:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p32s1w7
+8	-	-	PUNCT	zd	_	9	punct	9:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p32s1w8|NewPar=Yes
+9	Nē	nē	PART	q	Polarity=Neg	6	parataxis	6:parataxis	LvtbNodeId=a-dXYZ-Mazais-princis-p32s1w9|SpaceAfter=No
+10	!	!	PUNCT	zs	_	9	punct	9:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p32s1w10
+
+# newpar id = dXYZ-Mazais-princis-p33
+# sent_id = a-dXYZ-Mazais-princis-p33s1
+# text = Šis jau ir galīgi slims.
+1	Šis	šis	PRON	pd3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	5:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p33s1w1
+2	jau	jau	PART	q	_	5	discourse	5:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p33s1w2
+3	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p33s1w3
+4	galīgi	galīgi	ADV	rpq	Degree=Pos	5	advmod	5:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p33s1w4
+5	slims	slims	ADJ	afmsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p33s1w5|SpaceAfter=No
+6	.	.	PUNCT	zs	_	5	punct	5:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p33s1w6
+
+# sent_id = a-dXYZ-Mazais-princis-p33s2
+# text = Uzzīmē citu.
+1	Uzzīmē	uzzīmēt	VERB	vmnmpt22san	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p33s2w1
+2	citu	cits	PRON	pi0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	1	obj	1:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p33s2w2|SpaceAfter=No
+3	.	.	PUNCT	zs	_	1	punct	1:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p33s2w3
+
+# sent_id = a-dXYZ-Mazais-princis-p33s3
+# text = Es uzzīmēju.
+1	Es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p33s3w1
+2	uzzīmēju	uzzīmēt	VERB	vmnist21san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p33s3w2|SpaceAfter=No
+3	.	.	PUNCT	zs	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p33s3w3
+
+# newpar id = dXYZ-Mazais-princis-p34
+# sent_id = a-dXYZ-Mazais-princis-p34s1
+# text = Mans draugs mīļi un iecietīgi pasmaidīja: - Vai tad tu neredzi…
+1	Mans	mans	DET	ps0msnn	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	2:det	LvtbNodeId=a-dXYZ-Mazais-princis-p34s1w1
+2	draugs	draugs	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	6:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p34s1w2
+3	mīļi	mīļš	ADJ	afmpnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	6	dep	6:dep	LvtbNodeId=a-dXYZ-Mazais-princis-p34s1w3
+4	un	un	CCONJ	cc	_	5	cc	5:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p34s1w4
+5	iecietīgi	iecietīgi	ADV	rpm	Degree=Pos	3	conj	3:conj|6:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p34s1w5
+6	pasmaidīja	pasmaidīt	VERB	vmnisi330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p34s1w6|SpaceAfter=No
+7	:	:	PUNCT	zo	_	12	punct	12:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p34s1w7
+8	-	-	PUNCT	zd	_	12	punct	12:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p34s1w8
+9	Vai	vai	CCONJ	cc	_	12	cc	12:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p34s1w9
+10	tad	tad	PART	q	_	12	discourse	12:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p34s1w10
+11	tu	tu	PRON	pp20snn	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	12:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p34s1w11
+12	neredzi	redzēt	VERB	vmnipt32say	Evident=Fh|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	6:parataxis	LvtbNodeId=a-dXYZ-Mazais-princis-p34s1w12|SpaceAfter=No
+13	…	...	PUNCT	zs	_	12	punct	12:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p34s1w13
+
+# sent_id = a-dXYZ-Mazais-princis-p34s2
+# text = Tas nav viss jēriņš, bet auns.
+1	Tas	tas	PRON	pd3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	4:nsubj|7:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p34s2w1
+2	nav	būt	AUX	vcnipii30ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p34s2w2
+3	viss	vis	PART	q	Typo=Yes	4	discourse	4:discourse	CorrectForm=vis|CorrectionType=Spelling|LvtbNodeId=a-dXYZ-Mazais-princis-p34s2w3
+4	jēriņš	jēriņš	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p34s2w4|SpaceAfter=No
+5	,	,	PUNCT	zc	_	7	punct	7:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p34s2w5
+6	bet	bet	CCONJ	cc	_	7	cc	7:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p34s2w6
+7	auns	auns	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	4	conj	4:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p34s2w7|SpaceAfter=No
+8	.	.	PUNCT	zs	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p34s2w8
+
+# sent_id = a-dXYZ-Mazais-princis-p34s3
+# text = Viņam ir ragi…
+1	Viņam	viņš	PRON	pp3msdn	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	2:obl:dat	LvtbNodeId=a-dXYZ-Mazais-princis-p34s3w1
+2	ir	būt	VERB	vmnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p34s3w2
+3	ragi	rags	NOUN	ncmpn1	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	2:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p34s3w3|SpaceAfter=No
+4	…	...	PUNCT	zs	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p34s3w4
+
+# newpar id = dXYZ-Mazais-princis-p35
+# sent_id = a-dXYZ-Mazais-princis-p35s1
+# text = Es vēlreiz pārlaboju zīmējumu.
+1	Es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p35s1w1
+2	vēlreiz	vēlreiz	ADV	r0m	_	3	advmod	3:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p35s1w2
+3	pārlaboju	pārlabot	VERB	vmnist21san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p35s1w3
+4	zīmējumu	zīmējums	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	3	obj	3:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p35s1w4|SpaceAfter=No
+5	.	.	PUNCT	zs	_	3	punct	3:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p35s1w5
+
+# sent_id = a-dXYZ-Mazais-princis-p35s2
+# text = Taču puisēns to noraidīja tāpat kā visus iepriekšējos: - Šis ir pārāk vecs.
+1	Taču	taču	CCONJ	cc	_	4	cc	4:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w1
+2	puisēns	puisēns	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	4:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w2
+3	to	tas	PRON	pd3msan	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	obj	4:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w3
+4	noraidīja	noraidīt	VERB	vmnist330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w4
+5	tāpat	tāpat	ADV	r0m	_	4	advmod	4:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w5
+6	kā	kā	SCONJ	cs	_	8	case	8:case	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w6
+7	visus	viss	DET	pg0mpan	Case=Acc|Gender=Masc|Number=Plur|PronType=Tot	8	det	8:det	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w7
+8	iepriekšējos	iepriekšējs	ADJ	afmpayp	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	5	obl	5:obl:kā	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w8|SpaceAfter=No
+9	:	:	PUNCT	zo	_	14	punct	14:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w9
+10	-	-	PUNCT	zd	_	14	punct	14:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w10|NewPar=Yes
+11	Šis	šis	PRON	pd3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	14:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w11
+12	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w12
+13	pārāk	pārāk	ADV	r0q	_	14	advmod	14:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w13
+14	vecs	vecs	ADJ	afmsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	parataxis	4:parataxis	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w14|SpaceAfter=No
+15	.	.	PUNCT	zs	_	14	punct	14:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p35s2w15
+
+# newpar id = dXYZ-Mazais-princis-p36
+# sent_id = a-dXYZ-Mazais-princis-p36s1
+# text = Es gribu jēriņu, kas ilgi dzīvotu.
+1	Es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p36s1w1
+2	gribu	gribēt	VERB	vmnipt31san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p36s1w2
+3	jēriņu	jēriņš	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	2	obj	2:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p36s1w3|SpaceAfter=No
+4	,	,	PUNCT	zc	_	7	punct	7:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p36s1w4
+5	kas	kas	PRON	pr000nn	Case=Nom|PronType=Rel	7	nsubj	7:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p36s1w5
+6	ilgi	ilgi	ADV	rpt	Degree=Pos	7	advmod	7:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p36s1w6
+7	dzīvotu	dzīvot	VERB	vmnc0i200an	Mood=Cnd|Polarity=Pos|VerbForm=Fin|Voice=Act	3	acl	3:acl	LvtbNodeId=a-dXYZ-Mazais-princis-p36s1w7|SpaceAfter=No
+8	.	.	PUNCT	zs	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p36s1w8
+
+# newpar id = dXYZ-Mazais-princis-p37
+# sent_id = a-dXYZ-Mazais-princis-p37s1
+# text = Tad man pietrūka pacietības, un, tā kā steidzos izjaukt motoru, es uzmetu šādu zīmējumu:
+1	Tad	tad	ADV	r0t	PronType=Dem	3	advmod	3:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w1
+2	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl	3:obl:dat	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w2
+3	pietrūka	pietrūkt	VERB	vmnisi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w3
+4	pacietības	pacietība	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w4|SpaceAfter=No
+5	,	,	PUNCT	zc	_	15	punct	15:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w5
+6	un	un	CCONJ	cc	_	15	cc	15:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w6|SpaceAfter=No
+7	,	,	PUNCT	zc	_	10	punct	10:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w7
+8	tā	tā	SCONJ	cs	_	10	mark	10:mark	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w8
+9	kā	kā	SCONJ	cs	_	8	fixed	8:fixed	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w9
+10	steidzos	steigties	VERB	voyisi11san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w10
+11	izjaukt	izjaukt	VERB	vmnn0t1000n	Polarity=Pos|VerbForm=Inf	10	xcomp	10:xcomp	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w11
+12	motoru	motors	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	11	obj	11:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w12|SpaceAfter=No
+13	,	,	PUNCT	zc	_	10	punct	10:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w13
+14	es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	15:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w14
+15	uzmetu	uzmest	VERB	vmnist11san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	3:conj	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w15
+16	šādu	šāds	DET	pd0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	17	det	17:det	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w16
+17	zīmējumu	zīmējums	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	15	obj	15:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w17|SpaceAfter=No
+18	:	:	PUNCT	zo	_	15	punct	15:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p37s1w18
+
+# newpar id = dXYZ-Mazais-princis-p38
+# sent_id = a-dXYZ-Mazais-princis-p38s1
+# text = Un ātrumā teicu: - Šī te ir kaste.
+1	Un	un	CCONJ	cc	_	3	cc	3:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p38s1w1
+2	ātrumā	ātrums	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	3	obl	3:obl:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p38s1w2
+3	teicu	teikt	VERB	vmnist11san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p38s1w3|SpaceAfter=No
+4	:	:	PUNCT	zo	_	9	punct	9:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p38s1w4
+5	-	-	PUNCT	zd	_	9	punct	9:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p38s1w5|NewPar=Yes
+6	Šī	šī	PRON	pd3fsnn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem	9	nsubj	9:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p38s1w6
+7	te	te	ADV	r0p	PronType=Dem	6	dep	6:dep	LvtbNodeId=a-dXYZ-Mazais-princis-p38s1w7
+8	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p38s1w8
+9	kaste	kaste	NOUN	ncfsn5	Case=Nom|Gender=Fem|Number=Sing	3	parataxis	3:parataxis	LvtbNodeId=a-dXYZ-Mazais-princis-p38s1w9|SpaceAfter=No
+10	.	.	PUNCT	zs	_	9	punct	9:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p38s1w10
+
+# newpar id = dXYZ-Mazais-princis-p39
+# sent_id = a-dXYZ-Mazais-princis-p39s1
+# text = Jēriņš, ko tu vēlies, atrodas tur iekšā.
+1	Jēriņš	jēriņš	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	7:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p39s1w1|SpaceAfter=No
+2	,	,	PUNCT	zc	_	5	punct	5:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p39s1w2
+3	ko	kas	PRON	pr000an	Case=Acc|PronType=Rel	5	obj	5:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p39s1w3
+4	tu	tu	PRON	pp20snn	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p39s1w4
+5	vēlies	vēlēties	VERB	vmyipt32san	Evident=Fh|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl	1:acl	LvtbNodeId=a-dXYZ-Mazais-princis-p39s1w5|SpaceAfter=No
+6	,	,	PUNCT	zc	_	5	punct	5:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p39s1w6
+7	atrodas	atrasties	VERB	vmyipi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p39s1w7
+8	tur	tur	ADV	r0p	PronType=Dem	9	advmod	9:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p39s1w8
+9	iekšā	iekšā	ADV	r0p	_	7	advmod	7:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p39s1w9|SpaceAfter=No
+10	.	.	PUNCT	zs	_	7	punct	7:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p39s1w10
+
+# newpar id = dXYZ-Mazais-princis-p40
+# sent_id = a-dXYZ-Mazais-princis-p40s1
+# text = Bet cik ļoti biju pārsteigts, redzēdams, ka mana mazā kritiķa seja iemirdzas priekā: - Tieši tādu es vēlējos.
+1	Bet	bet	CCONJ	cc	_	5	cc	5:cc	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w1
+2	cik	cik	ADV	r0q	PronType=Int	3	advmod	3:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w2
+3	ļoti	ļoti	ADV	r0q	_	5	advmod	5:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w3
+4	biju	būt	AUX	vcnisii1san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w4
+5	pārsteigts	pārsteigts	ADJ	afmsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w5|SpaceAfter=No
+6	,	,	PUNCT	zc	_	7	punct	7:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w6
+7	redzēdams	redzēt	VERB	vmnppmsn0000n	Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Conv	5	xcomp	5:xcomp	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w7|SpaceAfter=No
+8	,	,	PUNCT	zc	_	14	punct	14:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w8
+9	ka	ka	SCONJ	cs	_	14	mark	14:mark	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w9
+10	mana	mans	DET	ps0msgn	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det	12:det	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w10
+11	mazā	mazs	ADJ	afmsgyp	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	12:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w11
+12	kritiķa	kritiķis	NOUN	ncmsg2	Case=Gen|Gender=Masc|Number=Sing	13	nmod	13:nmod:gen	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w12
+13	seja	seja	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	14:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w13
+14	iemirdzas	iemirdzēties	VERB	vmyipi330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	7:ccomp	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w14
+15	priekā	prieks	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	14	obl	14:obl:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w15|SpaceAfter=No
+16	:	:	PUNCT	zo	_	21	punct	21:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w16
+17	-	-	PUNCT	zd	_	21	punct	21:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w17|NewPar=Yes
+18	Tieši	tieši	PART	q	_	19	discourse	19:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w18
+19	tādu	tāds	PRON	pd0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	21	obj	21:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w19
+20	es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	21:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w20
+21	vēlējos	vēlēties	VERB	vmyist31san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	14	parataxis	14:parataxis	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w21|SpaceAfter=No
+22	.	.	PUNCT	zs	_	21	punct	21:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p40s1w22
+
+# newpar id = dXYZ-Mazais-princis-p41
+# sent_id = a-dXYZ-Mazais-princis-p41s1
+# text = Kā tev šķiet, vai šim jēriņam vajadzēs daudz zāles?
+1	Kā	kā	ADV	r0m	PronType=Int	3	advmod	3:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p41s1w1
+2	tev	tu	PRON	pp20sdn	Case=Dat|Number=Sing|Person=2|PronType=Prs	3	obl	3:obl:dat	LvtbNodeId=a-dXYZ-Mazais-princis-p41s1w2
+3	šķiet	šķist	VERB	vmnipi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p41s1w3|SpaceAfter=No
+4	,	,	PUNCT	zc	_	8	punct	8:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p41s1w4
+5	vai	vai	SCONJ	cs	_	8	mark	8:mark	LvtbNodeId=a-dXYZ-Mazais-princis-p41s1w5
+6	šim	šis	DET	pd3msdn	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	det	7:det	LvtbNodeId=a-dXYZ-Mazais-princis-p41s1w6
+7	jēriņam	jēriņš	NOUN	ncmsd1	Case=Dat|Gender=Masc|Number=Sing	8	nsubj	8:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p41s1w7
+8	vajadzēs	vajadzēt	VERB	vmnift330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	3	csubj	3:csubj	LvtbNodeId=a-dXYZ-Mazais-princis-p41s1w8
+9	daudz	daudz	ADV	rpq	Degree=Pos	10	advmod	10:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p41s1w9
+10	zāles	zāle	NOUN	ncfsg5	Case=Gen|Gender=Fem|Number=Sing	8	nsubj	8:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p41s1w10|SpaceAfter=No
+11	?	?	PUNCT	zs	_	3	punct	3:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p41s1w11
+
+# newpar id = dXYZ-Mazais-princis-p42
+# sent_id = a-dXYZ-Mazais-princis-p42s1
+# text = -Kādēļ?
+1	-	-	PUNCT	zd	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p42s1w1|SpaceAfter=No
+2	Kādēļ	kādēļ	ADV	r0c	PronType=Int	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p42s1w2|SpaceAfter=No
+3	?	?	PUNCT	zs	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p42s1w3
+
+# newpar id = dXYZ-Mazais-princis-p43
+# sent_id = a-dXYZ-Mazais-princis-p43s1
+# text = - Tādēļ, ka manās mājās viss ir ļoti mazs…
+1	-	-	PUNCT	zd	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p43s1w1
+2	Tādēļ	tādēļ	ADV	r0c	_	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p43s1w2|SpaceAfter=No
+3	,	,	PUNCT	zc	_	10	punct	10:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p43s1w3
+4	ka	ka	SCONJ	cs	_	10	mark	10:mark	LvtbNodeId=a-dXYZ-Mazais-princis-p43s1w4
+5	manās	mana	DET	ps0fpln	Case=Loc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	6	det	6:det	LvtbNodeId=a-dXYZ-Mazais-princis-p43s1w5
+6	mājās	māja	NOUN	ncfpl4	Case=Loc|Gender=Fem|Number=Plur	10	obl	10:obl:loc	LvtbNodeId=a-dXYZ-Mazais-princis-p43s1w6
+7	viss	viss	PRON	pg0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	10	nsubj	10:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p43s1w7
+8	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p43s1w8
+9	ļoti	ļoti	ADV	r0q	_	10	advmod	10:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p43s1w9
+10	mazs	mazs	ADJ	afmsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	advcl	2:advcl	LvtbNodeId=a-dXYZ-Mazais-princis-p43s1w10|SpaceAfter=No
+11	…	...	PUNCT	zs	_	2	punct	2:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p43s1w11
+
+# newpar id = dXYZ-Mazais-princis-p44
+# sent_id = a-dXYZ-Mazais-princis-p44s1
+# text = - Droši vien pietiks.
+1	-	-	PUNCT	zd	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p44s1w1
+2	Droši	droši	PART	q	_	4	discourse	4:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p44s1w2
+3	vien	vien	PART	q	_	2	fixed	2:fixed	LvtbNodeId=a-dXYZ-Mazais-princis-p44s1w3
+4	pietiks	pietikt	VERB	vmnifi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p44s1w4|SpaceAfter=No
+5	.	.	PUNCT	zs	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p44s1w5
+
+# sent_id = a-dXYZ-Mazais-princis-p44s2
+# text = Es tev uzdāvināju pavisam mazu jēriņu.
+1	Es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p44s2w1
+2	tev	tu	PRON	pp20sdn	Case=Dat|Number=Sing|Person=2|PronType=Prs	3	iobj	3:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p44s2w2
+3	uzdāvināju	uzdāvināt	VERB	vmnist31san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p44s2w3
+4	pavisam	pavisam	ADV	r0q	_	5	advmod	5:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p44s2w4
+5	mazu	mazs	ADJ	afmsanp	Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	6:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p44s2w5
+6	jēriņu	jēriņš	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	3	obj	3:obj	LvtbNodeId=a-dXYZ-Mazais-princis-p44s2w6|SpaceAfter=No
+7	.	.	PUNCT	zs	_	3	punct	3:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p44s2w7
+
+# newpar id = dXYZ-Mazais-princis-p45
+# sent_id = a-dXYZ-Mazais-princis-p45s1
+# text = Viņš noliecās pār zīmējumu: - Nav jau nemaz tik maziņš…
+1	Viņš	viņš	PRON	pp3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p45s1w1
+2	noliecās	noliekties	VERB	vmyisi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p45s1w2
+3	pār	pār	ADP	spsa	_	4	case	4:case	LvtbNodeId=a-dXYZ-Mazais-princis-p45s1w3
+4	zīmējumu	zīmējums	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	2	obl	2:obl:pār	LvtbNodeId=a-dXYZ-Mazais-princis-p45s1w4|SpaceAfter=No
+5	:	:	PUNCT	zo	_	11	punct	11:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p45s1w5
+6	-	-	PUNCT	zd	_	11	punct	11:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p45s1w6|NewPar=Yes
+7	Nav	būt	AUX	vcnipii30ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	LvtbNodeId=a-dXYZ-Mazais-princis-p45s1w7
+8	jau	jau	PART	q	_	11	discourse	11:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p45s1w8
+9	nemaz	nemaz	PART	q	_	11	discourse	11:discourse	LvtbNodeId=a-dXYZ-Mazais-princis-p45s1w9
+10	tik	tik	ADV	r0c	PronType=Dem	11	advmod	11:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p45s1w10
+11	maziņš	maziņš	ADJ	afmsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	parataxis	2:parataxis	LvtbNodeId=a-dXYZ-Mazais-princis-p45s1w11|SpaceAfter=No
+12	…	...	PUNCT	zs	_	11	punct	11:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p45s1w12
+
+# newpar id = dXYZ-Mazais-princis-p46
+# sent_id = a-dXYZ-Mazais-princis-p46s1
+# text = Paskat!
+1	Paskat	paskatīties	INTJ	i	_	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p46s1w1|SpaceAfter=No
+2	!	!	PUNCT	zs	_	1	punct	1:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p46s1w2
+
+# sent_id = a-dXYZ-Mazais-princis-p46s2
+# text = Viņš ir aizmidzis…
+1	Viņš	viņš	PRON	pp3msnn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p46s2w1
+2	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	LvtbNodeId=a-dXYZ-Mazais-princis-p46s2w2
+3	aizmidzis	aizmigt	VERB	vmnpdmsnasnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p46s2w3|SpaceAfter=No
+4	…	...	PUNCT	zs	_	3	punct	3:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p46s2w4
+
+# newpar id = dXYZ-Mazais-princis-p47
+# sent_id = a-dXYZ-Mazais-princis-p47s1
+# text = - Tā es iepazinos ar mazo princi.
+1	-	-	PUNCT	zd	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p47s1w1
+2	Tā	tā	ADV	r0m	PronType=Dem	4	advmod	4:advmod	LvtbNodeId=a-dXYZ-Mazais-princis-p47s1w2
+3	es	es	PRON	pp10snn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	LvtbNodeId=a-dXYZ-Mazais-princis-p47s1w3
+4	iepazinos	iepazīties	VERB	vmyisi11san	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-dXYZ-Mazais-princis-p47s1w4
+5	ar	ar	ADP	spsa	_	7	case	7:case	LvtbNodeId=a-dXYZ-Mazais-princis-p47s1w5
+6	mazo	mazs	ADJ	afmsayp	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	7:amod	LvtbNodeId=a-dXYZ-Mazais-princis-p47s1w6
+7	princi	princis	NOUN	ncmsa2	Case=Acc|Gender=Masc|Number=Sing	4	iobj	4:iobj	LvtbNodeId=a-dXYZ-Mazais-princis-p47s1w7|SpaceAfter=No
+8	.	.	PUNCT	zs	_	4	punct	4:punct	LvtbNodeId=a-dXYZ-Mazais-princis-p47s1w8
 
 # newdoc id = dXYZ-Mazais-princis
 # newpar id = dXYZ-Mazais-princis-p7
@@ -24805,7 +25696,7 @@
 13	ko	kas	PRON	pq000an	Case=Acc|PronType=Int	15	orphan	15.1:iobj	LvtbNodeId=a-p18922-p6s4w13
 14	viņam	viņš	PRON	pp3msdn	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	15.1:obl:dat	LvtbNodeId=a-p18922-p6s4w14
 15	gods	gods	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	8	advcl	15.1:nsubj	LvtbNodeId=a-p18922-p6s4w15
-15.1	ir	būt	VERB	vmnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	8:advcl	LvtbNodeId=a-p18922-p6s4x5
+15.1	ir	būt	VERB	vmnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	8:advcl	LvtbNodeId=a-p18922-p6s4x4
 16	un	un	CCONJ	cc	_	17	cc	17:cc	LvtbNodeId=a-p18922-p6s4w16
 17	slava	slava	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	15	conj	15:conj|15.1:nsubj	LvtbNodeId=a-p18922-p6s4w17|SpaceAfter=No
 18	.	.	PUNCT	zs	_	3	punct	3:punct	LvtbNodeId=a-p18922-p6s4w18
@@ -25821,7 +26712,7 @@
 10	tikai	tikai	PART	q	_	11	discourse	11:discourse	LvtbNodeId=a-p216-p38s7w10
 11	viena	viens	NUM	mcsfsn	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	12	nummod	12:nummod	LvtbNodeId=a-p216-p38s7w11
 12	doma	doma	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	12.1:nsubj	LvtbNodeId=a-p216-p38s7w12
-12.1	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	0:root	LvtbNodeId=a-p216-p38s7x2
+12.1	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	0:root	LvtbNodeId=a-p216-p38s7x1
 13	–	-	PUNCT	zd	_	14	punct	14:punct	LvtbNodeId=a-p216-p38s7w13
 14	nedod	dot	VERB	vmnm0ti2say	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	12	acl	12:acl	LvtbNodeId=a-p216-p38s7w14|SpaceAfter=No
 15	,	,	PUNCT	zc	_	16	punct	16:punct	LvtbNodeId=a-p216-p38s7w15

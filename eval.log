@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Latvian-LVTB:
-commit ee53f1ec73d8022856be4b46d8579e6ea45827a9
-Merge: dd212b8 ae2d8da
+commit cd2862596c5355cae2837df84371307654911161
+Merge: 9c9ac2c 30cc496
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 265041 of 265041 words (nodes).
-Size: min(0, log((N/1000)**2)) = 11.1597690619998.
+Size: counted 281953 of 281953 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.283480780762.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,14 +15,14 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 176345 out of 265041 total words have one or more features.
+Features: 187654 out of 281953 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      12038
-Udapi: found 12038 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 265041 words.
+               TOTAL      12418
+Udapi: found 12418 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 281953 words.
 Genres: found 5 out of 17 known.
 validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-dev.conllu
 *** PASSED ***
@@ -34,11 +34,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.294117647058824) = 0.0226244343891403
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.807771020490193) = 0.207120774484665
+(weight=0.256410256410256) * (score{size}=0.816725573291057) = 0.209416813664374
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.545806120562479) = 0.167940344788455
+(weight=0.307692307692308) * (score{udapi}=0.559571985401822) = 0.172175995508253
 (weight=0.0769230769230769) * (score{udeprels}=0.735135135135135) = 0.0565488565488566
-(TOTAL score=0.705516461493168) * (availability=1) * (validity=1) = 0.705516461493168
+(TOTAL score=0.712048151392675) * (availability=1) * (validity=1) = 0.712048151392675
 STARS = 3.5
-UD_Latvian-LVTB	0.705516461493168	3.5
+UD_Latvian-LVTB	0.712048151392675	3.5

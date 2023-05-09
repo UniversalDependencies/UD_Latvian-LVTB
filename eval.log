@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Latvian-LVTB:
-commit 2f34a7d9ae47ab1489471468d810fcf8f2eb5690
-Merge: d16c40d bd019c5
+commit f260258ba20b25d14dadfb1f31168f6165c9c8ee
+Merge: c36840f 4ebfb73
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 285425 of 285425 words (nodes).
-Size: min(0, log((N/1000)**2)) = 11.3079585951248.
+Size: counted 289062 of 289062 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.333282395951.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,30 +15,30 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 191003 out of 285425 total words have one or more features.
+Features: 193801 out of 289062 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      12649
-Udapi: found 12649 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 285425 words.
+               TOTAL      12849
+Udapi: found 12849 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 289062 words.
 Genres: found 5 out of 17 known.
-validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-dev.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-dev.conllu
 *** PASSED ***
-validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-test.conllu
 *** PASSED ***
-validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-train.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.294117647058824) = 0.0226244343891403
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.818497336575523) = 0.209871111942442
+(weight=0.256410256410256) * (score{size}=0.820330334402133) = 0.210341111385162
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.55683629675046) = 0.171334245153988
+(weight=0.307692307692308) * (score{udapi}=0.555493285177574) = 0.170921010823869
 (weight=0.0769230769230769) * (score{udeprels}=0.735135135135135) = 0.0565488565488566
-(TOTAL score=0.711660699316478) * (availability=1) * (validity=1) = 0.711660699316478
+(TOTAL score=0.71171746442908) * (availability=1) * (validity=1) = 0.71171746442908
 STARS = 3.5
-UD_Latvian-LVTB	0.711660699316478	3.5
+UD_Latvian-LVTB	0.71171746442908	3.5

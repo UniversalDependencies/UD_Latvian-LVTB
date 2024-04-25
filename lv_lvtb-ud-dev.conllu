@@ -934,8 +934,8 @@
 # newpar id = d123-p76
 # sent_id = a-d123-p76s1
 # text = Nr. 1 joprojām bija priekšgalā.
-1	Nr.	nr.	NOUN	yn	Abbr=Yes	2	nmod	2:nmod	LvtbNodeId=a-d123-p76s1w1
-2	1	1	NUM	xn	NumType=Card	4	nsubj	4:nsubj	LvtbNodeId=a-d123-p76s1w2
+1	Nr.	nr.	ADV	yr	Abbr=Yes	2	advmod	2:advmod	LvtbNodeId=a-d123-p76s1w1
+2	1	1	NUM	xn	NumType=Card	4	nummod	4:nummod	LvtbNodeId=a-d123-p76s1w2
 3	joprojām	joprojām	ADV	r0n	_	4	advmod	4:advmod	LvtbNodeId=a-d123-p76s1w3
 4	bija	būt	VERB	vmnisii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-d123-p76s1w4
 5	priekšgalā	priekšgals	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	4	obl	4:obl:loc	LvtbNodeId=a-d123-p76s1w5|SpaceAfter=No
@@ -11072,7 +11072,7 @@
 9	un	un	CCONJ	cc	_	10	cc	10:cc	LvtbNodeId=a-d87-p475s3w9
 10	patvērās	patverties	VERB	vmyisi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	6:conj	LvtbNodeId=a-d87-p475s3w10
 11	kur	kur	ADV	r0n	PronType=Int	12	dep	12:dep	LvtbNodeId=a-d87-p475s3w11
-12	kurā	kurā	PRON	pr0fsnn	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	10	obl	10:obl:nom	LvtbNodeId=a-d87-p475s3w12
+12	kurā	kura	PRON	pr0fsnn	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	10	obl	10:obl:nom	LvtbNodeId=a-d87-p475s3w12
 13	—	–	PUNCT	zd	_	14	punct	14.1:punct	LvtbNodeId=a-d87-p475s3w13
 14	cita	cita	PRON	pi0fsnn	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	6	conj	14.1:nsubj	LvtbNodeId=a-d87-p475s3w14
 14.1	patvērās	patverties	VERB	vmyisi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	_	_	6:conj	LvtbNodeId=a-d87-p475s3x9
@@ -13772,7 +13772,7 @@
 13	»	"	PUNCT	zq	_	11	punct	11:punct	LvtbNodeId=a-p10134-p3s4w13
 14	(	(	PUNCT	zb	_	16	punct	16:punct	LvtbNodeId=a-p10134-p3s4w14|SpaceAfter=No
 15	«	"	PUNCT	zq	_	16	punct	16:punct	LvtbNodeId=a-p10134-p3s4w15|SpaceAfter=No
-16	I	I	NUM	xn	NumType=Card	11	parataxis	11:parataxis	LvtbNodeId=a-p10134-p3s4w16
+16	I	I	X	xf	Foreign=Yes	11	parataxis	11:parataxis	LvtbNodeId=a-p10134-p3s4w16
 17	Hate	Hate	X	xf	Foreign=Yes	16	flat:foreign	16:flat:foreign	LvtbNodeId=a-p10134-p3s4w17
 18	Thailand	Thailand	X	xf	Foreign=Yes	16	flat:foreign	16:flat:foreign	LvtbNodeId=a-p10134-p3s4w18|SpaceAfter=No
 19	»	"	PUNCT	zq	_	16	punct	16:punct	LvtbNodeId=a-p10134-p3s4w19|SpaceAfter=No
@@ -15607,8 +15607,8 @@
 26	vijole	vijole	NOUN	ncfsn5	Case=Nom|Gender=Fem|Number=Sing	22	parataxis	22:parataxis	LvtbNodeId=a-p11003-p4s1w26|SpaceAfter=No
 27	)	)	PUNCT	zb	_	26	punct	26:punct	LvtbNodeId=a-p11003-p4s1w27|SpaceAfter=No
 28	,	,	PUNCT	zc	_	29	punct	29:punct	LvtbNodeId=a-p11003-p4s1w28
-29	Mauro	Mauro	PROPN	np0000	_	16	conj	16:conj|39:nsubj	LvtbNodeId=a-p11003-p4s1w29
-30	Pinciaroli	Pinciaroli	PROPN	np0000	_	29	flat:name	29:flat:name	LvtbNodeId=a-p11003-p4s1w30
+29	Mauro	Mauro	PROPN	npm000	Gender=Masc	16	conj	16:conj|39:nsubj	LvtbNodeId=a-p11003-p4s1w29
+30	Pinciaroli	Pinciaroli	PROPN	npm000	Gender=Masc	29	flat:name	29:flat:name	LvtbNodeId=a-p11003-p4s1w30
 31	(	(	PUNCT	zb	_	32	punct	32:punct	LvtbNodeId=a-p11003-p4s1w31|SpaceAfter=No
 32	teorba	teorba	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	29	parataxis	29:parataxis	LvtbNodeId=a-p11003-p4s1w32|SpaceAfter=No
 33	)	)	PUNCT	zb	_	32	punct	32:punct	LvtbNodeId=a-p11003-p4s1w33|SpaceAfter=No
@@ -19522,7 +19522,7 @@
 20	pieņemts	pieņemt	VERB	vmnpdmsnpsnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	16	acl	16:acl	LvtbNodeId=a-p134-p23s2w20
 21	lēmums	lēmums	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	20	nsubj:pass	20:nsubj:pass	LvtbNodeId=a-p134-p23s2w21
 22	par	par	ADP	spsa	_	24	case	24:case	LvtbNodeId=a-p134-p23s2w22
-23	bezstrīdus	bezstrīdus	ADJ	arfsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	24	amod	24:amod	LvtbNodeId=a-p134-p23s2w23
+23	bezstrīdus	bezstrīdus	NOUN	nc00gg	Case=Gen	24	nmod	24:nmod:gen	LvtbNodeId=a-p134-p23s2w23
 24	izpildi	izpilde	NOUN	ncfsa5	Case=Acc|Gender=Fem|Number=Sing	21	nmod	21:nmod:acc	LvtbNodeId=a-p134-p23s2w24|SpaceAfter=No
 25	,	,	PUNCT	zc	_	20	punct	20:punct	LvtbNodeId=a-p134-p23s2w25
 26	pieteicēja	pieteicējs	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	28	nmod	28:nmod:gen	LvtbNodeId=a-p134-p23s2w26
@@ -19560,7 +19560,7 @@
 16	par	par	ADP	spsa	_	20	case	20:case	LvtbNodeId=a-p134-p23s3w16
 17	nodokļu	nodoklis	NOUN	ncmpg2	Case=Gen|Gender=Masc|Number=Plur	18	nmod	18:nmod:gen	LvtbNodeId=a-p134-p23s3w17
 18	parāda	parāds	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	20	nmod	20:nmod:gen	LvtbNodeId=a-p134-p23s3w18
-19	bezstrīdus	bezstrīdus	ADJ	arfpgnp	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	20	amod	20:amod	LvtbNodeId=a-p134-p23s3w19
+19	bezstrīdus	bezstrīdus	NOUN	nc00gg	Case=Gen	20	nmod	20:nmod:gen	LvtbNodeId=a-p134-p23s3w19
 20	piedziņu	piedziņa	NOUN	ncfpg4	Case=Gen|Gender=Fem|Number=Plur	15	nmod	15:nmod:gen	LvtbNodeId=a-p134-p23s3w20
 21	atcelšanu	atcelšana	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	13	nmod	13:nmod:acc	LvtbNodeId=a-p134-p23s3w21
 22	un	un	CCONJ	cc	_	26	cc	26:cc	LvtbNodeId=a-p134-p23s3w22
@@ -19588,7 +19588,7 @@
 9	par	par	ADP	spsa	_	13	case	13:case	LvtbNodeId=a-p134-p24s1w9
 10	nodokļu	nodoklis	NOUN	ncmpg2	Case=Gen|Gender=Masc|Number=Plur	11	nmod	11:nmod:gen	LvtbNodeId=a-p134-p24s1w10
 11	parāda	parāds	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	13	nmod	13:nmod:gen	LvtbNodeId=a-p134-p24s1w11
-12	bezstrīdus	bezstrīdus	ADJ	arfpgnp	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	13	amod	13:amod	LvtbNodeId=a-p134-p24s1w12
+12	bezstrīdus	bezstrīdus	NOUN	nc00gg	Case=Gen	13	nmod	13:nmod:gen	LvtbNodeId=a-p134-p24s1w12
 13	piedziņu	piedziņa	NOUN	ncfpg4	Case=Gen|Gender=Fem|Number=Plur	8	nmod	8:nmod:gen	LvtbNodeId=a-p134-p24s1w13
 14	tiesiskumu	tiesiskums	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	7	obj	7:obj	LvtbNodeId=a-p134-p24s1w14|SpaceAfter=No
 15	,	,	PUNCT	zc	_	7	punct	7:punct	LvtbNodeId=a-p134-p24s1w15
@@ -19952,7 +19952,7 @@
 33	par	par	ADP	spsa	_	37	case	37:case	LvtbNodeId=a-p134-p30s1w33
 34	nodokļu	nodoklis	NOUN	ncmpg2	Case=Gen|Gender=Masc|Number=Plur	35	nmod	35:nmod:gen	LvtbNodeId=a-p134-p30s1w34
 35	parāda	parāds	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	37	nmod	37:nmod:gen	LvtbNodeId=a-p134-p30s1w35
-36	bezstrīdus	bezstrīdus	ADJ	arfpgnp	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	37	amod	37:amod	LvtbNodeId=a-p134-p30s1w36
+36	bezstrīdus	bezstrīdus	NOUN	nc00gg	Case=Gen	37	nmod	37:nmod:gen	LvtbNodeId=a-p134-p30s1w36
 37	piedziņu	piedziņa	NOUN	ncfpg4	Case=Gen|Gender=Fem|Number=Plur	32	nmod	32:nmod:dat	LvtbNodeId=a-p134-p30s1w37
 38	tiesiskumu	tiesiskums	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	31	obj	31:obj	LvtbNodeId=a-p134-p30s1w38|SpaceAfter=No
 39	,	,	PUNCT	zc	_	42	punct	42:punct	LvtbNodeId=a-p134-p30s1w39
@@ -22129,7 +22129,7 @@
 5	un	un	CCONJ	cc	_	6	cc	6:cc	LvtbNodeId=a-p14141-p4s5w5
 6	spēj	spēt	VERB	vonipi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj	LvtbNodeId=a-p14141-p4s5w6
 7	uztvert	uztvert	VERB	vmnn0t1000n	Polarity=Pos|VerbForm=Inf	6	xcomp	6:xcomp	LvtbNodeId=a-p14141-p4s5w7
-8	nebijušu	būt	VERB	vmnpdfsaapnpy	Aspect=Imp|Case=Acc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	9:amod	LvtbNodeId=a-p14141-p4s5w8
+8	nebijušu	būt	VERB	vmnpdfsaasnpy	Aspect=Perf|Case=Acc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	9	amod	9:amod	LvtbNodeId=a-p14141-p4s5w8
 9	pieredzi	pieredze	NOUN	ncfsa5	Case=Acc|Gender=Fem|Number=Sing	7	obj	7:obj	LvtbNodeId=a-p14141-p4s5w9|SpaceAfter=No
 10	,	,	PUNCT	zc	_	9	punct	9:punct	LvtbNodeId=a-p14141-p4s5w10
 11	un	un	CCONJ	cc	_	6	cc	6:cc	LvtbNodeId=a-p14141-p4s5w11
@@ -24061,8 +24061,8 @@
 7	2.	2.	ADJ	xo	NumType=Ord	8	amod	8:amod	LvtbNodeId=a-p14454-p5s1w7|SpaceAfter=No
 8	augustā	augusts	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	5	acl	5:acl:loc	LvtbNodeId=a-p14454-p5s1w8|SpaceAfter=No
 9	,	,	PUNCT	zc	_	8	punct	8:punct	LvtbNodeId=a-p14454-p5s1w9
-10	plkst.	plkst.	ADV	yr	Abbr=Yes	11	nmod	11:nmod	LvtbNodeId=a-p14454-p5s1w10|SpaceAfter=No
-11	14.40	14.40	NUM	xn	NumType=Card	4	advmod	4:advmod	LvtbNodeId=a-p14454-p5s1w11|SpaceAfter=No
+10	plkst.	plkst.	ADV	yr	Abbr=Yes	11	advmod	11:advmod	LvtbNodeId=a-p14454-p5s1w10|SpaceAfter=No
+11	14.40	14.40	NUM	xn	NumType=Card	4	nummod	4:nummod	LvtbNodeId=a-p14454-p5s1w11|SpaceAfter=No
 12	.	.	PUNCT	zs	_	4	punct	4:punct	LvtbNodeId=a-p14454-p5s1w12
 
 # newdoc id = p14462
@@ -24869,8 +24869,8 @@
 15	šodien	šodien	ADV	r0n	_	16	advmod	16:advmod	LvtbNodeId=a-p17283-p2s1w15
 16	strādāja	strādāt	VERB	vmnisi230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	7	acl	7:acl	LvtbNodeId=a-p17283-p2s1w16
 17	no	no	ADP	spsg	_	19	case	19:case	LvtbNodeId=a-p17283-p2s1w17
-18	plkst.	plkst.	ADV	yr	Abbr=Yes	19	nmod	19:nmod	LvtbNodeId=a-p17283-p2s1w18|SpaceAfter=No
-19	11	11	NUM	xn	NumType=Card	16	obl	16:obl:no	LvtbNodeId=a-p17283-p2s1w19
+18	plkst.	plkst.	ADV	yr	Abbr=Yes	19	advmod	19:advmod	LvtbNodeId=a-p17283-p2s1w18|SpaceAfter=No
+19	11	11	NUM	xn	NumType=Card	16	nummod	16:nummod	LvtbNodeId=a-p17283-p2s1w19
 20	līdz	līdz	ADP	sppd	_	21	case	21:case	LvtbNodeId=a-p17283-p2s1w20
 21	15	15	NUM	xn	NumType=Card	16	nummod	16:nummod	LvtbNodeId=a-p17283-p2s1w21|SpaceAfter=No
 22	.	.	PUNCT	zs	_	4	punct	4:punct	LvtbNodeId=a-p17283-p2s1w22
@@ -26162,7 +26162,7 @@
 # newpar id = p3328-p17
 # sent_id = a-p3328-p17s1
 # text = *Pacel zodu un izvirzi uz priekšu.
-1	*	*	SYM	xx	_	2	punct	2:punct	LvtbNodeId=a-p3328-p17s1w1|SpaceAfter=No
+1	*	*	SYM	xx	_	2	dep	2:dep|5:dep	LvtbNodeId=a-p3328-p17s1w1|SpaceAfter=No
 2	Pacel	pacelt	VERB	vmnm0t12san	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-p3328-p17s1w2
 3	zodu	zods	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	2	obj	2:obj	LvtbNodeId=a-p3328-p17s1w3
 4	un	un	CCONJ	cc	_	5	cc	5:cc	LvtbNodeId=a-p3328-p17s1w4
@@ -26908,7 +26908,7 @@
 # text = Lai šādus maldus atspēkotu, valdībai tomēr nevajag maksāt par informatīvajām kampaņām.
 1	Lai	lai	SCONJ	cs	_	4	mark	4:mark	LvtbNodeId=a-p340-p14s3w1
 2	šādus	šāds	DET	pd0mpan	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	3	det	3:det	LvtbNodeId=a-p340-p14s3w2
-3	maldus	maldi	NOUN	ncmda1	Case=Acc|Gender=Masc|Number=Ptan	4	obj	4:obj	LvtbNodeId=a-p340-p14s3w3
+3	maldus	malds	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	4	obj	4:obj	LvtbNodeId=a-p340-p14s3w3
 4	atspēkotu	atspēkot	VERB	vmnc0t200an	Mood=Cnd|Polarity=Pos|VerbForm=Fin|Voice=Act	8	advcl	8:advcl	LvtbNodeId=a-p340-p14s3w4|SpaceAfter=No
 5	,	,	PUNCT	zc	_	4	punct	4:punct	LvtbNodeId=a-p340-p14s3w5
 6	valdībai	valdība	NOUN	ncfsd4	Case=Dat|Gender=Fem|Number=Sing	8	nsubj	8:nsubj|9:nsubj	LvtbNodeId=a-p340-p14s3w6
@@ -32430,8 +32430,8 @@
 10	š.g.	š.g.	NOUN	yn	Abbr=Yes	12	nmod	12:nmod	LvtbNodeId=a-p3767-p4s1w10
 11	15.	15.	ADJ	xo	NumType=Ord	12	amod	12:amod	LvtbNodeId=a-p3767-p4s1w11|SpaceAfter=No
 12	novembrī	novembris	NOUN	ncmsl2	Case=Loc|Gender=Masc|Number=Sing	9	orphan	9.1:obl:loc	LvtbNodeId=a-p3767-p4s1w12
-13	plkst.	plkst.	ADV	yr	Abbr=Yes	14	nmod	14:nmod	LvtbNodeId=a-p3767-p4s1w13|SpaceAfter=No
-14	14.00	14.00	NUM	xn	NumType=Card	9	orphan	9.1:advmod	LvtbNodeId=a-p3767-p4s1w14
+13	plkst.	plkst.	ADV	yr	Abbr=Yes	14	advmod	14:advmod	LvtbNodeId=a-p3767-p4s1w13|SpaceAfter=No
+14	14.00	14.00	NUM	xn	NumType=Card	9	nummod	9.1:nummod	LvtbNodeId=a-p3767-p4s1w14
 15	Jāņa	Jānis	PROPN	npmsg2	Case=Gen|Gender=Masc|Number=Sing	17	nmod	17:nmod:gen	LvtbNodeId=a-p3767-p4s1w15
 16	Rozes	Roze	PROPN	npmsg5	Case=Gen|Gender=Masc|Number=Sing	15	flat:name	15:flat:name	LvtbNodeId=a-p3767-p4s1w16
 17	grāmatnīcā	grāmatnīca	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	9	orphan	9.1:obl:loc	LvtbNodeId=a-p3767-p4s1w17
@@ -34587,7 +34587,7 @@
 # sent_id = a-p6246-p2s1
 # text = Dziedātāja Bejonsē pēdējā laikā apsver iespēju sākt filmēties filmās un labas lomas dēļ viņa ir gatava filmēties pilnīgi kaila neizmantojot dublieri.
 1	Dziedātāja	dziedātāja	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	2	nmod	2:nmod	LvtbNodeId=a-p6246-p2s1w1
-2	Bejonsē	Bejonsē	PROPN	np0000	_	5	nsubj	5:nsubj	LvtbNodeId=a-p6246-p2s1w2
+2	Bejonsē	Bejonsē	PROPN	npf000	Gender=Fem	5	nsubj	5:nsubj	LvtbNodeId=a-p6246-p2s1w2
 3	pēdējā	pēdējais	ADJ	afmslyp	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	4:amod	LvtbNodeId=a-p6246-p2s1w3
 4	laikā	laiks	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	5	obl	5:obl:loc	LvtbNodeId=a-p6246-p2s1w4
 5	apsver	apsvērt	VERB	vmnipt130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	LvtbNodeId=a-p6246-p2s1w5
@@ -34729,7 +34729,7 @@
 36	ar	ar	ADP	spsa	_	38	case	38:case	LvtbNodeId=a-p6273-p2s1w36
 37	dziedātāju	dziedātājs	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	38	nmod	38:nmod	LvtbNodeId=a-p6273-p2s1w37
 38	Erosu	Eross	PROPN	npmsa1	Case=Acc|Gender=Masc|Number=Sing	35	nmod	35:nmod:acc	LvtbNodeId=a-p6273-p2s1w38
-39	Ramazoti	Ramazoti	PROPN	np0000	_	38	flat:name	38:flat:name	LvtbNodeId=a-p6273-p2s1w39|SpaceAfter=No
+39	Ramazoti	Ramazoti	PROPN	npm000	Gender=Masc	38	flat:name	38:flat:name	LvtbNodeId=a-p6273-p2s1w39|SpaceAfter=No
 40	.	.	PUNCT	zs	_	12	punct	12:punct	LvtbNodeId=a-p6273-p2s1w40
 
 # newdoc id = p6283
@@ -35358,8 +35358,8 @@
 5	Žoržs	Žoržs	PROPN	npmsn1	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	13:nsubj	LvtbNodeId=a-p8115-p1s1w5
 6	Siksna	Siksna	PROPN	npmsn4	Case=Nom|Gender=Masc|Number=Sing	5	flat:name	5:flat:name	LvtbNodeId=a-p8115-p1s1w6|SpaceAfter=No
 7	,	,	PUNCT	zc	_	8	punct	8:punct	LvtbNodeId=a-p8115-p1s1w7
-8	Roberto	Roberto	PROPN	np0000	_	5	conj	5:conj|13:nsubj	LvtbNodeId=a-p8115-p1s1w8
-9	Meloni	Meloni	PROPN	np0000	_	8	flat:name	8:flat:name	LvtbNodeId=a-p8115-p1s1w9
+8	Roberto	Roberto	PROPN	npm000	Gender=Masc	5	conj	5:conj|13:nsubj	LvtbNodeId=a-p8115-p1s1w8
+9	Meloni	Meloni	PROPN	npm000	Gender=Masc	8	flat:name	8:flat:name	LvtbNodeId=a-p8115-p1s1w9
 10	un	un	CCONJ	cc	_	11	cc	11:cc	LvtbNodeId=a-p8115-p1s1w10
 11	Kaspars	Kaspars	PROPN	npmsn1	Case=Nom|Gender=Masc|Number=Sing	5	conj	5:conj|13:nsubj	LvtbNodeId=a-p8115-p1s1w11
 12	Antess	Antess	PROPN	npmsn1	Case=Nom|Gender=Masc|Number=Sing	11	flat:name	11:flat:name	LvtbNodeId=a-p8115-p1s1w12
@@ -40838,7 +40838,7 @@
 17	ebreju	ebrejs	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	18	nmod	18:nmod:gen	LvtbNodeId=a-z109-p192s2w17
 18	mazākumtautības	mazākumtautība	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	16	nmod	16:nmod:labā	LvtbNodeId=a-z109-p192s2w18
 19	labā	labā	ADV	r0n	_	18	case	18:case	LvtbNodeId=a-z109-p192s2w19
-20	Starpparlamentu	starpparlamentu	NOUN	ncmdgg	Case=Gen|Gender=Masc|Number=Ptan	21	nmod	21:nmod:gen	LvtbNodeId=a-z109-p192s2w20
+20	Starpparlamentu	starpparlamentu	NOUN	nc00gg	Case=Gen	21	nmod	21:nmod:gen	LvtbNodeId=a-z109-p192s2w20
 21	konferencē	konference	NOUN	ncfsl5	Case=Loc|Gender=Fem|Number=Sing	16	obl	16:obl:loc	LvtbNodeId=a-z109-p192s2w21
 22	Nāciju	nācija	NOUN	ncfpg4	Case=Gen|Gender=Fem|Number=Plur	23	nmod	23:nmod:gen	LvtbNodeId=a-z109-p192s2w22
 23	Līgā	līga	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	21	nmod	21:nmod:loc	LvtbNodeId=a-z109-p192s2w23|SpaceAfter=No
@@ -41765,7 +41765,7 @@
 20	lai	lai	SCONJ	cs	_	22	mark	22.1:mark	LvtbNodeId=a-z22-p42s4w20
 21	gan	gan	PART	q	_	20	fixed	20:fixed	LvtbNodeId=a-z22-p42s4w21
 22	vēl	vēl	ADV	r0n	_	3	advcl	22.1:advmod	LvtbNodeId=a-z22-p42s4w22
-22.1	_	_	VERB	vm0ip0030an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	3:advcl	LvtbNodeId=a-z22-p42s4x4
+22.1	_	_	VERB	vm0ip0030an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	3:advcl	LvtbNodeId=a-z22-p42s4x5
 23	diezgan	diezgan	ADV	r0n	_	24	advmod	24:advmod	LvtbNodeId=a-z22-p42s4w23
 24	neveikli	neveikli	ADV	rpn	Degree=Pos	22	orphan	22.1:advmod	LvtbNodeId=a-z22-p42s4w24|SpaceAfter=No
 25	.	.	PUNCT	zs	_	3	punct	3:punct	LvtbNodeId=a-z22-p42s4w25

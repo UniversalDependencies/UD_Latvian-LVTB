@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Latvian-LVTB:
-commit b8b5d9855752d6cdfba08bbc9eba780844d95e44
-Merge: c125cdb 915b9f1
+commit 818b6f31c7b62d94a91485a147300e1e79cc8d9c
+Merge: ad86e94 d77eeee
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 309419 of 309419 words (nodes).
-Size: min(0, log((N/1000)**2)) = 11.4693926908651.
+Size: counted 317369 of 317369 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.5201302695308.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,30 +15,38 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 207509 out of 309419 total words have one or more features.
+Features: 212578 out of 317369 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      13781
-Udapi: found 13781 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 309419 words.
+               TOTAL      14037
+Udapi: found 14037 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 317369 words.
 Genres: found 5 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-test.conllu
+[Line 39561 Sent a-p7249-p3s1 Node 29]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 39566 Sent a-p7249-p3s1 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-train.conllu
+[Line 110908 Sent a-p14157-p9s3 Node 10]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 206349 Sent a-p3762-p18s1 Node 16]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 290505 Sent a-z82-p31s4 Node 22]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 290517 Sent a-z82-p31s4 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 4
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.294117647058824) = 0.0226244343891403
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.830182326070701) = 0.212867263095052
+(weight=0.256410256410256) * (score{size}=0.833854834477308) = 0.213808931917258
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.554616878730783) = 0.170651347301779
+(weight=0.307692307692308) * (score{udapi}=0.557707274497509) = 0.171602238306926
 (weight=0.0769230769230769) * (score{udeprels}=0.735135135135135) = 0.0565488565488566
-(TOTAL score=0.713973952616879) * (availability=1) * (validity=1) = 0.713973952616879
+(TOTAL score=0.715866512444232) * (availability=1) * (validity=1) = 0.715866512444232
 STARS = 3.5
-UD_Latvian-LVTB	0.713973952616879	3.5
+UD_Latvian-LVTB	0.715866512444232	3.5

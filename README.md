@@ -42,6 +42,13 @@ Test:   2412 sentences
 
 # Changelog
 
+2024-11-15 v2.15
+  * New data.
+  * Introduced advmod:emph for various particles.
+  * DET/PRON distinction is now done by lexeme, not by syntax tree.
+  * Most of comparison constructions considered secondary predicative components in Latvan are now advcl or acl in UD.
+  * Fixes regarding several flat constructions and prepositional nmods.
+
 2024-05-15 v2.14
   * New data.
   * Various minor fixes.

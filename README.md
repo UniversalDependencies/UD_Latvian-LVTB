@@ -47,7 +47,7 @@ Test:   2412 sentences
   * Introduced advmod:emph for various particles.
   * DET/PRON distinction is now done by lexeme, not by syntax tree.
   * Most of comparison constructions considered secondary predicative components in Latvian are now advcl or acl in UD.
-  * Fixes regarding several flat constructions and prepositional nmods.
+  * Fixes regarding several flat constructions, as well as prepositional and pronominal nmods.
 
 2024-05-15 v2.14
   * New data.

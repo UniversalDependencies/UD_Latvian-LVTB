@@ -92,11 +92,12 @@
     <feat name="Voice" value="Pass" upos="VERB">7565</feat><!-- zināms, paredzēts, redzams, ziņots, plānots, saistīts, minēto, noteikts, minētā, saistīti -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="40">
+  <deps unique="41">
     <dep name="acl">5431</dep>
     <dep name="advcl">6083</dep>
     <dep name="advmod">15976</dep>
     <dep name="advmod:emph">2349</dep>
+    <dep name="advmod:neg">167</dep>
     <dep name="amod">17420</dep>
     <dep name="appos">648</dep>
     <dep name="aux">2128</dep>
@@ -109,23 +110,23 @@
     <dep name="cop">4713</dep>
     <dep name="csubj">933</dep>
     <dep name="csubj:pass">138</dep>
-    <dep name="dep">866</dep>
-    <dep name="det">8544</dep>
-    <dep name="discourse">4888</dep>
+    <dep name="dep">865</dep>
+    <dep name="det">7672</dep>
+    <dep name="discourse">4721</dep>
     <dep name="dislocated">14</dep>
-    <dep name="fixed">1194</dep>
+    <dep name="fixed">1579</dep>
     <dep name="flat">193</dep>
     <dep name="flat:foreign">128</dep>
     <dep name="flat:name">2820</dep>
     <dep name="goeswith">22</dep>
     <dep name="iobj">7847</dep>
     <dep name="mark">6939</dep>
-    <dep name="nmod">34477</dep>
+    <dep name="nmod">35349</dep>
     <dep name="nsubj">24902</dep>
     <dep name="nsubj:pass">2503</dep>
     <dep name="nummod">3012</dep>
     <dep name="obj">14061</dep>
-    <dep name="obl">21087</dep>
+    <dep name="obl">20703</dep>
     <dep name="orphan">593</dep>
     <dep name="parataxis">1249</dep>
     <dep name="punct">57329</dep>

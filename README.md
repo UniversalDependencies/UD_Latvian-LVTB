@@ -38,16 +38,17 @@ The training data covers various text types: news, fiction, academic texts, lega
 
 Train: 14887 sentences\
 Dev:    2080 sentences\
-Test:   2412 sentences
+Test:   2400 sentences
 
 # Changelog
 
 2024-11-15 v2.15
   * New data.
-  * Introduced advmod:neg for negation particles and advmod:emph for various other particles.
+  * Introduced `advmod:neg` for negation particles and `advmod:emph` for various other particles.
   * DET/PRON distinction is now done by lexeme, not by syntax tree.
-  * Most of comparison constructions considered secondary predicative components in Latvian are now advcl or acl in UD.
-  * Fixes regarding several flat and fixed constructions, as well as prepositional and pronominal nmods.
+  * Personal pronouns depending on nouns are now `nmod`.
+  * Most of comparison constructions considered secondary predicative components in Latvian are now `advcl` or `acl` in UD.
+  * Fixes regarding several `flat` and `fixed` constructions, as well as prepositional and pronominal nmods.
 
 2024-05-15 v2.14
   * New data.

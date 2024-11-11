@@ -4,7 +4,7 @@ Latvian UD Treebank is based on Latvian Treebank ([LVTB](http://sintakse.korpuss
 
 # Introduction
 
-Latvian UD Treebank v2.14 consists of 18'850 sentences (317'369 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original LVTB treebank. LVTB data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas. LVTB is released in parallel with Latvian UD Treebank since v2.2 and features the same version numbers. The corresponding LVTB versions are listed [here](http://sintakse.korpuss.lv/versions.html). Key `LvtbNodeId` in Latvian UD Treebank CoNLL-U field `MISC` provides the mapping from Latvian UD Treebank to LVTB. Each LVTB version is superset of the corresponding Latvian UD Treebank version in terms of included sentences.
+Latvian UD Treebank v2.15 consists of 19'367 sentences (327'464 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original LVTB treebank. LVTB data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas. LVTB is released in parallel with Latvian UD Treebank since v2.2 and features the same version numbers. The corresponding LVTB versions are listed [here](http://sintakse.korpuss.lv/versions.html). Key `LvtbNodeId` in Latvian UD Treebank CoNLL-U field `MISC` provides the mapping from Latvian UD Treebank to LVTB. Each LVTB version is superset of the corresponding Latvian UD Treebank version in terms of included sentences.
 
 # Acknowledgments
 
@@ -36,11 +36,19 @@ Please, [let us know](mailto:normunds.gruzitis@ailab.lv) if you use this data se
 
 The training data covers various text types: news, fiction, academic texts, legal texts, transcripts of spoken language, etc. The development and test sets are carefully split out to cover all those types.
 
-Train: 14358 sentences\
+Train: 14887 sentences\
 Dev:    2080 sentences\
-Test:   2412 sentences
+Test:   2400 sentences
 
 # Changelog
+
+2024-11-15 v2.15
+  * New data.
+  * Introduced `advmod:neg` for negation particles and `advmod:emph` for various other particles.
+  * DET/PRON distinction is now done by lexeme, not by syntax tree.
+  * Personal pronouns depending on nouns are now `nmod`.
+  * Most of comparison constructions considered secondary predicative components in Latvian are now `advcl` or `acl` in UD.
+  * Fixes regarding several `flat` and `fixed` constructions, as well as prepositional and pronominal nmods.
 
 2024-05-15 v2.14
   * New data.
@@ -126,7 +134,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Pretkalniņa, Lauma; Rituma, Laura; Saulīte, Baiba; Nešpore-Bērzkalne, Gunta; Grūzītis, Normunds
+Contributors: Pretkalniņa, Lauma; Rituma, Laura; Nešpore-Bērzkalne, Gunta; Saulīte, Baiba; Znotiņš, Artūrs; Grūzītis, Normunds
 Contributing: elsewhere
 Contact: lauma@ailab.lv, normunds@ailab.lv
 ===============================================================================

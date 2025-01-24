@@ -42,6 +42,12 @@ Test:   2400 sentences
 
 # Changelog
 
+2025-05-15 v2.16
+  * Introduced `ExtPos`.
+  * `fixed` constructions consisting of multiple pronouns/determiners converted to `flat`.
+  * Various minor fixes.
+  * Small amount of new data.
+
 2024-11-15 v2.15
   * New data.
   * Introduced `advmod:neg` for negation particles and `advmod:emph` for various other particles.

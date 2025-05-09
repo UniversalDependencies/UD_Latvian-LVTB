@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Latvian-LVTB:
-commit 4af48c293c8481792ba94ab8dbedab737e612d3a
-Merge: de64d20 8c9170b
+commit 60bc9e4a0389d83c97d9a3cc8a3999081a458b87
+Merge: a852423 f2d46c5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 327464 of 327464 words (nodes).
-Size: min(0, log((N/1000)**2)) = 11.5827562507383.
+Size: counted 329596 of 329596 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.5957353240787.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,41 +15,38 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 219321 out of 327464 total words have one or more features.
+Features: 221419 out of 329596 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      14526
-Udapi: found 14526 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 327464 words.
-Genres: found 5 out of 17 known.
+               TOTAL        526
+Udapi: found 526 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 329596 words.
+Genres: found 5 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-dev.conllu
-[Line 34215 Sent a-p6187-p7s2 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 12] 'ko * * tādu'
-[Line 38588 Sent a-s158-p8s1 Node 12]: [L3 Warning fixed-gap] Gaps in fixed expression [12, 14] 'jums * visiem'
-Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-test.conllu
-[Line 39361 Sent a-p7249-p3s1 Node 29]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 39366 Sent a-p7249-p3s1 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 39234 Sent a-p7249-p3s1 Node 29]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 39239 Sent a-p7249-p3s1 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-train.conllu
-[Line 116113 Sent a-p14157-p9s3 Node 10]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 215399 Sent a-p3762-p18s1 Node 16]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 302584 Sent a-z82-p31s4 Node 22]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 302596 Sent a-z82-p31s4 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 119033 Sent a-p14157-p9s3 Node 10]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 218319 Sent a-p3762-p18s1 Node 16]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 305429 Sent a-z82-p31s4 Node 22]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 305441 Sent a-z82-p31s4 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 Warnings: 4
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.294117647058824) = 0.0226244343891403
+(weight=0.0769230769230769) * (score{genres}=0.277777777777778) = 0.0213675213675214
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.838387854154338) = 0.214971244654958
+(weight=0.256410256410256) * (score{size}=0.839327310809665) = 0.215212130976837
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.556409254147021) = 0.171202847429853
+(weight=0.307692307692308) * (score{udapi}=0.984041068459569) = 0.302781867218329
 (weight=0.0769230769230769) * (score{udeprels}=0.735135135135135) = 0.0565488565488566
-(TOTAL score=0.716629434304859) * (availability=1) * (validity=1) = 0.716629434304859
-STARS = 3.5
-UD_Latvian-LVTB	0.716629434304859	3.5
+(TOTAL score=0.847192427393595) * (availability=1) * (validity=1) = 0.847192427393595
+STARS = 4
+UD_Latvian-LVTB	0.847192427393595	4

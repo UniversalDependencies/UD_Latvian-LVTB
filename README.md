@@ -134,6 +134,7 @@ Test:   2396 sentences
 Data available since: UD v1.3
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news fiction legal spoken academic
 Lemmas: manual native
 UPOS: converted from manual

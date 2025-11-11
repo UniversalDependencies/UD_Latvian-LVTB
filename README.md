@@ -4,7 +4,7 @@ Latvian UD Treebank is based on Latvian Treebank ([LVTB](http://sintakse.korpuss
 
 # Introduction
 
-Latvian UD Treebank v2.16 consists of 19'531 sentences (329'596 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original LVTB treebank. LVTB data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas. LVTB is released in parallel with Latvian UD Treebank since v2.2 and features the same version numbers. The corresponding LVTB versions are listed [here](http://sintakse.korpuss.lv/versions.html). Key `LvtbNodeId` in Latvian UD Treebank CoNLL-U field `MISC` provides the mapping from Latvian UD Treebank to LVTB. Each LVTB version is superset of the corresponding Latvian UD Treebank version in terms of included sentences.
+Latvian UD Treebank v2.17 consists of 19'580 sentences (330'318 tokens), and it has been obtained by automatic conversion of both the morphological and the syntactic annotations of the original LVTB treebank. LVTB data contains manually verified syntactic annotation according to a hybrid dependency-constituency schema, as well as manually verified morphological tags and lemmas. LVTB is released in parallel with Latvian UD Treebank since v2.2 and features the same version numbers. The corresponding LVTB versions are listed [here](http://sintakse.korpuss.lv/versions.html). Key `LvtbNodeId` in Latvian UD Treebank CoNLL-U field `MISC` provides the mapping from Latvian UD Treebank to LVTB. Each LVTB version is superset of the corresponding Latvian UD Treebank version in terms of included sentences.
 
 # Acknowledgments
 
@@ -36,11 +36,16 @@ Please, [let us know](mailto:normunds.gruzitis@ailab.lv) if you use this data se
 
 The training data covers various text types: news, fiction, academic texts, legal texts, transcripts of spoken language, etc. The development and test sets are carefully split out to cover all those types.
 
-Train: 15055 sentences\
-Dev:    2080 sentences\
-Test:   2396 sentences
+Train: 15058 sentences\
+Dev:    2110 sentences\
+Test:   2412 sentences
 
 # Changelog
+
+2025-11-15 v2.17
+  * Multiple `obl` -> `nmod` according to validation warnings.
+  * Various minor fixes, including adding `PronType` for more words.
+  * Small amount of new data.
 
 2025-05-15 v2.16
   * Introduced `ExtPos`.
@@ -134,6 +139,7 @@ Test:   2396 sentences
 Data available since: UD v1.3
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news fiction legal spoken academic
 Lemmas: manual native
 UPOS: converted from manual

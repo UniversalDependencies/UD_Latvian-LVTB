@@ -1,13 +1,17 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Latvian-LVTB:
-commit 60bc9e4a0389d83c97d9a3cc8a3999081a458b87
-Merge: a852423 f2d46c5
+commit 076784ed95b7a28233150fe4d3660299a6b41ea9
+Merge: 72c8e53 362129f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 329596 of 329596 words (nodes).
-Size: min(0, log((N/1000)**2)) = 11.5957353240787.
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'lv_lvtb'
+Language code (from CoNLL-U file name) = 'lv'
+Found the following data files: lv_lvtb-ud-dev.conllu, lv_lvtb-ud-test.conllu, lv_lvtb-ud-train.conllu
+Size: counted 330318 of 330318 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.6001116536494.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,38 +19,47 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 221419 out of 329596 total words have one or more features.
+Features: 221900 out of 330318 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL        526
-Udapi: found 526 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 329596 words.
 Genres: found 5 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-dev.conllu
+[Line 19125 Sent a-p134-p11s1]: [L3 Warning obl-should-be-nmod] The parent (node [2] 'gadījumos') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 36259 Sent a-p8759-p4s1]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'priekšā') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 39470 Sent a-s9-p21s1]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'kolēģi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+Warnings: 3
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-test.conllu
-[Line 39234 Sent a-p7249-p3s1 Node 29]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 39239 Sent a-p7249-p3s1 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 2
+[Line 29546 Sent a-p2899-p3s4]: [L3 Warning obl-should-be-nmod] The parent (node [19] 'mazums') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 30142 Sent a-p3326-p7s1]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'viņas') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 37916 Sent a-p650-p8s12]: [L3 Warning obl-should-be-nmod] The parent (node [15] 'kārumus') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 39561 Sent a-p7249-p3s1]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 39566 Sent a-p7249-p3s1]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 5
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-train.conllu
-[Line 119033 Sent a-p14157-p9s3 Node 10]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 218319 Sent a-p3762-p18s1 Node 16]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 305429 Sent a-z82-p31s4 Node 22]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 305441 Sent a-z82-p31s4 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 4
+[Line 22157 Sent a-d1270-p7s1]: [L3 Warning obl-should-be-nmod] The parent (node [555] 'zeķubikses') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 31388 Sent a-d198-p85s4]: [L3 Warning obl-should-be-nmod] The parent (node [6] 'man') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 32869 Sent a-d198-p126s1]: [L3 Warning obl-should-be-nmod] The parent (node [13] 'acis') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 50207 Sent a-d223-p8s3]: [L3 Warning obl-should-be-nmod] The parent (node [12] 'kalnā') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 64937 Sent a-n136-p55s1]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'iestāžu') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 101544 Sent a-p13478-p1s1]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'laiki') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 114942 Sent a-p1396-p13s1]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'cilvēki') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 119036 Sent a-p14157-p9s3]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 126724 Sent a-p145-p26s1]: [L3 Warning obl-should-be-nmod] The parent (node [19] 'finansējums') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 145238 Sent a-p155-p12s5]: [L3 Warning obl-should-be-nmod] The parent (node [13] 'Džordža') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further errors regarding Warning
+Warnings: 26
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.277777777777778) = 0.0213675213675214
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.839327310809665) = 0.215212130976837
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.984041068459569) = 0.302781867218329
-(weight=0.0769230769230769) * (score{udeprels}=0.735135135135135) = 0.0565488565488566
-(TOTAL score=0.847192427393595) * (availability=1) * (validity=1) = 0.847192427393595
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.277777777777778) = 0.0308641975308642
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.839644080106924) = 0.31097928892849
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{udeprels}=0.735135135135135) = 0.0816816816816817
+(TOTAL score=0.786488131103999) * (availability=1) * (validity=1) = 0.786488131103999
 STARS = 4
-UD_Latvian-LVTB	0.847192427393595	4
+UD_Latvian-LVTB	0.786488131103999	4

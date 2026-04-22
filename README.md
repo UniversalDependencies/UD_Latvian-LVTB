@@ -42,6 +42,9 @@ Test:   2412 sentences
 
 # Changelog
 
+2026-05-15 v2.18
+  * Various `obl` -> `nmod` fixes.
+
 2025-11-15 v2.17
   * Multiple `obl` -> `nmod` according to validation warnings.
   * Various minor fixes, including adding `PronType` for more words.

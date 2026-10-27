@@ -27717,7 +27717,7 @@
 9	jumta	jumts	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	7	nmod	7:nmod:uz	LvtbNodeId=a-d21-p15s7w9
 10	par	par	ADP	sp00	_	11	case	11:case	LvtbNodeId=a-d21-p15s7w10
 11	augstu	augstu	ADV	rpn	Degree=Pos	0	root	11.1:obl:par	LvtbNodeId=a-d21-p15s7w11
-11.1	ir	būt	VERB	vmnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	0:root	LvtbNodeId=a-d21-p15s7x11
+11.1	ir	būt	VERB	vmnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	0:root	LvtbNodeId=a-d21-p15s7x9
 12	un	un	CCONJ	cc	_	13	cc	13:cc	LvtbNodeId=a-d21-p15s7w12
 13	neatbilst	atbilst	VERB	vmnipt130ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	11.1:conj	LvtbNodeId=a-d21-p15s7w13
 14	sākotnējam	sākotnējs	ADJ	armsdnp	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	15	amod	15:amod	LvtbNodeId=a-d21-p15s7w14
@@ -44790,7 +44790,7 @@
 10	tikai	tikai	PART	q	_	11	discourse	11:discourse	LvtbNodeId=a-p216-p38s7w10
 11	viena	viens	NUM	mcsfsn	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	12	nummod	12:nummod	LvtbNodeId=a-p216-p38s7w11
 12	doma	doma	NOUN	ncfsn4	Case=Nom|Gender=Fem|Number=Sing	0	root	12.1:nsubj	LvtbNodeId=a-p216-p38s7w12
-12.1	ir	būt	VERB	vmnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	0:root	LvtbNodeId=a-p216-p38s7x2
+12.1	ir	būt	VERB	vmnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	0:root	LvtbNodeId=a-p216-p38s7x1
 13	–	–	PUNCT	zd	_	14	punct	14:punct	LvtbNodeId=a-p216-p38s7w13
 14	nedod	dot	VERB	vmnm0ti2say	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	12	acl	12:acl	LvtbNodeId=a-p216-p38s7w14|SpaceAfter=No
 15	,	,	PUNCT	zc	_	16	punct	16:punct	LvtbNodeId=a-p216-p38s7w15

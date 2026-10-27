@@ -645,7 +645,7 @@
 34	bet	bet	CCONJ	cc	_	36	cc	36.1:cc	LvtbNodeId=a-p3752-p2s4w34
 35	"	"	PUNCT	zq	_	36	punct	36:punct	LvtbNodeId=a-p3752-p2s4w35|SpaceAfter=No
 36	Tele2	Tele2	PROPN	np0000	_	29	conj	36.1:nsubj	LvtbNodeId=a-p3752-p2s4w36|SpaceAfter=No
-36.1	_	_	VERB	vmyipi03san	Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	29:conj	LvtbNodeId=a-p3752-p2s4x8
+36.1	_	_	VERB	vmyipi03san	Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	29:conj	LvtbNodeId=a-p3752-p2s4x9
 37	"	"	PUNCT	zq	_	36	punct	36:punct	LvtbNodeId=a-p3752-p2s4w37
 38	par	par	ADP	sppd	_	40	case	40:case	LvtbNodeId=a-p3752-p2s4w38
 39	16,6	16,6	NUM	xn	NumType=Card	40	nummod	40:nummod	LvtbNodeId=a-p3752-p2s4w39
@@ -878,7 +878,7 @@
 20	lai	lai	SCONJ	cs	ExtPos=SCONJ	22	mark	22.1:mark	LvtbNodeId=a-z22-p42s4w20
 21	gan	gan	PART	q	_	20	fixed	20:fixed	LvtbNodeId=a-z22-p42s4w21
 22	vēl	vēl	ADV	r0n	_	3	advcl	22.1:advmod	LvtbNodeId=a-z22-p42s4w22
-22.1	_	_	VERB	vm0ip0030an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	3:advcl	LvtbNodeId=a-z22-p42s4x5
+22.1	_	_	VERB	vm0ip0030an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	3:advcl	LvtbNodeId=a-z22-p42s4x4
 23	diezgan	diezgan	ADV	r0n	_	24	advmod	24:advmod	LvtbNodeId=a-z22-p42s4w23
 24	neveikli	neveikli	ADV	rpn	Degree=Pos	22	orphan	22.1:advmod	LvtbNodeId=a-z22-p42s4w24|SpaceAfter=No
 25	.	.	PUNCT	zs	_	3	punct	3:punct	LvtbNodeId=a-z22-p42s4w25

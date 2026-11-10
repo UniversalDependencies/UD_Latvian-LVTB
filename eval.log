@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Latvian-LVTB:
-commit 87ce22039852695dc61a823c21680dd89d94b6ee
-Merge: aaedfc1 7ef31c8
+commit 9a131767317142802a02367d2e1ca6e8afd44693
+Merge: f42ae0d d5926dd
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'lv_lvtb'
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 221900 out of 330318 total words have one or more features.
+Features: 221883 out of 330318 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
@@ -29,11 +29,12 @@ Genres: found 5 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang lv --max-err=10 UD_Latvian-LVTB/lv_lvtb-ud-train.conllu
-[Line 119040 Sent a-p14157-p9s3]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 218333 Sent a-p3762-p18s1]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 305519 Sent a-z82-p31s4]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 305531 Sent a-z82-p31s4]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 4
+[Line 34646 Sent a-p3774-p7s2]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 114880 Sent a-p3762-p18s1]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 135292 Sent a-p14157-p9s3]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 301242 Sent a-z82-p31s4]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 301254 Sent a-z82-p31s4]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 5
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
